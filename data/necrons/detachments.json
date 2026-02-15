@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Awakened Dynasty",
+    "ruleName": "Command Protocols",
+    "ruleText": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll ."
+  },
+  {
+    "name": "Annihilation Legion",
+    "ruleName": "Annihilation Protocol",
+    "ruleText": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge , you can re-roll the Charge roll . If one or more targets of that charge are Below Half-strength , add 1 to the Charge roll as well. Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
+  },
+  {
+    "name": "Canoptek Court",
+    "ruleName": "Power Matrix",
+    "ruleText": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows: Your deployment zone is always within your army’s Power Matrix. At the start of any phase , if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix. Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead."
+  },
+  {
+    "name": "Obeisance Phalanx",
+    "ruleName": "Worthy Foes",
+    "ruleText": "In your Command phase , select one enemy unit. Until the start of your next Command phase, each time a NOBLE , LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll ."
+  },
+  {
+    "name": "Hypercrypt Legion",
+    "ruleName": "Hyperphasing",
+    "ruleText": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows: BATTLE SIZE NUMBER OF UNITS Incursion Up to 1 units Strike Force Up to 2 units Onslaught Up to 3 units Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves ."
+  },
+  {
+    "name": "Starshatter Arsenal",
+    "ruleName": "Relentless Onslaught",
+    "ruleText": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers , add 1 to the Hit roll . In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability."
+  },
+  {
+    "name": "Cryptek Conclave",
+    "ruleName": "Technosorcerous Augmentations",
+    "ruleText": "Ranged weapons equipped by CRYPTEK models from your army have the [ASSAULT] ability. In your Shooting phase , each time a CRYPTEK unit from your army is selected to shoot, select one of the following abilities: [ANTI-INFANTRY 3+] , [ANTI-MOUNTED 4+] , [ASSAULT] , [HEAVY] , [IGNORES COVER] . Until the end of the phase, ranged weapons equipped by models in that unit have that ability."
+  },
+  {
+    "name": "Cursed Legion",
+    "ruleName": "Cold Fervour",
+    "ruleText": "Add 2 to the Strength characteristic of weapons equipped by DESTROYER CULT models from your army. The first time each turn that a DESTROYER CULT unit from your army makes attacks that destroy a unit or cause it to become Below Half-strength , after that unit has finished resolving its attacks, until the end of the turn, add 2 to the Strength characteristic of weapons equipped by friendly NECRONS models (excluding DESTROYER CULT , MONSTER and TITANIC models)."
+  },
+  {
+    "name": "Pantheon of Woe",
+    "ruleName": "Cosmic Distortion",
+    "ruleText": "NECRONS MONSTER units from your army have the following ability: Distortion Fields (Aura): While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. At the start of each phase, for each NECRONS MONSTER unit from your army, that unit can suffer 3 mortal wounds . If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\". Designer’s Note: If your army contains more than one TRANSCENDENT C’TAN unit, each of those units must take the Reletavistic Tether ability. RESTRICTIONS When mustering your army, each NECRONS MONSTER unit from your army has the relevant Necrodermal Binding ability shown below, and you must increase the points cost of each of those units by the amount shown in the Munitorum Field Manual . If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+  }
+]

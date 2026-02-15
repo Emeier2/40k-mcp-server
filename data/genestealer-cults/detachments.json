@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Host of Ascension",
+    "ruleName": "A Perfect Ambush",
+    "ruleText": "Each time a GENESTEALER CULTS unit from your army is set up on the battlefield as Reinforcements , until the end of your next Fight phase , weapons equipped by models in that unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+  },
+  {
+    "name": "Xenocreed Congregation",
+    "ruleName": "Unquestioning Fanaticism",
+    "ruleText": ""
+  },
+  {
+    "name": "Biosanctic Broodsurge",
+    "ruleName": "Hypermorphic Fury",
+    "ruleText": ""
+  },
+  {
+    "name": "Outlander Claw",
+    "ruleName": "Rapid Takeover",
+    "ruleText": ""
+  },
+  {
+    "name": "Brood Brother Auxilia",
+    "ruleName": "Integrated Tactics",
+    "ruleText": ""
+  },
+  {
+    "name": "Final Day",
+    "ruleName": "Psionic Parasitism",
+    "ruleText": ""
+  }
+]

@@ -1,13 +1,10 @@
 """Scrape stratagems, enhancements, detachment rules, and faction rules from wahapedia.
 
-All this data lives on the main Aeldari faction page:
-https://wahapedia.ru/wh40k10ed/factions/aeldari/
+Works for any faction by parameterizing the URL slug.
 """
 
 import re
 from utils import fetch_page, clean_text, save_json
-
-FACTION_URL = "/wh40k10ed/factions/aeldari/"
 
 
 def parse_stratagems(soup):
@@ -187,17 +184,48 @@ def parse_enhancements(soup):
     return enhancements
 
 
+def _detect_faction_css_class(soup):
+    """Detect the faction's two-letter CSS class (e.g. 'AEAE' for Aeldari).
+
+    Looks for clFl divs after the Army-Rules anchor and extracts the
+    two-character uppercase class that identifies faction content divs.
+    """
+    army_anchor = soup.find('a', attrs={'name': 'Army-Rules'})
+    if not army_anchor:
+        return None
+
+    el = army_anchor.next_sibling
+    while el:
+        if hasattr(el, 'name') and hasattr(el, 'get'):
+            classes = el.get('class', [])
+            if el.name == 'div' and 'clFl' in classes:
+                # Find the short uppercase class (faction identifier)
+                for cls in classes:
+                    if cls != 'clFl' and len(cls) == 4 and cls.isupper():
+                        return cls
+                # Also try 2-char codes
+                for cls in classes:
+                    if cls != 'clFl' and 2 <= len(cls) <= 6 and cls.isupper():
+                        return cls
+                break
+        el = el.next_sibling
+    return None
+
+
 def parse_detachment_rules(soup):
     """Parse detachment rules.
 
     After the Army-Rules anchor, each detachment is a div with classes like
-    'clFl AEAE AEWH'. Inside each, there's a Detachment-Rule-N anchor followed
-    by the rule content.
+    'clFl XXXX'. The faction CSS class is detected dynamically.
 
     We use the nav table of contents (NavColumns3) to map detachment names
     to their rule names.
     """
     detachments = []
+
+    # Detect the faction CSS class dynamically
+    faction_css = _detect_faction_css_class(soup)
+    print(f"  Detected faction CSS class: {faction_css}")
 
     # Step 1: Build detachment name -> rule name map from the nav
     navs = soup.find_all(class_='NavColumns3')
@@ -232,8 +260,6 @@ def parse_detachment_rules(soup):
         print(f"    {name} -> {rule}")
 
     # Step 2: Get rule text from the main content
-    # After Army-Rules anchor, each detachment is a sibling div with class 'clFl AEAE XX'
-    # Inside, the rule is in: div.Columns2 > div.BreakInsideAvoid containing an h3 + text
     army_anchor = soup.find('a', attrs={'name': 'Army-Rules'})
     if not army_anchor:
         for name, rule_name in detachment_map.items():
@@ -248,11 +274,13 @@ def parse_detachment_rules(soup):
         while el:
             if hasattr(el, 'name') and hasattr(el, 'get'):
                 classes = el.get('class', [])
-                if el.name == 'div' and 'clFl' in classes and 'AEAE' in classes:
+                # Match clFl divs with the detected faction CSS class, or any clFl if undetected
+                is_faction_div = (el.name == 'div' and 'clFl' in classes and
+                                  (faction_css is None or faction_css in classes))
+                if is_faction_div:
                     h2 = el.find('h2', class_='outline_header')
                     if h2 and clean_text(h2) == detach_name:
                         # Found the detachment div. Find the rule name anchor
-                        rule_name_slug = rule_name.replace(' ', '-').replace("'", '-')
                         rule_h3 = el.find('h3')
                         if rule_h3:
                             # Get all text content after the h3 until the Enhancements section
@@ -297,6 +325,9 @@ def parse_faction_rules(soup):
     if not army_anchor:
         return faction_rules
 
+    # Detect the faction CSS class dynamically
+    faction_css = _detect_faction_css_class(soup)
+
     # Walk siblings after Army-Rules anchor
     # Faction rules are in BreakInsideAvoid divs before the first detachment div
     # Each has a structure: h3 (rule name) + p/ul (rule text)
@@ -305,8 +336,8 @@ def parse_faction_rules(soup):
         if hasattr(el, 'name') and hasattr(el, 'get'):
             classes = el.get('class', [])
 
-            # Stop when we hit the first detachment div
-            if 'clFl' in classes and 'AEAE' in classes:
+            # Stop when we hit the first detachment div (clFl with faction class)
+            if 'clFl' in classes and (faction_css is None or faction_css in classes):
                 break
 
             if el.name == 'div' and 'BreakInsideAvoid' in classes:
@@ -337,15 +368,16 @@ def parse_faction_rules(soup):
     return faction_rules
 
 
-def main():
-    print("Scraping Aeldari faction data...")
-    soup = fetch_page(FACTION_URL)
+def main(faction='aeldari'):
+    url = f"/wh40k10ed/factions/{faction}/"
+    print(f"Scraping {faction} faction data...")
+    soup = fetch_page(url)
 
     # Stratagems
     print("\nParsing stratagems...")
     stratagems = parse_stratagems(soup)
     print(f"  Found {len(stratagems)} stratagems")
-    save_json(stratagems, 'stratagems.json')
+    save_json(stratagems, 'stratagems.json', subdir=faction)
 
     # Group by detachment for summary
     detach_counts = {}
@@ -359,7 +391,7 @@ def main():
     print("\nParsing enhancements...")
     enhancements = parse_enhancements(soup)
     print(f"  Found {len(enhancements)} enhancements")
-    save_json(enhancements, 'enhancements.json')
+    save_json(enhancements, 'enhancements.json', subdir=faction)
 
     # Detachment rules
     print("\nParsing detachment rules...")
@@ -367,7 +399,7 @@ def main():
     print(f"  Found {len(detachments)} detachments")
     for d in detachments:
         print(f"    {d['name']}: {d['ruleName']}")
-    save_json(detachments, 'detachments.json')
+    save_json(detachments, 'detachments.json', subdir=faction)
 
     # Faction rules
     print("\nParsing faction rules...")
@@ -375,8 +407,17 @@ def main():
     print(f"  Found {len(faction_rules)} faction rules")
     for r in faction_rules:
         print(f"    {r['name']}: {r['text'][:80]}...")
-    save_json(faction_rules, 'faction-rules.json')
+    save_json(faction_rules, 'faction-rules.json', subdir=faction)
+
+    return {
+        'stratagems': stratagems,
+        'enhancements': enhancements,
+        'detachments': detachments,
+        'faction_rules': faction_rules,
+    }
 
 
 if __name__ == '__main__':
-    main()
+    import sys
+    faction = sys.argv[1] if len(sys.argv) > 1 else 'aeldari'
+    main(faction)

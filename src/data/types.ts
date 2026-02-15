@@ -62,6 +62,7 @@ export interface Unit {
 
 export interface Stratagem {
   name: string;
+  faction: string;
   detachment: string;
   cpCost: number;
   type: string;
@@ -73,6 +74,7 @@ export interface Stratagem {
 
 export interface Enhancement {
   name: string;
+  faction: string;
   detachment: string;
   pointsCost: number;
   restrictions: string;
@@ -81,11 +83,18 @@ export interface Enhancement {
 
 export interface Detachment {
   name: string;
+  faction: string;
   ruleName: string;
   ruleText: string;
 }
 
 export interface FactionRule {
+  name: string;
+  faction: string;
+  text: string;
+}
+
+export interface CoreRule {
   name: string;
   text: string;
 }
@@ -96,4 +105,5 @@ export interface GameData {
   enhancements: Enhancement[];
   detachments: Detachment[];
   factionRules: FactionRule[];
+  coreRules: CoreRule[];
 }

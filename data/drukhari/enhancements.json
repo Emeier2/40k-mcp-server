@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Dark Vitality",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "DRUKHARI model only.",
+    "effect": "The bearer’s unit is always Empowered - you do not need to spend any Pain tokens to activate that unit’s Pain abilities ."
+  },
+  {
+    "name": "Labyrinthine Cunning",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ARCHON model only.",
+    "effect": "At the start of your Command phase , if the bearer is on the battlefield, you can do one of the following:"
+  },
+  {
+    "name": "Eye of Spite",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SUCCUBUS model only.",
+    "effect": "Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. Each time the bearer’s unit is selected to fight, you can spend 1 Pain token ; if you do, until the end of the phase, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+  },
+  {
+    "name": "Crucible of Malediction",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "HAEMONCULUS model only.",
+    "effect": "Once per battle, in your Shooting phase , the bearer can use this Enhancement. If it does, you can spend 1 Pain token . Then, each enemy unit within 12\" of the bearer must take a Battle-shock test , subtracting 1 from that test if you spent 1 Pain token. Each time a PSYKER unit fails that test, it suffers 3 mortal wounds ."
+  },
+  {
+    "name": "Phantasmal Smoke",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DRUKHARI model only.",
+    "effect": "While the bearer’s unit is wholly within 6\" of a friendly DRUKHARI TRANSPORT :"
+  },
+  {
+    "name": "Sadistic Fulcrum",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DRUKHARI model only.",
+    "effect": "Each time you spend 1 Pain token to Empower the bearer’s unit in the Shooting phase , select one friendly DRUKHARI TRANSPORT within 6\" of the bearer’s unit; until the end of the phase, each time that TRANSPORT makes an attack, you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Spiteful Raider",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DRUKHARI model only.",
+    "effect": "Each time the bearer’s unit destroys an enemy unit in the Fight phase , if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token ."
+  },
+  {
+    "name": "Nightmare Shroud",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DRUKHARI model only.",
+    "effect": "Each time the bearer’s unit disembarks from a TRANSPORT , until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+  },
+  {
+    "name": "Pharmacophex",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SUCCUBUS model only.",
+    "effect": "At the start of your Command phase , after selecting which Combat Drugs will be active for your army, roll one D6 and consult the Combat Drugs list . The result rolled applies to the bearer’s unit until the start of your next Command phase in addition to any other Combat Drugs that are active for your army. If you randomly select one that is already active for your army, it has no additional effect."
+  },
+  {
+    "name": "Chronoshard",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SUCCUBUS model only.",
+    "effect": "Once per battle, at the start of the Fight phase , the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability."
+  },
+  {
+    "name": "Periapt of Torments",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "SUCCUBUS model only.",
+    "effect": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+  },
+  {
+    "name": "Morghenna’s Curse",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "SUCCUBUS model only.",
+    "effect": "Improve the Armour Penetration and Damage characteristics of the bearers melee weapons by 1."
+  },
+  {
+    "name": "Master Regenesist",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "HAEMONCULUS model only.",
+    "effect": "Each time the bearer uses its Fleshcraft ability, you can return up to D3+3 destroyed Bodyguard models to the bearer’s unit instead of D3+1."
+  },
+  {
+    "name": "Master Nemesine",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "HAEMONCULUS model only.",
+    "effect": "The bearer’s weapons have the [anti-beast 2+] and [anti-monster 4+] abilities."
+  },
+  {
+    "name": "Master Artisan",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "HAEMONCULUS model only.",
+    "effect": "Add 1 to the bearers Wounds characteristic and add 1 to the Toughness characteristic of models in the bearer’s unit."
+  },
+  {
+    "name": "Master Repugnomancer (Aura)",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HAEMONCULUS model only.",
+    "effect": "Add 3\" to the range of the bearer’s Fear Incarnate ability, and each time a friendly DRUKHARI unit within 9\" of the bearer fails a Battle-shock test or is destroyed, roll one D6: on a 4+, you gain 1 Pain token ."
+  },
+  {
+    "name": "Leechbite Plate",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "ARCHON model only.",
+    "effect": "The bearer has a Save characteristic of 3+. At the start of either player’s Command phase , you can spend 1 Pain token : if you do, the bearer regains all of its lost wounds."
+  },
+  {
+    "name": "Webway Awl",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ARCHON model only.",
+    "effect": "Models in the bearer’s unit have the Deep Strike ability, and you can target the bearer’s unit with the Rapid Ingress Stratagem for 0CP."
+  },
+  {
+    "name": "Informant Network",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ARCHON model only.",
+    "effect": "At the start of the Declare Battle Formations step, select up to three KABALITE WARRIORS and/or HAND OF THE ARCHON units from your army; those units gain the Infiltrators ability."
+  },
+  {
+    "name": "Towering Arrogance",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ARCHON model only.",
+    "effect": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+  },
+  {
+    "name": "Archraider",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HARLEQUINS or DRUKHARI model only.",
+    "effect": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT , that DEDICATED TRANSPORT has the Scouts 9\" ability."
+  },
+  {
+    "name": "Webway Walker",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HARLEQUINS or DRUKHARI model only.",
+    "effect": "Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re-roll Charge rolls made for that unit."
+  },
+  {
+    "name": "Reaper’s Cowl",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "HARLEQUINS model only.",
+    "effect": "Models in the bearer’s unit have the Stealth and Infiltrators abilities."
+  },
+  {
+    "name": "Conductor of Torment",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DRUKHARI model only.",
+    "effect": "In your Command phase , you can do one of the following:"
+  }
+]

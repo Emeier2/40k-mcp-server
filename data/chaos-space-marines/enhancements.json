@@ -1,0 +1,373 @@
+[
+  {
+    "name": "Eager for Vengeance",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model only (excluding DAMNED models). The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back . Each time a model in the bearer’s unit makes an attack that targets your focus of hatred , if the bearer’s unit Fell Back this turn, add 1 to the Hit roll , and each time you select your focus of hatred as a target of that unit’s charge, add 1 to the Charge roll ."
+  },
+  {
+    "name": "Eye of Abaddon",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model only (excluding DAMNED models). While the bearer is on the battlefield, each time your focus of hatred is destroyed , roll one D6: on a 4+, you gain 1CP."
+  },
+  {
+    "name": "Mark of Legend",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model only (excluding DAMNED models). Once per turn, you can re-roll one Hit roll , one Wound roll or one saving throw made for the bearer."
+  },
+  {
+    "name": "Warmaster’s Gift",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "CHAOS LORD model only.",
+    "effect": "Each time the bearer makes an attack that targets your focus of hatred , an unmodified successful Wound roll of 5+ scores a Critical Wound ."
+  },
+  {
+    "name": "Cursed Fang",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "HERETIC ASTARTES INFANTRY model only.",
+    "effect": "Improve the Armour Penetration characteristic of the bearer’s melee weapons by 1, and the bearer’s melee weapons have the [PRECISION] ability."
+  },
+  {
+    "name": "Falsehood",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "",
+    "effect": "CHAOS LORD model only (excluding TERMINATOR and JUMP PACK models). In the Declare Battle Formations step, you can set the bearer up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases , you can select one model in a friendly LEGIONARIES or CHOSEN unit that has two or more models remaining and is on the battlefield (excluding Attached units ). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and the bearer is set up as close as possible to where that model was destroyed and only within Engagement Range of any enemy units if the destroyed model was within Engagement Range of those units. The bearer now attaches to that unit as its Leader."
+  },
+  {
+    "name": "Shroud of Obfuscation",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES INFANTRY model only.",
+    "effect": "The bearer has the Stealth and Lone Operative abilities."
+  },
+  {
+    "name": "Soul Link",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "HERETIC ASTARTES INFANTRY model only.",
+    "effect": "At the start of your Command phase , you can select one other HERETIC ASTARTES INFANTRY CHARACTER model from your army (excluding EPIC HEROES ). Until the start of your next Command phase, the bearer gains the PSYKER keyword, and replace the bearer’s datasheet abilities with the datasheet abilities of the CHARACTER you selected."
+  },
+  {
+    "name": "Despot’s Claim",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "At the start of your Command phase , if the bearer is on the battlefield, roll one D6, adding 1 to the result if the bearer is wholly within 12\" of your opponent’s deployment zone: on a 5+, you gain 1 CP."
+  },
+  {
+    "name": "Dread Reaver",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "Each time the bearer makes a melee attack, if the bearer is wholly within 12\" of your opponent’s deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll ."
+  },
+  {
+    "name": "Mark of the Hound",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "Models in the bearers unit have the Scouts 6\" ability."
+  },
+  {
+    "name": "Tyrant’s Lash",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "You can re-roll Advance rolls made for the bearer’s unit, and the bearer’s unit is eligible to shoot in a turn in which it Fell Back ."
+  },
+  {
+    "name": "Eater of Dread",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "At the start of your Command phase , if the bearer is on the battlefield, roll one D6, adding 1 to the result for each Battle-shocked enemy unit that is on the battlefield: on a 5+, you gain 1CP."
+  },
+  {
+    "name": "Night’s Shroud",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "CHAOS LORD model only (excluding TERMINATOR models). Models in the bearer’s unit have the Stealth ability."
+  },
+  {
+    "name": "Warp-fuelled Thrusters",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "JUMP PACK CHAOS LORD model only.",
+    "effect": "At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove the bearer’s unit from the battlefield and place it into Strategic Reserves ."
+  },
+  {
+    "name": "Willbreaker",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "In the Fight phase , after the bearer has made its attacks, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test ."
+  },
+  {
+    "name": "Bastion Plate",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "",
+    "effect": "CHAOS LORD model only (excluding JUMP PACK models). Once per battle round , when a saving throw is failed for the bearer’s unit, you can change the Damage characteristic of that attack to 0."
+  },
+  {
+    "name": "Iron Artifice",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "HERETIC ASTARTES INFANTRY model only.",
+    "effect": "The bearers weapons have the [ANTI-VEHICLE 4+] and [ANTI-FORTIFICATION 4+] abilities."
+  },
+  {
+    "name": "Ironbound Enmity",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "Each time the bearer makes an attack while within range of an objective marker , add 1 to the Wound roll ."
+  },
+  {
+    "name": "Warp Tracer",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "In your Shooting phase , after the bearer has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover ."
+  },
+  {
+    "name": "Eye of Tzeentch",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES TZEENTCH model only.",
+    "effect": "Each time the bearer’s unit makes a Dark Pact and does not fail the resulting Leadership test , if the result of that test was 8 or more, you gain 1CP."
+  },
+  {
+    "name": "Intoxicating Elixir",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES SLAANESH model only.",
+    "effect": "The bearer has the Feel No Pain 5+ ability. Each time the bearer shoots or fights, if the bearer’s unit made a Dark Pact this phase and did not fail the resulting Leadership test , after the bearer has resolved those attacks, select one enemy unit that was hit by one or more of those attacks; that enemy unit must take a Battle-shock test ."
+  },
+  {
+    "name": "Orbs of Unlife",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES NURGLE model only.",
+    "effect": "At the end of the Fight phase , roll one D6 for every enemy unit within 3\" of the bearer, adding 1 to the result if the bearer’s unit made a Dark Pact that phase and did not fail the resulting Leadership test : on a 4+, that enemy unit suffers D3 mortal wounds ."
+  },
+  {
+    "name": "Talisman of Burning Blood",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES KHORNE model only.",
+    "effect": "Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. Each time the bearer’s unit makes a Dark Pact and does not fail the resulting Leadership test , roll one D3: until the end of the phase, add the result to the Attacks and Strength characteristics of the bearers melee weapons instead."
+  },
+  {
+    "name": "Amulet of Tainted Vigour",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DARK APOSTLE model only.",
+    "effect": "In your Command phase , you can return up to D3 destroyed DAMNED models (excluding CHARACTER models) to the bearer’s unit."
+  },
+  {
+    "name": "Cultist’s Brand",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DARK APOSTLE or DAMNED model only.",
+    "effect": "If every other model in the bearer’s unit (excluding Dark Disciples) is DAMNED , you can re-roll Advance and Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Incendiary Goad",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DARK APOSTLE or DAMNED model only.",
+    "effect": "While the bearer’s unit is below its Starting Strength , add 1 to the Strength characteristic of melee weapons equipped by DAMNED models in that unit, and while that unit is Below Half-strength , add 1 to the Attacks characteristic of those weapons as well."
+  },
+  {
+    "name": "Warped Foresight",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DARK APOSTLE or DAMNED model only.",
+    "effect": "While the bearer is leading a unit with the Scouts 6\" ability, every model in the bearer’s unit has the Scouts 6\" ability."
+  },
+  {
+    "name": "Forge’s Blessing",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "In your Command phase , select one friendly HERETIC ASTARTES VEHICLE unit within 12\" of the bearer. Until the start of your next Command phase , that unit has the Feel No Pain 6+ ability."
+  },
+  {
+    "name": "Invigorated Mechatendrils",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "WARPSMITH model only.",
+    "effect": "Add 4\" to the bearer’s Move characteristic."
+  },
+  {
+    "name": "Tempting Addendum",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "Each time a HERETIC ASTARTES DAEMON VEHICLE unit from your army invokes its contract while within 3\" of the bearer:"
+  },
+  {
+    "name": "Soul Harvester",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "While the bearer is on the battlefield, each time an enemy unit within 12\" of the bearer is destroyed , roll one D6: on a 5+, you gain 1CP."
+  },
+  {
+    "name": "Touched by the Warp",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model only (excluding KHORNE models). The bearer gains the PSYKER keyword."
+  },
+  {
+    "name": "Eyes of Z’desh",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 6\" ability."
+  },
+  {
+    "name": "Mind Blade",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "PSYKER model only.",
+    "effect": "Melee weapons equipped by models in the bearer’s unit have the [LANCE] ability."
+  },
+  {
+    "name": "Infernal Avatar",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "HERETIC ASTARTES DAEMON PRINCE or HERETIC ASTARTES DAEMON PRINCE WITH WINGS model only.",
+    "effect": "Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration characteristic of those weapons by 1."
+  },
+  {
+    "name": "Surgical Precision",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model (excluding DAMNED models) only. The bearer’s melee weapons have the [PRECISION] ability."
+  },
+  {
+    "name": "Living Carapace",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "CHAOS LORD model only.",
+    "effect": "Add 1 to the bearer’s Wounds characteristic and the bearer has the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "Helm of All-seeing",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES INFANTRY model (excluding DAMNED models) only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer."
+  },
+  {
+    "name": "Prime Test Subject",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES INFANTRY model (excluding DAMNED models) only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer. Each time the bearer makes a melee attack, you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Greyveil Hex",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "CHAOS LORD model only.",
+    "effect": "Models in the bearer’s unit have the Stealth ability. While the bearer’s unit is within range of one or more objective markers you control, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+  },
+  {
+    "name": "Warp-fuelled Thrusters",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "CHAOS LORD JUMP PACK model only.",
+    "effect": "At the end of your opponent’s Fight phase , if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove the bearer’s unit from the battlefield and place it into Strategic Reserves ."
+  },
+  {
+    "name": "Terrorglut Parasite",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "At the start of the Fight phase , each enemy unit within Engagement Range of the bearer must take a Battle-shock test , subtracting 1 from the result."
+  },
+  {
+    "name": "Sorrowscent Vulture",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "CHAOS LORD JUMP PACK model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 6\" ability. In the Declare Battle Formations step, the bearer can be attached to a WARP TALONS unit."
+  },
+  {
+    "name": "Voice of the Tyrant",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model only (excluding DAMNED models). The bearer’s unit has both abilities from the Tyrannical Motivation Detachment rule."
+  },
+  {
+    "name": "Raid Leader",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model only (excluding DAMNED models). Each time the bearer’s unit is set up after disembarking from a TRANSPORT that has made a Normal move this turn, the bearer’s unit is still eligible to declare a charge ."
+  },
+  {
+    "name": "Dread Reputation",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "HERETIC ASTARTES model only (excluding DAMNED models). Each time the bearer’s unit is set up on the battlefield, each enemy unit within 6\" of the bearer’s unit (or within 12\" if the bearer’s unit was set up using the Deep Strike ability) takes a Battle-shock test ."
+  },
+  {
+    "name": "Eager for Bloodshed",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "The bearer has the Infiltrators ability."
+  },
+  {
+    "name": "Weaponised Hatred",
+    "detachment": "",
+    "pointsCost": 60,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "At the start of your Command phase , after you have selected your Vendetta target, select a second enemy unit. Until the start of your next Command phase, if your Vendetta target is destroyed, that second enemy unit becomes your Vendetta target until you select a new one."
+  },
+  {
+    "name": "Eyes of the Hunter",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+  },
+  {
+    "name": "Fratricidal Trophies",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "HERETIC ASTARTES TERMINATOR model only.",
+    "effect": "In a turn in which the bearer’s unit chose to Default to Doctrine , until the end of the turn, each time a model in this unit makes an attack, you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Empyric Symbiote",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HERETIC ASTARTES model only.",
+    "effect": "Add 1 to Advance and Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Soul Link",
+    "detachment": "",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  }
+]

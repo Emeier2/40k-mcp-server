@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Valourstrike Lance",
+    "ruleName": "Bold Gallantry",
+    "ruleText": "Each time an IMPERIAL KNIGHTS unit from your army Advances , until the end of the turn, ranged weapons equipped by IMPERIAL KNIGHTS models from your army have the [ASSAULT] ability."
+  },
+  {
+    "name": "Gate Warden Lance",
+    "ruleName": "Dauntless Defenders",
+    "ruleText": ""
+  },
+  {
+    "name": "Questoris Companions",
+    "ruleName": "Heroes of Legend",
+    "ruleText": ""
+  },
+  {
+    "name": "Spearhead-At-Arms",
+    "ruleName": "Knightly Teachings",
+    "ruleText": ""
+  },
+  {
+    "name": "Questor Forgepact",
+    "ruleName": "Cogbound Alliance",
+    "ruleText": ""
+  }
+]

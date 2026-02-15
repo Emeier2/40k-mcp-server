@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Veterans of the Long War",
+    "ruleName": "Focus of Hatred",
+    "ruleText": "At the start of your Command phase , select one unit from your opponents army to be your focus of hatred. Until the start of your next Command phase,  each time a HERETIC ASTARTES model from  your army (excluding DAMNED models) makes an attack that targets your focus of hatred, you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Deceptors",
+    "ruleName": "Masters of Misdirection",
+    "ruleText": "In the Declare Battle Formations step, you can select a number of LEGIONARIES and CULTIST MOB units from your army: until the end of the battle, those units, and any CHARACTER units attached to them (excluding EPIC HEROES ), have the Infiltrators ability. The maximum number of units you can select in this way depends on the battle size, as shown below. BATTLE SIZE NUMBER OF UNITS LEGIONARIES CULTIST MOBS Incursion Up to 2 units Up to 2 units Strike Force Up to 3 units Up to 3 units Onslaught Up to 4 units Up to 4 units"
+  },
+  {
+    "name": "Renegade Raiders",
+    "ruleName": "Raiders and Reavers",
+    "ruleText": "Ranged weapons equipped by HERETIC ASTARTES models from your army have the [ASSAULT] ability, and each time a HERETIC ASTARTES model from your army makes an attack that targets a unit within range of an objective marker , improve the Armour Penetration characteristic of that attack by 1."
+  },
+  {
+    "name": "Dread Talons",
+    "ruleName": "Terror Descends (Aura)",
+    "ruleText": "In the Battle-shock step of your opponent’s Command phase , if an enemy unit that is below its Starting Strength is within 12\" of one or more HERETIC ASTARTES units from your army, that enemy unit must take a Battle-shock test . Each time an enemy unit within 12\" of one or more HERETIC ASTARTES units from your army takes a Battle-shock test, subtract 1 from the result. Enemy units affected by this Detachment rule do not need to take any other Battle-shock tests in the same phase."
+  },
+  {
+    "name": "Fellhammer Siege-host",
+    "ruleName": "Iron Fortitude",
+    "ruleText": "Each time a ranged attack targets a HERETIC ASTARTES unit from your army (excluding DAMNED units), if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll ."
+  },
+  {
+    "name": "Pactbound Zealots",
+    "ruleName": "Marks of Chaos",
+    "ruleText": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one of the following keywords, you must select one for that unit and note it on your Army Roster: KHORNE . TZEENTCH , NURGLE , SLAANESH , CHAOS UNDIVIDED . Each time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test , until the end of the phase, that unit gains the associated ability below. UNITS THAT GAINED [LETHAL HITS] KHORNE: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit . TZEENTCH: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit. CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. UNITS THAT GAINED [SUSTAINED HITS 1] NURGLE: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit. SLAANESH: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit. CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. RESTRICTIONS You cannot select the KHORNE keyword for a PSYKER unit. A CHARACTER unit can only be attached to a unit if both units share the same keyword from the list above. A unit can only embark within (or start the battle embarked within) a TRANSPORT if both of those units share the same keyword from the list above."
+  },
+  {
+    "name": "Chaos Cult",
+    "ruleName": "Desperate Devotion",
+    "ruleText": "Each time a DAMNED unit from your army with the Dark Pacts ability is selected to make a Normal or Advance move or declare a charge (excluding units that arrived from Reserves this turn), it can make a Desperate Pact (see below). If it does, until the end of the phase, add 2 to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit. Desperate Pacts Each time a unit makes a Desperate Pact, it must first take a Leadership test ; if that test is failed, that unit suffers D3 mortal wounds before any effects of that Desperate Pact are resolved."
+  },
+  {
+    "name": "Soulforged Warpack",
+    "ruleName": "Debt to the Soul Forge",
+    "ruleText": "Each time a HERETIC ASTARTES DAEMON VEHICLE unit from your army makes a Dark Pact , it can invoke its contract. If it does, subtract 1 from the resulting Leadership test when making that Dark Pact, and until the end of the phase: Each time a model in that unit makes a ranged attack, add 1 to the Wound roll . Add 2 to the Attacks characteristic of melee weapons equipped by models in that unit."
+  },
+  {
+    "name": "Cabal of Chaos",
+    "ruleName": "Empyric Wellspring",
+    "ruleText": "Each time a unit from your army makes a Dark Pact , select one of the following abilities. Your unit has that ability until the end of the phase. Leaping Warpflame While this unit is within 9\" of one or more friendly HERETIC ASTARTES PSYKER models, improve the Strength characteristic of ranged weapons equipped by models in this unit by 1. Monstrous Manifestation While this unit is within 9\" of one or more friendly HERETIC ASTARTES DAEMON PRINCE or a HERETIC ASTARTES DAEMON PRINCE WITH WINGS models, improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1."
+  },
+  {
+    "name": "Creations of Bile",
+    "ruleName": "Experimental Augmentations",
+    "ruleText": "At the start of the battle, select which augmentations are active for HERETIC ASTARTES INFANTRY models (excluding DAMNED models) from your army until the end of the battle. To do so, either select one from the list below, or randomly determine two by rolling two D6. If FABIUS BILE is your WARLORD , when randomly determining your augmentations, you can re-roll one or both of the dice. Duplicated augmentations have no additional effect. Cholinergic Accelerants: Add 1 to the Attacks characteristic of melee weapons equipped by this model. Hyperadrenal Infusion: Add 2\" to the Move characteristic of this model. Paraneural Reactions: Improve the Weapon Skill characteristic of melee weapons equipped by this model by 1. Supracutaneous Chitination: Improve the Toughness characteristic of this model by 1. Macrotensile Sinews: Add 1 to the Strength characteristic of melee weapons equipped by this model. Ophthalmic Enhancement: Improve the Ballistic Skill characteristic of ranged weapons equipped by this model by 1."
+  },
+  {
+    "name": "Nightmare Hunt",
+    "ruleName": "Terror Made Manifest",
+    "ruleText": "In the Battle-shock step of your opponent’s Command phase , if an enemy unit that is below its Starting Strength is within 12\" of one or more HERETIC ASTARTES units from your army, that enemy unit must take a Battle-shock test , subtracting 1 from the result. Enemy units affected by this Detachment rule do not need to take any other Battle-shock tests in the same phase. Each time a HERETIC ASTARTES model from your army makes an attack that targets a unit that is Below Half-strength , add 1 to the Hit roll . Each time an attack targets a HERETIC ASTARTES unit from your army, if the attacking model is Battle‐shocked, subtract 1 from the Hit roll. Each time a HERETIC ASTARTES model from your army makes an attack that targets a Battle‐shocked unit, add 1 to the Wound roll ."
+  },
+  {
+    "name": "Huron’s Marauders",
+    "ruleName": "Tyrannical Motivation",
+    "ruleText": "In your Command phase, select one of the following abilities. Until the start of your next Command phase, each Heretic Astartes Infantry unit from your army has that ability. At the start of each phase, if such a unit is visible to a friendly Huron Blackheart model, until the end of the phase, it has both of the following abilities. Huron’s Elite Hand-picked by Huron Blackheart himself, these warriors strive to retain his favour with feats of arms. Each time a model in this unit makes an attack, add 1 to the Hit roll . Mobile Marauders The Red Corsairs utilise a highly mobile form of warfare and, under Huron’s watch, are relentless in their aggression. This unit is eligible to shoot and declare a charge in a turn in which it Fell Back . Designer’s Note: If a unit is gaining eligibility to shoot and declare a charge in a turn in which it Fell Back as a result of being visible to Huron Blackheart , but after making a Fall Back move it is no longer visible to Huron Blackheart, that unit will not be eligible to shoot in your Shooting phase or to declare a charge in your Charge phase unless it is visible again at the start of the respective phase."
+  },
+  {
+    "name": "Renegade Warband",
+    "ruleName": "Slaves to None",
+    "ruleText": "HERETIC ASTARTES models from your army lose the Dark Pacts ability. Ranged weapons equipped by HERETIC ASTARTES models from your army have the [ASSAULT] ability."
+  }
+]

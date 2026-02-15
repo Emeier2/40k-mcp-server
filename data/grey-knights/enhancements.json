@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Banishing Wave (Psychic)",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Each time the bearer’s unit is set up using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of the bearer: on a 2-5, that unit suffers 1 mortal wound ; on a 6, that unit suffers D3 mortal wounds."
+  },
+  {
+    "name": "Blinding Aura",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Each time the bearer’s unit is set up using the Deep Strike ability, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+  },
+  {
+    "name": "Purity of Purpose",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Each time the bearer’s unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Tome of Forbidden Ways",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "While the bearer is on the battlefield or in Strategic Reserves , add 1 to the number of units from your army that you can select for the Gate of Infinity rule."
+  },
+  {
+    "name": "Eye of the Augurium",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Once per battle round , the bearer can use this Enhancement. If it does, you can target the bearer’s unit with the Fire Overwatch or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn."
+  },
+  {
+    "name": "Inescapable Judgement (Psychic)",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Each time an enemy unit within Engagement Range of the bearer’s unit Falls Back , the bearer can use this Enhancement. If it does, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds ; on a 6, that enemy unit suffers D3+3 mortal wounds. These mortal wounds are Psychic Attacks ."
+  },
+  {
+    "name": "Sanctic Reaper",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GREY KNIGHTS TERMINATOR model only.",
+    "effect": "Add 3 to the Attacks characteristic of the bearer’s melee weapons."
+  },
+  {
+    "name": "Nemesis Rounds",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GREY KNIGHTS TERMINATOR model only.",
+    "effect": "Each time you target the bearer’s unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
+  },
+  {
+    "name": "Sigil of the Hunt",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "In your Shooting phase , each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1."
+  },
+  {
+    "name": "The Ephemeral Tome",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GREY KNIGHTS INFANTRY model only.",
+    "effect": "At the start of your Shooting phase , if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, the bearer’s unit can make a Normal move of up to D6\", and until the end of the turn, the bearer’s unit is not eligible to declare a charge ."
+  },
+  {
+    "name": "The Sixty-sixth Seal",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "In your Shooting phase , each time a model in the bearer’s unit makes an attack, improve the Armour Penetration characteristic of that attack by 1."
+  },
+  {
+    "name": "Pyresoul (Psychic)",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "At the start of your Shooting phase , the bearer can use this Enhancement. If it does, select one enemy unit within 24\" of and visible to the bearer; that unit suffers D3 mortal wounds ."
+  },
+  {
+    "name": "Driven by Duty",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GREY KNIGHTS WALKER model only.",
+    "effect": "Each time the bearer’s unit Piles In or Consolidates , the bearer can move up to 6\" instead of up to 3\"."
+  },
+  {
+    "name": "Quickening Foci",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GREY KNIGHTS INFANTRY model only.",
+    "effect": "In your Movement phase , each time the bearer’s unit disembarks from a TRANSPORT , until the end of the turn, you can re-roll Charge rolls made for that unit."
+  },
+  {
+    "name": "Sigil of Exigence",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Once per battle, in your opponent’s Shooting phase , when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy units. If the bearer’s unit is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit."
+  },
+  {
+    "name": "Spiritus Machina",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "GREY KNIGHTS INFANTRY model only.",
+    "effect": "In your Shooting phase , each time the bearer’s unit is selected to shoot, if the bearer’s unit disembarked from a TRANSPORT this turn, until the end of the phase, each time a model in the bearer’s unit makes an attack, you can re-roll the Wound roll ."
+  },
+  {
+    "name": "Grimoire of Conjunctions",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Once per battle, at the start of the Fight phase , the bearer can use this Enhancement. If it does, until the end of the phase, add 4 to the Strength characteristic of melee weapons equipped by the bearer."
+  },
+  {
+    "name": "Shield of Prophecy",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Once per battle, at the start of the battle round , the bearer can use this Enhancement. If it does, until the end of the battle round, add 2 to the Toughness characteristic of models in the bearer’s unit."
+  },
+  {
+    "name": "A Foot in the Future",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Each time the bearer’s unit is set up in your Reinforcements step , the bearer can use this Enhancement. If it does, the bearer’s unit can make a Normal move of up to D6\", and until the end of the turn, the bearer’s unit is not eligible to declare a Charge ."
+  },
+  {
+    "name": "Doomseer’s Amulet",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Each time the bearer’s unit is set up in your Reinforcements step , the bearer can use this Enhancement. If it does, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Battle-shock test , subtracting 1 from that test."
+  },
+  {
+    "name": "Mandulian Reliquary",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "While the bearer’s unit is not Battle-shocked , add 3 to the bearer’s Objective Control characteristic."
+  },
+  {
+    "name": "Radiant Champion",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GREY KNIGHTS INFANTRY model only.",
+    "effect": "The bearer’s melee weapons have the [PRECISION] ability, and while the bearer is wholly within your army’s Hallowed Ground , each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
+  },
+  {
+    "name": "Phial of the Abyss",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "GREY KNIGHTS INFANTRY model only.",
+    "effect": "Models in the bearer’s unit have the Stealth ability."
+  },
+  {
+    "name": "Paragon of Sanctity",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GREY KNIGHTS model only.",
+    "effect": "Once per battle, at the start of any phase, the bearer can select one friendly GREY KNIGHTS unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground ."
+  }
+]

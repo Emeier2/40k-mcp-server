@@ -1,0 +1,47 @@
+[
+  {
+    "name": "War Horde",
+    "ruleName": "Get Stuck In",
+    "ruleText": "Melee weapons equipped by ORKS models from your army have the [SUSTAINED HITS 1] ability."
+  },
+  {
+    "name": "Da Big Hunt",
+    "ruleName": "Da Hunt Is On",
+    "ruleText": "At the start of your Command phase , select one MONSTER , VEHICLE or CHARACTER unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey: Each time a BEAST SNAGGA unit from your army declares a charge that includes your Prey as one of the targets, you can re-roll the Charge roll . Each time a BEAST SNAGGA model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1."
+  },
+  {
+    "name": "Kult of Speed",
+    "ruleName": "Adrenaline Junkies",
+    "ruleText": "SPEED FREEKS units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back ."
+  },
+  {
+    "name": "Dread Mob",
+    "ruleName": "Try Dat Button!",
+    "ruleText": "Each time a MEK , ORKS WALKER or GROTS VEHICLE unit from your army is selected to shoot or fight, roll one D6. Until the end of the phase, weapons equipped by models in that unit have the corresponding ability shown in the table below. D6 BUTTON EFFECT [SUSTAINED HITS 1] ability. [LETHAL HITS] ability. Each time an attack is made with this weapon, on a Critical Wound , improve the Armour Penetration characteristic of that attack by 2. Alternatively, when such a unit is selected to shoot or fight, you can select one of the abilities above instead of rolling the D6. If you do, until the end of the phase, weapons equipped by models in that unit have the [HAZARDOUS] ability as well. If a weapon equipped by a model from you army has the [HAZARDOUS] ability from multiple sources, each time you take a Hazardous test for that weapon, it is failed on a roll of a 1 or a 2."
+  },
+  {
+    "name": "Green Tide",
+    "ruleName": "Mob Mentality",
+    "ruleText": "Each time an attack targets a BOYZ unit from your army, models in that unit have a 6+ invulnerable save against that attack. Each time an attack targets a BOYZ unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack.’"
+  },
+  {
+    "name": "Bully Boyz",
+    "ruleName": "Da Boss Is Watchin’",
+    "ruleText": "At the start of your Command phase , in a turn in which you have not called a Waaagh! , if you have one or more WARBOSS models on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been called for WARBOSS , NOBZ and MEGANOBZ units from your army."
+  },
+  {
+    "name": "Taktikal Brigade",
+    "ruleName": "Lissen ’Ere",
+    "ruleText": "Once per battle round , in your Command phase or after being set up on the battlefield in your Movement phase , each BOSS SNIKROT , MEK and WARBOSS model in your army can issue Taktiks abilities. To do so, select one of the Taktiks abilities below and select one friendly ORKS unit within 6\" of that model to issue them to. That model must take a Leadership test : if failed, the selected unit suffers 1 mortal wound . Until the start of your next Command phase, the selected unit is affected by the selected Taktik. A unit cannot have Taktiks issued to it in this way more than once per battle round. Taktiks abilities cannot be issued to Battle-shocked units, and if a unit affected by Taktiks becomes Battle-shocked, all Taktiks cease to affect that unit while it is Battle-shocked. Get Stuck In: You can re-roll Charge rolls made for this unit. Get On Wiv It: Add 1 to the Strength characteristic of melee weapons equipped by models in this unit. Sneaky Stalkin’: INFANTRY and MOUNTED models (excluding MEGANOBZ ) in this unit have the Stealth ability and each time a ranged attack targets this unit, those models have the Benefit of Cover against that attack. Shoota Drills: Each time an INFANTRY or MOUNTED model in this unit makes a ranged attack, add 1 to the Hit roll . KEYWORDS STORMBOYZ units from your army gain the BATTLELINE keyword."
+  },
+  {
+    "name": "More Dakka!",
+    "ruleName": "Dakka! Dakka! Dakka!",
+    "ruleText": "Ranged weapons equipped by ORKS INFANTRY and ORKS WALKER models from your army have the [ASSAULT] ability. While the Waaagh! is active for your army, during your Shooting phase , ranged weapons equipped by ORKS INFANTRY and ORKS WALKER models from your army have the [SUSTAINED HITS 1] ability"
+  },
+  {
+    "name": "Freebooter Krew",
+    "ruleName": "Here Be Loot",
+    "ruleText": "At the start of the battle round , select one objective marker . Until the start of the next battle round, that objective marker is your loot objective. Each time a model in an ORKS INFANTRY , ORKS MOUNTED or ORKS WALKER unit from your army makes an attack, that attack has the [SUSTAINED HITS 1] ability if either or both of the following are true: That model’s unit is within range of your loot objective. That attack targets a unit within range of your loot objective."
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Oathbound Speculator",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack, re-roll a Wound roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, add 1 to the Wound roll."
+  },
+  {
+    "name": "Dead Reckoning",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you can gain 1YP."
+  },
+  {
+    "name": "Iron Ambassador",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "",
+    "effect": "LEAGUES OF VOTANN model equipped with an Autoch-pattern combi-bolter only. Once per battle, when the bearer’s unit is selected to shoot, the bearer can use this Enhancement. If it does, spend up to 3YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer’s ranged weapons."
+  },
+  {
+    "name": "Ancestral Crest",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Once per turn, when you target the bearer’s unit with the Command Re-roll Stratagem, the bearer can use this Enhancement. If it does, spend 1YP and reduce the CP cost of that use of that Stratagem by 1CP."
+  },
+  {
+    "name": "Eye for Weakness",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack that targets an assailed unit, add 1 to the Wound roll ."
+  },
+  {
+    "name": "Writ of Acquisition",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "In your Shooting phase , after the bearer’s unit has shot, you gain 1YP for each assailed enemy unit hit by one or more of those attacks (to a maximum of 3YP)."
+  },
+  {
+    "name": "Surgical Saboteur",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "In your Shooting phase , after the bearer’s unit has shot, select one MONSTER or VEHICLE unit hit by one or more of those attacks; until the start of your next Shooting phase, that unit is pinned."
+  },
+  {
+    "name": "Nomad Strategist",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Once per battle, at the end of your opponent’s Fight phase , if the bearer is on the battlefield, it can use this Enhancement. If it does, you can spend up to 4YP. Select one HERNKYN unit from your army, and, for every 2YP you just spent, select up to one additional HERNKYN unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves . You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units)."
+  },
+  {
+    "name": "Dêlvwerke Navigator",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "In the Reinforcements step of your Movement phase , the bearer can use this Enhancement. If it does, select one friendly CTHONIAN BESERKS unit visible to the bearer and then spend any number of YP. Return one destroyed model to that unit and then, for every 2YP you just spent, return up to one additional destroyed model to that unit."
+  },
+  {
+    "name": "Multiwave System Jammer",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Once per battle, in your Movement phase , if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly CTHONIAN unit that is in Reserves . Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+  },
+  {
+    "name": "Quake Supervisor",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "While the bearer is within 3\" of one or more friendly LEAGUES OF VOTANN ARTILLERY units, the bearer has the Lone Operative ability, and each time one of those ARTILLERY units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll ."
+  },
+  {
+    "name": "Piledriver",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Each time the bearer’s unit is selected to fight, the bearer can use this Enhancement. If it does, spend up to 2YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer’s melee weapons."
+  },
+  {
+    "name": "Tactical Alchemy",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "KÂHL model only.",
+    "effect": "In your Command phase , if the bearer’s unit is within range of one or more objective markers you control that are not within your deployment zone, you can spend 1YP. If you do, roll one D6: on a 4+, you gain 1CP."
+  },
+  {
+    "name": "Trivärg Cyber Implant",
+    "detachment": "",
+    "pointsCost": 40,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "In your Shooting phase , each time the bearer’s unit is selected to shoot, if it disembarked from a TRANSPORT this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by models in that unit have the [sustained HITS 2] ability."
+  },
+  {
+    "name": "Precursive Judgement",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "KÂHL model only.",
+    "effect": "While the bearer’s unit is wholly within 6\" of one or more friendly LEAGUES OF VOTANN TRANSPORT units, you can target the bearer’s unit with the Fire Overwatch Stratagem for 0CP and hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
+  },
+  {
+    "name": "Signature Restoration",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "IRON-MASTER model only.",
+    "effect": "Each time a friendly LEAGUES OF VOTANN model is repaired using the bearer’s Forgewrought Expertise ability, that model regains 1 additional lost wound."
+  },
+  {
+    "name": "Fârstrydr Node",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "IRON-MASTER or MEMNYR STRATEGIST model only.",
+    "effect": "Models in the bearer’s unit have the Deep Strike ability."
+  },
+  {
+    "name": "Calculated Tenacity",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IRON-MASTER or MEMNYR STRATEGIST model only.",
+    "effect": "While the bearer is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+  },
+  {
+    "name": "Mantle of Elders",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "MEMNYR STRATEGIST model only.",
+    "effect": "Each time the bearer’s unit is selected to shoot, if you spend YP using the Optimal Application Detachment rule when doing so, you can roll one D6: on a 2+, you gain 1YP."
+  },
+  {
+    "name": "Graviton Vault",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "IRON-MASTER model only.",
+    "effect": "In your Shooting phase , after the bearer has shot, and in the Fight phase , after the bearer has fought, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll ."
+  },
+  {
+    "name": "Bastion Shield",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1. If you spend 1YP, until the end of the phase, if the attacking model is within 18\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1 instead."
+  },
+  {
+    "name": "Quake Multigenerator",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "KÂHL model only.",
+    "effect": "In your Shooting phase , after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll ."
+  },
+  {
+    "name": "Ironskein",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Add 2 to the bearer’s Wounds characteristic."
+  },
+  {
+    "name": "High Kâhl",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "KÂHL model only.",
+    "effect": "Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+  },
+  {
+    "name": "Mercenary Prospector",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "KÂHL model only.",
+    "effect": "Each time an enemy unit is destroyed by the bearer’s unit, gain 2YP."
+  },
+  {
+    "name": "Metaphysical Brokerage",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "MEMNYR STRATEGIST model only.",
+    "effect": "At the end of your turn, if the bearer is on the battlefield and you gained fewer than 3YP this turn, you gain an amount of YP equal to the difference."
+  },
+  {
+    "name": "Etacarn SB9 Targeting Implant",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, that attack has the [SUSTAINED HITS 1] ability."
+  },
+  {
+    "name": "Asset Manipulator",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "LEAGUES OF VOTANN model only.",
+    "effect": "At the start of the Command phase , you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3\" of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+  }
+]

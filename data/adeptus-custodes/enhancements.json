@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Aegis Projector",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0."
+  },
+  {
+    "name": "Champion of the Imperium",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "The range of the bearer’s Null Aegis or Deadly Unity ability is increased to 9\"."
+  },
+  {
+    "name": "Gift of Terran Artifice",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "Each time the bearer makes a melee attack, add 1 to the Wound roll ."
+  },
+  {
+    "name": "Radiant Mantle",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "Each time an attack targets the bearer’s unit, if the attacking model is within 12\", subtract 1 from the Hit roll ."
+  },
+  {
+    "name": "Auric Mantle",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SHIELD-CAPTAIN or BLADE CHAMPION model only.",
+    "effect": "Add 2 to the bearer’s Wounds characteristic."
+  },
+  {
+    "name": "Castellan’s Mark",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "SHIELD-CAPTAIN model only.",
+    "effect": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves , regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "From the Hall of Armouries",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "SHIELD-CAPTAIN model only.",
+    "effect": "Add 1 to the Strength and Damage characteristics of the bearer’s melee weapons."
+  },
+  {
+    "name": "Panoptispex",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "SHIELD-CAPTAIN or BLADE CHAMPION model only.",
+    "effect": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES cover] ability."
+  },
+  {
+    "name": "Enhanced Voidsheen Cloak",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ANATHEMA PSYKANA model only.",
+    "effect": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a PSYKER or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+  },
+  {
+    "name": "Huntress’ Eye",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ANATHEMA PSYKANA model only.",
+    "effect": "In your Command phase , select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test ."
+  },
+  {
+    "name": "Oblivion Knight",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ANATHEMA PSYKANA model only.",
+    "effect": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll . If that attack targeted an enemy PSYKER unit, add 1 to the Wound roll as well."
+  },
+  {
+    "name": "Raptor Blade",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "ANATHEMA PSYKANA model only.",
+    "effect": "Add 1 to the Attacks, Strength and Damage characteristics of the bearers melee weapons. While the bearer is within Engagement Range of one or more enemy PSYKER units that are Battle-shocked , add 2 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons instead."
+  },
+  {
+    "name": "Blade Imperator",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "Each time the bearer’s unit ends a Charge move , select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds . Once per battle, after the bearer s unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test ."
+  },
+  {
+    "name": "Inspirational Exemplar",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly ADEPTUS CUSTODES unit that is Battle-shocked and within 12\" of the bearer; that unit is no longer Battle-shocked."
+  },
+  {
+    "name": "Martial Philosopher",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "The bearer’s unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back . Once per battle, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of the bearer, if the bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+  },
+  {
+    "name": "Veiled Blade",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "Add 2 to the Attacks characteristic of the bearers melee weapons. Once per battle, at the start of any Command phase , triple the bearer’s Objective Control characteristic until the end of the turn."
+  },
+  {
+    "name": "Adamantine Talisman",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+  },
+  {
+    "name": "Augury Uplink",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "The bearer has the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "Honoured Fallen (Aura)",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS CUSTODES VEHICLE model only.",
+    "effect": "While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+  },
+  {
+    "name": "Veteran of the Kataphraktoi",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only.",
+    "effect": "In your Command phase , select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase , that unit is eligible to shoot in a turn in which it Fell Back ."
+  },
+  {
+    "name": "Superior Creation",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS CUSTODES INFANTRY model only.",
+    "effect": "The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+  },
+  {
+    "name": "Praesidius",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS CUSTODES model only.",
+    "effect": "The bearer has the Lone Operative and Stealth abilities."
+  },
+  {
+    "name": "Fierce Conqueror",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SHIELD-CAPTAIN model only.",
+    "effect": "At the start of the Fight phase , until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding down)."
+  },
+  {
+    "name": "Admonimortis",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "SHIELD-CAPTAIN model only.",
+    "effect": "Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by 1."
+  },
+  {
+    "name": "Radiant Mantle",
+    "detachment": "",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  }
+]

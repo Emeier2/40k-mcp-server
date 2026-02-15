@@ -21,7 +21,7 @@ export function registerCompareUnits(server: McpServer, data: GameData) {
     "compare_units",
     {
       description:
-        "Compare two Aeldari units side-by-side, showing stats, weapons, abilities, and points differences.",
+        "Compare two Warhammer 40k units side-by-side, showing stats, weapons, abilities, and points differences. Works across all factions.",
       inputSchema: {
         unit_a: z.string().describe("First unit name"),
         unit_b: z.string().describe("Second unit name"),

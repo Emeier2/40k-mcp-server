@@ -49,10 +49,14 @@ def clean_text(element) -> str:
     return " ".join(text.split())
 
 
-def save_json(data, filename: str) -> None:
-    """Write data as pretty-printed JSON to the data directory."""
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    filepath = DATA_DIR / filename
+def save_json(data, filename: str, subdir: str = None) -> None:
+    """Write data as pretty-printed JSON to the data directory.
+
+    If subdir is provided, saves to data/{subdir}/{filename}.
+    """
+    target_dir = DATA_DIR / subdir if subdir else DATA_DIR
+    target_dir.mkdir(parents=True, exist_ok=True)
+    filepath = target_dir / filename
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"  Saved {filepath} ({len(data)} items)")

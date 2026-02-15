@@ -1,0 +1,712 @@
+[
+  {
+    "name": "PROTOCOL OF THE ETERNAL REVENANT",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase.",
+    "target": "One NECRONS INFANTRY CHARACTER model from your army that was just destroyed . You can use this Stratagem on that model even though it was just destroyed.",
+    "effect": "At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with half of its starting number of wounds remaining.",
+    "restrictions": "Each model can only be targeted with this Stratagem once per battle."
+  },
+  {
+    "name": "PROTOCOL OF THE UNDYING LEGIONS",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has resolved its attacks.",
+    "target": "One NECRONS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
+    "effect": "Your unit activates its Reanimation Protocols and reanimates D3 wounds (or D3+1 wounds if a NECRONS CHARACTER is leading your unit].",
+    "restrictions": null
+  },
+  {
+    "name": "PROTOCOL OF THE HUNGRY VOID",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One NECRONS unit from your army that has not been selected to fight this phase.",
+    "effect": "Until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in your unit. In addition, If a NECRONS CHARACTER is leading your unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1. (this is not cumulative with any other modifiers that improve Armour Penetration].",
+    "restrictions": null
+  },
+  {
+    "name": "PROTOCOL OF THE SUDDEN STORM",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One NECRONS unit from your army.",
+    "effect": "Until the end of the turn, ranged weapons equipped by models in your unit have the [ASSAULT] ability. In addition, if a NECRONS CHARACTER is leading your unit, until the end of the phase, you can re-roll Advance rolls made for your unit.",
+    "restrictions": null
+  },
+  {
+    "name": "PROTOCOL OF THE CONQUERING TYRANT",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One NECRONS unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within half range, re-roll a Hit roll of 1. If a NECRONS CHARACTER is leading your unit, until the end of the phase, you can re-roll the Hit roll for that attack instead.",
+    "restrictions": null
+  },
+  {
+    "name": "PROTOCOL OF THE VENGEFUL STARS",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit destroys a NECRONS unit from your army.",
+    "target": "One NECRONS CHARACTER unit from your army that was within 6\" of that NECRONS unit when it was destroyed .",
+    "effect": "After the attacking unit has resolved its attacks, your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+    "restrictions": null
+  },
+  {
+    "name": "MASKS OF DEATH",
+    "detachment": "Annihilation Legion",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DESTROYER CULT or FLAYED ONES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "THE SPOOR OF FRAILTY",
+    "detachment": "Annihilation Legion",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, each time a model from your unit makes an attack that targets a unit below Starting Strength , add 1 to the Hit roll . If the target is Below Half-strength , add 1 to the Wound roll as well.",
+    "restrictions": null
+  },
+  {
+    "name": "MURDEROUS REANIMATION",
+    "detachment": "Annihilation Legion",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has just destroyed an enemy unit, or just caused an enemy unit that was not Below Half-strength to become Below Half-strength.",
+    "effect": "Your unit’s Reanimation Protocols activate.",
+    "restrictions": null
+  },
+  {
+    "name": "PITILESS HUNTERS",
+    "detachment": "Annihilation Legion",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has not been selected to fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move , it can move up to 6\" instead of up to 3\".",
+    "restrictions": null
+  },
+  {
+    "name": "BLOOD-FUELLED CRUELTY",
+    "detachment": "Annihilation Legion",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Movement phase , just after an enemy unit ends a Fall Back move .",
+    "target": "One DESTROYER CULT or FLAYED ONES unit from your army that started the phase within Engagement Range of that enemy unit.",
+    "effect": "Roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds ; on a 6, that enemy unit suffers 3 mortal wounds. Your unit can then make a Normal move , but must end that move as close as possible to that enemy unit.",
+    "restrictions": null
+  },
+  {
+    "name": "INSANITY’S IRE",
+    "detachment": "Annihilation Legion",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has shot.",
+    "target": "One DESTROYER CULT or FLAYED ONES unit from your army that had one or more of its models destroyed by the attacking unit’s attacks.",
+    "effect": "Your unit can make a Normal move , but must end that move as close as possible to that enemy unit.",
+    "restrictions": null
+  },
+  {
+    "name": "CURSE OF THE CRYPTEK",
+    "detachment": "Canoptek Court",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has shot or fought.",
+    "target": "One CRYPTEK model from your army that was destroyed by one of the attacking unit’s attacks. You can use this Stratagem on that model even though it was just destroyed.",
+    "effect": "Until the end of the battle, each time a friendly CANOPTEK model makes an attack that targets the attacking unit, add 1 to the Hit roll and add 1 to the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "CYNOSURE OF ERADICATION",
+    "detachment": "Canoptek Court",
+    "cpCost": 2,
+    "type": "Battle Tactic",
+    "when": "The start of your Shooting phase or the start of the Fight phase .",
+    "target": "One CRYPTEK or CANOPTEK unit from your army that is wholly within your army’s Power Matrix .",
+    "effect": "Until the end of the phase, weapons equipped by CRYPTEK or CANOPTEK models in your unit have the [DEVASTATING WOUNDS] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "SOLAR PULSE",
+    "detachment": "Canoptek Court",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start of your Shooting phase .",
+    "target": "One CRYPTEK model from your army.",
+    "effect": "Select one objective marker within 18\" of your CRYPTEK model. Until the end of the phase, weapons equipped by friendly NECRONS models have the [IGNORES COVER] ability while targeting units within range of that objective marker.",
+    "restrictions": null
+  },
+  {
+    "name": "REACTIVE SUBROUTINES",
+    "detachment": "Canoptek Court",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Movement phase , just after an enemy unit ends a Normal , Advance or Fall Back move .",
+    "target": "One CANOPTEK unit from your army that is within 9\" of that enemy unit.",
+    "effect": "Your unit can make a Normal move of up to 6\".",
+    "restrictions": null
+  },
+  {
+    "name": "COUNTERTEMPORAL SHIFT",
+    "detachment": "Canoptek Court",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One CANOPTEK unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictions": null
+  },
+  {
+    "name": "SUBOPTIMAL FACADE",
+    "detachment": "Canoptek Court",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Charge phase , just after an enemy unit has declared a charge .",
+    "target": "One CANOPTEK unit from your army that was selected as a target of that charge and is wholly within your army’s Power Matrix .",
+    "effect": "Your unit’s Reanimation Protocols activate.",
+    "restrictions": null
+  },
+  {
+    "name": "YOUR TIME IS NIGH",
+    "detachment": "Obeisance Phalanx",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase, just after your opponent’s WARLORD is destroyed .",
+    "target": "Your NECRONS WARLORD .",
+    "effect": "Until the end of the battle, each time an enemy unit takes a Battle-shock or Leadership test , subtract 1 from the result.",
+    "restrictions": null
+  },
+  {
+    "name": "ENSLAVED ARTIFICE",
+    "detachment": "Obeisance Phalanx",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One NECRONS unit from your army (excluding TITANIC units) that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit .",
+    "restrictions": null
+  },
+  {
+    "name": "NANOASSEMBLY PROTOCOLS",
+    "detachment": "Obeisance Phalanx",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One NECRONS VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictions": null
+  },
+  {
+    "name": "SENTINELS OF ETERNITY",
+    "detachment": "Obeisance Phalanx",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One LYCHGUARD or TRIARCH PRAETORIANS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time a model in your unit is destroyed , if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks , and is then removed from play.",
+    "restrictions": null
+  },
+  {
+    "name": "SUFFER NO RIVAL",
+    "detachment": "Obeisance Phalanx",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One LYCHGUARD or TRIARCH unit from your army that has not been selected to fight this phase.",
+    "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "TERRITORIAL OBSESSION",
+    "detachment": "Obeisance Phalanx",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Command phase .",
+    "target": "One LYCHGUARD or TRIARCH unit from your army.",
+    "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. If your unit has the VEHICLE keyword, add 3 to the Objective Control characteristic instead.",
+    "restrictions": null
+  },
+  {
+    "name": "HYPERPHASIC RECALL",
+    "detachment": "Hypercrypt Legion",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has shot or fought.",
+    "target": "One NECRONS INFANTRY unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks and one friendly MONOLITH model.",
+    "effect": "Remove your INFANTRY unit from the battlefield and then set it back up anywhere on the battlefield that is wholly within 6\" of your MONOLITH model and not within Engagement Range of one or more enemy units.",
+    "restrictions": null
+  },
+  {
+    "name": "QUANTUM DEFLECTION",
+    "detachment": "Hypercrypt Legion",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One NECRONS VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save .",
+    "restrictions": null
+  },
+  {
+    "name": "REANIMATION CRYPTS",
+    "detachment": "Hypercrypt Legion",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Command phase .",
+    "target": "Your NECRONS WARLORD .",
+    "effect": "For each of your NECRONS units in Reserves , that Reserves unit’s Reanimation Protocols activate.",
+    "restrictions": null
+  },
+  {
+    "name": "COSMIC PRECISION",
+    "detachment": "Hypercrypt Legion",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One NECRONS unit from your army (excluding MONSTER units) that is arriving using the Deep Strike or Hyperphasing abilities this phase.",
+    "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
+    "restrictions": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
+  },
+  {
+    "name": "DIMENSIONAL CORRIDOR",
+    "detachment": "Hypercrypt Legion",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Your Charge phase .",
+    "target": "One NECRONS unit from your army that was set up on the battlefield this turn using the Eternity Gate ability of a MONOLITH model that started the turn on the battlefield.",
+    "effect": "Your unit is eligible to charge this phase.",
+    "restrictions": null
+  },
+  {
+    "name": "ENTROPIC DAMPING",
+    "detachment": "Hypercrypt Legion",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One TITANIC model from your army that was selected as the target of one or more of the attacking unit’s attacks and is within 18\" of the attacking unit.",
+    "effect": "Until the end of the phase, weapons equipped by models in the attacking unit have the [HAZARDOUS] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "MERCILESS RECLAMATION",
+    "detachment": "Starshatter Arsenal",
+    "cpCost": 2,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One NECRONS unit (excluding TITANIC units) from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the target of that attack is within range of one or more objective markers , add 1 to the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "UNYIELDING FORMS",
+    "detachment": "Starshatter Arsenal",
+    "cpCost": 2,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets a model in your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "CHRONOSHIFT",
+    "detachment": "Starshatter Arsenal",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) from your army that has not been selected to move this phase.",
+    "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictions": null
+  },
+  {
+    "name": "DIMENSIONAL TUNNEL",
+    "detachment": "Starshatter Arsenal",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) from your army.",
+    "effect": "Until the end of the phase, models in your unit can move horizontally through models and terrain features .",
+    "restrictions": null
+  },
+  {
+    "name": "ENDLESS SERVITUDE",
+    "detachment": "Starshatter Arsenal",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of your Fight phase .",
+    "target": "One NECRONS unit (excluding TITANIC units) from your army that is within range of one or more objective markers you control.",
+    "effect": "Your unit’s Reanimation Protocols activate.",
+    "restrictions": null
+  },
+  {
+    "name": "REACTIVE REPOSITION",
+    "detachment": "Starshatter Arsenal",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has shot.",
+    "target": "One NECRONS unit from your army (excluding TITANIC units) that was the target of one or more of the attacking unit’s attacks.",
+    "effect": "Your unit can make a Normal move of up to D6\".",
+    "restrictions": null
+  },
+  {
+    "name": "MOLECULAR TARGETING",
+    "detachment": "Cryptek Conclave",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One NECRONS unit from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill or Weapon Skill characteristic; the Hit roll . If your unit has the CRYPTEK keyword, you can also ignore any or all modifiers to the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "MICROSCARAB SWARM",
+    "detachment": "Cryptek Conclave",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One CRYPTEK INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "If your unit has the NECRON WARRIORS keyword, until the end of the phase, models in your unit have a 5+ invulnerable save . If your unit has the IMMORTALS keyword, until the end of the phase, models in your unit have a 4+ invulnerable save.",
+    "restrictions": null
+  },
+  {
+    "name": "ANIMUS CURSE",
+    "detachment": "Cryptek Conclave",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has shot or fought.",
+    "target": "One CRYPTEK model from your army that was destroyed by one of the attacking unit’s attacks. You can use this Stratagem on that model even though it was just destroyed.",
+    "effect": "Until the end of the battle, each time a friendly NECRONS model makes an attack that targets the attacking unit, you can re-roll the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "SYNERGISTIC EMPOWERMENT",
+    "detachment": "Cryptek Conclave",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start of your Shooting phase .",
+    "target": "One CRYPTEK unit from your army.",
+    "effect": "Select one friendly NECRONS model (excluding MONSTERS and VEHICLES ) within 12\" of a CRYPTEK model in your unit. Until the end of the phase, that friendly NECRONS model has the CRYPTEK keyword.",
+    "restrictions": null
+  },
+  {
+    "name": "UNTAPPED POWER",
+    "detachment": "Cryptek Conclave",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One CRYPTEK unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, each time your unit is selected to shoot, when selecting an ability for the Technosorcerous Augmentations Detachment Rule, you can select one additional ability from those available.",
+    "restrictions": null
+  },
+  {
+    "name": "POTENTIALITY SYPHON",
+    "detachment": "Cryptek Conclave",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Command phase .",
+    "target": "One NECRONS unit from your army within range of one or more objective markers .",
+    "effect": "Your unit’s Reanimation Protocols activate. If it is a CRYPTEK unit, it reanimates an additional 1 wound.",
+    "restrictions": null
+  },
+  {
+    "name": "METHODICAL MURDER",
+    "detachment": "Cursed Legion",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One NECRONS unit (excluding MONSTERS and VEHICLES ) from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "IMAGE OF DEATH",
+    "detachment": "Cursed Legion",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DESTROYER CULT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "MORTIS PROTOCOLS",
+    "detachment": "Cursed Legion",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase or the Fight phase , just after the first time a DESTROYER CULT unit from your army destroys an enemy unit this turn.",
+    "target": "One friendly NECRONS unit (excluding MONSTERS and VEHICLES ) within 9\" of that DESTROYER CULT unit.",
+    "effect": "The friendly unit’s Reanimation Protocols activate.",
+    "restrictions": null
+  },
+  {
+    "name": "DRIVEN TO BUTCHERY",
+    "detachment": "Cursed Legion",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase or your Charge phase .",
+    "target": "One DESTROYER CULT unit from your army.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced .",
+    "restrictions": "You can only use this Stratagem once per turn."
+  },
+  {
+    "name": "SPREADING MADNESS",
+    "detachment": "Cursed Legion",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Charge phase .",
+    "target": "One NECRONS unit (excluding MONSTERS and VEHICLES ) from your army that has not declared a charge this phase.",
+    "effect": "Until the end of the phase, each time your unit declares a charge, if one or more targets of that charge are within Engagement Range of one or more friendly units, add 2 to the Charge roll .",
+    "restrictions": null
+  },
+  {
+    "name": "UNNATURAL AGGRESSION",
+    "detachment": "Cursed Legion",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "End of your opponent’s Charge phase .",
+    "target": "One NECRONS unit (excluding MONSTERS and VEHICLES ) from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.",
+    "effect": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
+    "restrictions": null
+  },
+  {
+    "name": "DISHARMONISATION CASCADE",
+    "detachment": "Pantheon of Woe",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase, just after a NECRONS MONSTER model from your army is destroyed, before making its Deadly Demise roll.",
+    "target": "That NECRONS MONSTER model. You can use this Stratagem on that model even though it was just destroyed.",
+    "effect": "Until the end of the phase, your model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6.",
+    "restrictions": null
+  },
+  {
+    "name": "MOLECULAR EROSION",
+    "detachment": "Pantheon of Woe",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Command phase .",
+    "target": "One NECRONS MONSTER unit from your army.",
+    "effect": "Select one unravelling enemy unit visible to your unit. That enemy unit must take a Battle-shock test . When doing so, subtract 1 from the result. If that test is failed, that enemy unit suffers D3+1 mortal wounds .",
+    "restrictions": "You can only use this Stratagem once per battle round ."
+  },
+  {
+    "name": "MASS TRANSMOGRIFICATION",
+    "detachment": "Pantheon of Woe",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Your Shooting phase or the Fight phase , just after a NECRONS MONSTER unit from your army destroys an enemy unit.",
+    "target": "One friendly NECRONS unit (excluding MONSTERS ) within 6\" of that MONSTER unit.",
+    "effect": "If that enemy unit was unravelling at the start of the phase, your friendly unit’s Reanimation Protocols activate.",
+    "restrictions": "You can only use this Stratagem once per turn."
+  },
+  {
+    "name": "ENTROPHASIC AURA TARGETING",
+    "detachment": "Pantheon of Woe",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One NECRONS unit (excluding MONSTERS ) from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re-roll a Hit roll of 1. If the target of that attack is unravelling, re-roll a Wound roll of 1 as well.",
+    "restrictions": null
+  },
+  {
+    "name": "CHRONODISTORTION",
+    "detachment": "Pantheon of Woe",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One NECRONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if the attacking unit is unravelling : on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictions": null
+  },
+  {
+    "name": "PHASE MELDING",
+    "detachment": "Pantheon of Woe",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Movement phase , when an unravelling enemy unit is selected to Fall Back .",
+    "target": "One NECRONS unit from your army that is within Engagement Range of that enemy unit.",
+    "effect": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test . When doing so, if that enemy unit is Battle-shocked , subtract 1 from each of those tests.",
+    "restrictions": null
+  },
+  {
+    "name": "DISRUPTION FIELDS",
+    "detachment": "Tomb Ship Complement",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One NECRONS unit from your army.",
+    "effect": "Until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in your unit.",
+    "restrictions": null
+  },
+  {
+    "name": "UNWAVERING DEFENCE",
+    "detachment": "Tomb Ship Complement",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One NECRONS unit from your army that is Set to Defend and has not fought this phase.",
+    "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 2] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "CONCENTRATED ATOMISATION",
+    "detachment": "Tomb Ship Complement",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One NECRON WARRIORS or IMMORTALS unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "DISINTEGRATION BEAMS",
+    "detachment": "Tomb Ship Complement",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after an enemy unit attempts to prevent a NECRONS unit from you army from operating a closed Hatchway .",
+    "target": "That NECRONS unit.",
+    "effect": "Roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound ; on a 5+, that enemy unit suffers 2 mortal wounds.",
+    "restrictions": null
+  },
+  {
+    "name": "BATHED IN BLOOD",
+    "detachment": "Deranged Outcasts",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after an enemy unit is destroyed by a DESTROYER CULT unit from your army",
+    "target": "That DESTROYER CULT unit.",
+    "effect": "Select one objective marker that your unit or the destroyed unit was within range of at the start of the phase. That objective marker is Secured by your army.",
+    "restrictions": null
+  },
+  {
+    "name": "SHADOW STALKERS",
+    "detachment": "Deranged Outcasts",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , at the start of the Reinforcements step .",
+    "target": "One FLAYED ONES unit from your army that is in Reserves .",
+    "effect": "Until the end of the phase, models in your unit have the Deep Strike ability .",
+    "restrictions": "You can only use this Stratagem once."
+  },
+  {
+    "name": "RUSH TO SLAUGHTER",
+    "detachment": "Deranged Outcasts",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One NECRONS unit from your army that has not been selected to move this phase.",
+    "effect": "Until the end of the phase, if your unit has the FLAYED ONES keyword, each time it moves, models in that unit can move through friendly DESTROYER CULT models as if they were not there. If your unit has the DESTROYER CULT keyword, models in it can move through friendly FLAYED ONES models as if they were not there.",
+    "restrictions": null
+  },
+  {
+    "name": "TERRIFYING AMBUSH",
+    "detachment": "Deranged Outcasts",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after a DESTROYER CULT unit from your army opens a Hatchway .",
+    "target": "That DESTROYER CULT unit.",
+    "effect": "For each enemy unit within 3\" of that Hatchway, if that Hatchway is visible to that unit and that unit is wholly on the opposite side of it from your unit, that unit must take a Leadership test , subtracting 2 from the result: if failed, until the end of the phase, that enemy unit cannot fire Overwatch .",
+    "restrictions": null
+  },
+  {
+    "name": "TARGETING ALGORITHMS",
+    "detachment": "Canoptek Harvesters",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One CRYPTEK model from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, each time your model makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "QUANTUM FLARE-SHIELD",
+    "detachment": "Canoptek Harvesters",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One CRYPTEK model from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, your model has a 4+ invulnerable save .",
+    "restrictions": null
+  },
+  {
+    "name": "PHASE-SHIFT",
+    "detachment": "Canoptek Harvesters",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One CANOPTEK WRAITHS unit from your army that has not been selected to move this phase.",
+    "effect": "The next time your unit is selected to move this phase, models in that unit can move through Walls and closed Hatchways as if they were not there, but when doing so, no model can move more than 6\".",
+    "restrictions": "You can only use this Stratagem once."
+  },
+  {
+    "name": "NANOSCARAB VIRUS",
+    "detachment": "Canoptek Harvesters",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of your Movement phase .",
+    "target": "One CRYPTEK unit from your army.",
+    "effect": "For each open Hatchway within 3\" of your unit, you can close that Hatchway.",
+    "restrictions": "You can only use this Stratagem once."
+  },
+  {
+    "name": "PROTOCOL OF THE UNDYING LEGIONS",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has resolved its attacks.",
+    "target": "One NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
+    "effect": "Your unit activates its Reanimation Protocols and reanimates D3 wounds (or D3+1 wounds if a NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS CHARACTER is leading your unit].",
+    "restrictions": null
+  },
+  {
+    "name": "COSMIC PRECISION",
+    "detachment": "Hypercrypt Legion",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS unit from your army (excluding MONSTER units) that is arriving using the Deep Strike or Hyperphasing abilities this phase.",
+    "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
+    "restrictions": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
+  },
+  {
+    "name": "PROTOCOL OF THE CONQUERING TYRANT",
+    "detachment": "Awakened Dynasty",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within half range, re-roll a Hit roll of 1. If a NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS NECRONS CHARACTER is leading your unit, until the end of the phase, you can re-roll the Hit roll for that attack instead.",
+    "restrictions": null
+  },
+  {
+    "name": "REACTIVE SUBROUTINES",
+    "detachment": "Canoptek Court",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Movement phase , just after an enemy unit ends a Normal , Advance or Fall Back move .",
+    "target": "One CANOPTEK unit from your army that is within 9\" of that enemy unit.",
+    "effect": "Your unit can make a Normal move of up to 6\".",
+    "restrictions": null
+  },
+  {
+    "name": "COMMAND RE-ROLL",
+    "detachment": "Core",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Any phase, just after you make an Advance roll , a Charge roll , a Desperate Escape test or a Hazardous test for a unit from your army, or a Hit roll , a Wound roll , a Damage roll or a saving throw for a model in that unit, or a roll to determine the number of attacks made with a weapon equipped by a model in that unit. If you are using fast dice rolling , this Stratagem can still be used after rolling multiple rolls or saving throws at once.",
+    "target": "That unit or model from your army.",
+    "effect": "You re-roll that roll, test or saving throw. If you are using fast dice rolling, select one of those rolls or saving throws to re-roll.",
+    "restrictions": null
+  }
+]

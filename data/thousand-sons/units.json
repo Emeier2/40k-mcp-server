@@ -1,0 +1,7624 @@
+[
+  {
+    "name": "Ahriman",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "MOUNTED",
+      "CHARACTER",
+      "EPIC HERO",
+      "FLY",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "AHRIMAN"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Inferno bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Transmogrifying Blast",
+        "range": "18\"",
+        "A": "D6+1",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "blast",
+          "psychic"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Black Staff of Ahriman",
+        "range": "Melee",
+        "A": "5",
+        "S": "7",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Scryer of Fates (Psychic)",
+          "description": "If your army includes this model, after both players have deployed their armies, you can select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Arch-Sorcerer of Tzeentch (Psychic)",
+          "description": "Each time this model attempts a Ritual , add 1 to the Psychic test result."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Ahriman – EPIC HERO This model is equipped with: inferno bolt pistol; Transmogrifying Blast; Black Staff of Ahriman."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 100
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": [
+      "Rubric Marines Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows"
+    ],
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Daemon Prince of Tzeentch",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "DAEMON",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "DAEMON PRINCE"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "9\"",
+      "T": 10,
+      "Sv": "2+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Dark Blessing",
+        "range": "24\"",
+        "A": "9",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Infernal cannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons – strike",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Hellforged weapons – sweep",
+        "range": "Melee",
+        "A": "12",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Servile Pawns",
+          "description": "While this model is within 3\" of one or more friendly THOUSAND SONS INFANTRY units, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Spirit Snare",
+          "description": "Each time a friendly THOUSAND SONS PSYKER model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this ability: until the end of the battle, each time the selected model attempts a Ritual, add 1 to the Psychic test result (to a maximum of +2)."
+        },
+        {
+          "name": "Glamour of Tzeentch (Aura, Psychic)",
+          "description": "While a friendly THOUSAND SONS INFANTRY unit is within 6\" of this model, models in that unit have the Stealth ability."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Daemon Prince of Tzeentch This model is equipped with: Dark Blessing; infernal cannon; heliforged weapons."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 180
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Daemon Prince of Tzeentch with Wings",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "DAEMON",
+      "FLY",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "DAEMON PRINCE"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "13\"",
+      "T": 9,
+      "Sv": "2+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Dark Blessing",
+        "range": "24\"",
+        "A": "9",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Infernal cannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons – strike",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Hellforged weapons – sweep",
+        "range": "Melee",
+        "A": "12",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Hunter of Souls",
+          "description": "Each time this model makes an attack that targets a CHARACTER unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a PSYKER  CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead). Each time this model destroys a CHARACTER unit, this model regains up to D3 lost wounds (if that CHARACTER unit was a PSYKER unit, this model regains up to 3 lost wounds instead)."
+        },
+        {
+          "name": "Aetherstride (Psychic)",
+          "description": "In your Movement phase , when this model is set up on the battlefield using the Deep Strike ability, it can perform an aetherstride. If it does:  It can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units. Until the end of the turn, its Dark Blessing has the [SUSTAINED HITS D3] ability. Until the end of the turn, it is not eligible to declare a charge ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Daemon Prince of Tzeentch with Wings This model is equipped with: Dark Blessing; infernal cannon; heliforged weapons."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 170
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Exalted Sorcerer",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "EXALTED SORCERER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 5,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Astral Blast",
+        "range": "18\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-2",
+        "D": "D3",
+        "keywords": [
+          "blast",
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Inferno bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": "Melee",
+        "A": "4",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Arcane Shield (Psychic)",
+          "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save ."
+        },
+        {
+          "name": "Rebind Rubricae (Psychic)",
+          "description": "In your Command phase , if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds ; on a 2-5, you can return 1 destroyed Bodyguard model to that unit; on a 6, you can return up to 2 destroyed Bodyguard models to that unit."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Exalted Sorcerer This model is equipped with: Astral Blast; inferno bolt pistol; force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 80
+      }
+    ],
+    "leader": {
+      "name": "Arcane Shield (Psychic)",
+      "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save ."
+    },
+    "leaderAttachableTo": [
+      "Rubric Marines"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Exalted Sorcerer on Disc of Tzeentch",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "MOUNTED",
+      "CHARACTER",
+      "FLY",
+      "GRENADES",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "EXALTED SORCERER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Arcane Fire",
+        "range": "18\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-2",
+        "D": "D3",
+        "keywords": [
+          "ignores cover",
+          "psychic",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Inferno bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": "Melee",
+        "A": "4",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Illusions of Tzeentch (Psychic)",
+          "description": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "name": "Binding Tendrils (Psychic)",
+          "description": "In your Shooting phase , after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks made with Arcane Fire. Until the start of your next turn, that unit is ensnared. While a unit is ensnared, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Exalted Sorcerer This model is equipped with: Arcane Fire; inferno bolt pistol; force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 100
+      }
+    ],
+    "leader": {
+      "name": "Illusions of Tzeentch (Psychic)",
+      "description": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+    },
+    "leaderAttachableTo": [
+      "Rubric Marines Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Infernal Master",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "INFERNAL MASTER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 4,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Inferno bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Fires of the Abyss – witchfire",
+        "range": "18\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "psychic",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Fires of the Abyss – focused witchfire",
+        "range": "18\"",
+        "A": "2D6",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "hazardous",
+          "psychic",
+          "torrent"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Malefic Maelstrom (Psychic)",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "name": "Glimpse of Eternity (Psychic)",
+          "description": "Once per turn, you can change the result of one Hit roll , one Wound roll or one saving throw made for this model to an unmodified 6."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Infernal Master This model is equipped with: inferno bolt pistol; Fires of the Abyss; force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 95
+      }
+    ],
+    "leader": {
+      "name": "Malefic Maelstrom (Psychic)",
+      "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+    },
+    "leaderAttachableTo": [
+      "Rubric Marines"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Kairos Fateweaver",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FLY",
+      "PSYKER",
+      "CHAOS",
+      "DAEMON",
+      "TZEENTCH",
+      "SUMMONED",
+      "KAIROS FATEWEAVER"
+    ],
+    "factionKeywords": [
+      "SCINTILLATING LEGIONS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 10,
+      "Sv": "6+",
+      "W": 20,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Infernal Gateway – witchfire",
+        "range": "24\"",
+        "A": "D6+3",
+        "S": "9",
+        "AP": "-2",
+        "D": "D3",
+        "keywords": [
+          "blast",
+          "indirect fire",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Infernal Gateway – focused witchfire",
+        "range": "24\"",
+        "A": "D3+6",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "blast",
+          "indirect fire",
+          "hazardous",
+          "psychic"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Tomorrow",
+        "range": "Melee",
+        "A": "5",
+        "S": "8",
+        "AP": "-2",
+        "D": "2D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Sorcery"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "One Head Looks Forward",
+          "description": "At the end of your Command phase , if this model is on the battlefield, take a Leadership test for this model; if that test is passed, you gain 1CP."
+        },
+        {
+          "name": "One Head Looks Back (Aura)",
+          "description": "Each time your opponent targets a unit from their army with a Stratagem , if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Kairos Fateweaver – EPIC HERO This model is equipped with: Infernal Gateway; Staff of Tomorrow."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 285
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Lord of Change",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "FLY",
+      "PSYKER",
+      "CHAOS",
+      "DAEMON",
+      "TZEENTCH",
+      "SUMMONED",
+      "LORD OF CHANGE"
+    ],
+    "factionKeywords": [
+      "SCINTILLATING LEGIONS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 10,
+      "Sv": "6+",
+      "W": 18,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Rod of sorcery",
+        "range": "18\"",
+        "A": "6",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Bolt of Change – witchfire",
+        "range": "18\"",
+        "A": "9",
+        "S": "9",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Bolt of Change – focused witchfire",
+        "range": "18\"",
+        "A": "9",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "hazardous",
+          "psychic"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Baleful sword",
+        "range": "Melee",
+        "A": "3",
+        "S": "7",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Staff of Tzeentch",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Sorcery"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Daemon Lord of Tzeentch (Aura)",
+          "description": "While a friendly SCINTILLATING LEGIONS unit is within 6\" of this model, each time a model in that unit makes a ranged attack, add 1 to the Strength characteristic of that attack."
+        },
+        {
+          "name": "Master of Magicks (Psychic)",
+          "description": "In your Shooting phase , select one of the following abilities: [IGNORES COVER] ; [LETHAL HITS] ; [SUSTAINED HITS D3] . Until the end of the phase, this model’s Bolt of Change has that ability."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Lord of Change This model is equipped with: Bolt of Change; staff of Tzeentch."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 270
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Magnus The Red",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FLY",
+      "DAEMON",
+      "PRIMARCH",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "MAGNUS THE RED"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "14\"",
+      "T": 11,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "5+",
+      "OC": 6
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Gaze of Magnus",
+        "range": "24\"",
+        "A": "3D3",
+        "S": "11",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Tzeentch’s Firestorm",
+        "range": "24\"",
+        "A": "D6+3",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "blast",
+          "ignores cover",
+          "psychic"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blade of Magnus – strike",
+        "range": "Melee",
+        "A": "7",
+        "S": "16",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Blade of Magnus – sweep",
+        "range": "Melee",
+        "A": "14",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Unearthly Power",
+          "description": "At the start of the battle round , select one of the abilities in the Crimson King section (see left). Until the start of the next battle round, this model has that ability."
+        },
+        {
+          "name": "Lord of the Planet of the Sorcerers (Psychic)",
+          "description": "This model can attempt up to two Rituals per turn instead of one, and each time this model attempts a Ritual, add 2 to the Psychic test result."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Magnus the Red – EPIC HERO This model is equipped with: Gaze of Magnus; Tzeentch’s Firestorm; blade of Magnus."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 435
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Sorcerer",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GRENADES",
+      "CHAOS",
+      "TZEENTCH",
+      "SORCERER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 4,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Inferno bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Pandaemonic Delusion",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "psychic",
+          "sustained hits 3"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": "Melee",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Empyric Guidance (Psychic)",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Twisted Sorceries (Psychic)",
+          "description": "Once per battle, in your Shooting phase or the Fight phase , this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of Psychic weapons equipped by this model by 3."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Sorcerer This model is equipped with: inferno bolt pistol; Pandaemonic Delusion; force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 80
+      }
+    ],
+    "leader": {
+      "name": "Empyric Guidance (Psychic)",
+      "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+    },
+    "leaderAttachableTo": [
+      "Rubric Marines"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Sorcerer In Terminator Armour",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "TERMINATOR",
+      "CHAOS",
+      "TZEENTCH",
+      "SORCERER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 5,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Gaze of Hate",
+        "range": "18\"",
+        "A": "3",
+        "S": "4",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "anti-monster 4+",
+          "anti-vehicle 4+",
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Empyric Guidance (Psychic)",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Marked by Fate (Psychic)",
+          "description": "At the start of your Shooting phase , select one enemy unit that is visible to this PSYKER model. Until the end of the phase, each time a model in this unit makes an attack that targets that enemy unit, add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Sorcerer In Terminator Armour This model is equipped with: Gaze of Hate; inferno combi-bolter; force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 85
+      }
+    ],
+    "leader": {
+      "name": "Empyric Guidance (Psychic)",
+      "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+    },
+    "leaderAttachableTo": [
+      "Scarab Occult Terminators"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Tzaangor Shaman",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "MOUNTED",
+      "CHARACTER",
+      "FLY",
+      "PSYKER",
+      "CHAOS",
+      "TZEENTCH",
+      "MUTANT",
+      "TZAANGOR SHAMAN"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 4,
+      "Sv": "5+",
+      "W": 4,
+      "Ld": "7+",
+      "OC": 2
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Baleful Devolution",
+        "range": "18\"",
+        "A": "D6",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast",
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force stave",
+        "range": "Melee",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Bestial Prophet",
+          "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+        },
+        {
+          "name": "Sacrificial Blessing",
+          "description": "While this model is leading a unit, in your Shooting phase and the Fight phase , each time that unit is selected to shoot or fight, this model can use this ability. If it does, select one Bodyguard model in that unit; that Bodyguard model is destroyed and, until the end of the phase, add D3 to the Attacks and Strength characteristics of Psychic weapons equipped by this model."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Tzaangor Shaman This model is equipped with: Baleful Devolution; force stave."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 60
+      }
+    ],
+    "leader": {
+      "name": "Bestial Prophet",
+      "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+    },
+    "leaderAttachableTo": [
+      "Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows Tzaangors"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Chaos Lord On Disc Of Tzeentch",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "CHAOS",
+      "TZEENTCH",
+      "FLY",
+      "CHAOS LORD",
+      "DISC OF TZEENTCH"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Plasma pistol – standard",
+        "range": "12\"",
+        "A": "1",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Plasma pistol – supercharge",
+        "range": "12\"",
+        "A": "1",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "hazardous",
+          "pistol"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Accursed weapon",
+        "range": "Melee",
+        "A": "6",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Astartes chainsword",
+        "range": "Melee",
+        "A": "7",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "range": "Melee",
+        "A": "7",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Power fist",
+        "range": "Melee",
+        "A": "5",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers 1"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Lord of Chaos",
+          "description": "Once per battle round , one unit from your army with this ability can use it when its unit is targeted with a Stratagem . If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "name": "Lord of Fate",
+          "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Lord on Disc of Tzeentch This model is equipped with: bolt pistol; Astartes chainsword; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 100
+      }
+    ],
+    "leader": {
+      "name": "Lord of Fate",
+      "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds ."
+    },
+    "leaderAttachableTo": [
+      "Rubric Marines"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Blue Horrors",
+    "faction": "thousand-sons",
+    "keywords": [
+      "KEYWORDS – ALL MODELS: INFANTRY",
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "TZEENTCH",
+      "SUMMONED",
+      "HORRORS BLUE HORRORS: BLUE BRIMSTONE HORRORS: BRIMSTONE"
+    ],
+    "factionKeywords": [
+      "SCINTILLATING LEGIONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 3,
+      "Sv": "7+",
+      "W": 1,
+      "Ld": "8+",
+      "OC": 0
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Coruscating blue flames",
+        "range": "18\"",
+        "A": "2",
+        "S": "3",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol",
+          "psychic"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Coruscating yellow flames",
+        "range": "18\"",
+        "A": "2",
+        "S": "2",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol",
+          "psychic"
+        ],
+        "BS": "5+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blue claws",
+        "range": "Melee",
+        "A": "1",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "5+"
+      },
+      {
+        "name": "Yellow claws",
+        "range": "Melee",
+        "A": "2",
+        "S": "2",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "5+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Sorcery"
+      ],
+      "core": [
+        "Deep Strike",
+        "Infiltrators"
+      ],
+      "unit": [
+        {
+          "name": "Split",
+          "description": "Each time a BLUE  HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one BRIMSTONE  HORROR model to this unit."
+        },
+        {
+          "name": "Sullen Malevolence (Aura)",
+          "description": "While an enemy unit is within 6\" of this unit, if this unit contains one or more BLUE  HORROR models, worsen the Leadership characteristic of models in that enemy unit by 1."
+        },
+        {
+          "name": "Exploding Horrors",
+          "description": "Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more BRIMSTONE  HORROR models in this unit. For each BRIMSTONE  HORROR model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 10,
+      "max": 10,
+      "description": "10 Blue Horrors Every Blue Horror is equipped with: coruscating blue flames; blue claws. Every Brimstone Horror added to this unit using the Split ability is equipped with: coruscating yellow flames; yellow claws."
+    },
+    "points": [
+      {
+        "models": 10,
+        "points": 90
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Pink Horrors",
+    "faction": "thousand-sons",
+    "keywords": [
+      "KEYWORDS – ALL MODELS: INFANTRY",
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "TZEENTCH",
+      "SUMMONED",
+      "HORRORS PINK HORRORS: PINK BLUE HORRORS: BLUE BRIMSTONE HORRORS: BRIMSTONE"
+    ],
+    "factionKeywords": [
+      "SCINTILLATING LEGIONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 3,
+      "Sv": "7+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Coruscating blue flames",
+        "range": "18\"",
+        "A": "2",
+        "S": "3",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol",
+          "psychic"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Coruscating pink flames",
+        "range": "18\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol",
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Coruscating yellow flames",
+        "range": "18\"",
+        "A": "2",
+        "S": "2",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol",
+          "psychic"
+        ],
+        "BS": "5+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blue claws",
+        "range": "Melee",
+        "A": "1",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "5+"
+      },
+      {
+        "name": "Pink claws",
+        "range": "Melee",
+        "A": "1",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      },
+      {
+        "name": "Yellow claws",
+        "range": "Melee",
+        "A": "2",
+        "S": "2",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "5+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Sorcery"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Split",
+          "description": "Each time a PINK  HORROR or BLUE  HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a PINK  HORROR , add two BLUE  HORROR models to this unit, and if it was a BLUE  HORROR , add one BRIMSTONE  HORROR model to this unit."
+        },
+        {
+          "name": "Daemonic Icon",
+          "description": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        },
+        {
+          "name": "Instrument of Chaos",
+          "description": "Add 1 to Charge rolls made for the bearer’s unit."
+        }
+      ]
+    },
+    "composition": {
+      "min": 10,
+      "max": 10,
+      "description": "10 Pink Horrors Every Pink Horror is equipped with: coruscating pink flames; pink claws. Every Blue Horror added to this unit using the Split ability is equipped with: coruscating blue flames; blue claws. Every Brimstone Horror added to this unit using the Split ability is equipped with: coruscating yellow flames; yellow claws."
+    },
+    "points": [
+      {
+        "models": 10,
+        "points": 115
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Rubric Marines",
+    "faction": "thousand-sons",
+    "keywords": [
+      "KEYWORDS – ALL MODELS: INFANTRY",
+      "BATTLELINE",
+      "CHAOS",
+      "TZEENTCH",
+      "RUBRICAE",
+      "RUBRIC MARINES ASPIRING SORCERER ONLY: PSYKER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 2
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Inferno bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno boltgun",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Malefic Curse",
+        "range": "24\"",
+        "A": "3",
+        "S": "4",
+        "AP": "-3",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Soulreaper cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Warpflame pistol",
+        "range": "12\"",
+        "A": "D6",
+        "S": "3",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "pistol",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Warpflamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers (Aspiring Sorcerer only)"
+      ],
+      "core": [],
+      "unit": [
+        {
+          "name": "Bringers of Change",
+          "description": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If that attack targets a unit within range of an objective marker you do not control, you can re-roll the Wound roll instead."
+        },
+        {
+          "name": "Icon of Flame",
+          "description": "Ranged weapons equipped by models in the bearer’s unit (excluding CHARACTERS ) have the [IGNORES COVER] ability."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Aspiring Sorcerer 4-9 Rubric Marines The Aspiring Sorcerer is equipped with: inferno bolt pistol; Malefic Curse; force weapon. Every Rubric Marine is equipped with: inferno boltgun; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 100
+      },
+      {
+        "models": 10,
+        "points": 190
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Chaos Rhino",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "DEDICATED TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "RHINO"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 9,
+      "Sv": "3+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+      ],
+      "unit": [
+        {
+          "name": "Sorcerous Support",
+          "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes a Psychic Attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Rhino This model is equipped with: inferno combi-bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 90
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Terrax-pattern Termite",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "TRANSPORT",
+      "DEDICATED TRANSPORT",
+      "TERRAX-PATTERN TERMITE"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 14,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "torrent",
+          "ignores cover"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Terrax melta cutter",
+        "range": "12\"",
+        "A": "5",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin volkite charger",
+        "range": "18\"",
+        "A": "2",
+        "S": "5",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Termite drill",
+        "range": "Melee",
+        "A": "6",
+        "S": "14",
+        "AP": "-2",
+        "D": "D3+3",
+        "keywords": [
+          "anti-vehicle 3+"
+        ],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Termite Assault",
+          "description": "This model must start the battle in Reserves , but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Terrax-pattern Termite This model is equipped with: Terrax melta cutter; 2 combi-bolters; Termite drill."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 200
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Chaos Land Raider",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "LAND RAIDER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Soulshatter lascannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin inferno heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this TRANSPORT after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Land Raider This model is equipped with: 2 soulshatter lascannons; twin inferno heavy bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 220
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Chaos Predator Annihilator",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "PREDATOR ANNIHILATOR"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 11,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Inferno heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Predator twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Ensorcelled Annihilation",
+          "description": "Each time this model makes a ranged attack that targets a MONSTER or VEHICLE unit that was hit by one or more Psychic Attacks made by a THOUSAND SONS PSYKER model from your army this phase (including the Doombolt Ritual ), you can re-roll the Hit roll and you can re-roll the Damage roll."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Predator Annihilator This model is equipped with: Predator twin lascannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 130
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Chaos Predator Destructor",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "PREDATOR DESTRUCTOR"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 11,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Inferno heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Predator autocannon",
+        "range": "48\"",
+        "A": "4",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Ensorcelled Destruction",
+          "description": "Each time this model makes a ranged attack that targets a unit (excluding MONSTERS and VEHICLES ) that was hit by one or more Psychic Attacks made by a THOUSAND SONS PSYKER model from your army this phase (including the Doombolt Ritual ), improve the Strength and Armour Penetration characteristics of that attack by 1."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Predator Destructor This model is equipped with: Predator autocannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 130
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Chaos Spawn",
+    "faction": "thousand-sons",
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "TZEENTCH",
+      "MUTANT",
+      "CHAOS SPAWN"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 5,
+      "Sv": "4+",
+      "W": 4,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hideous mutations",
+        "range": "Melee",
+        "A": "D6+2",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Feel No Pain 5+"
+      ],
+      "unit": [
+        {
+          "name": "Regenerating Monstrosities",
+          "description": "At the start of each player’s Command phase , one model in this unit regains up to 3 lost wounds."
+        }
+      ]
+    },
+    "composition": {
+      "min": 2,
+      "max": 2,
+      "description": "2 Chaos Spawn Every model is equipped with: hideous mutations."
+    },
+    "points": [
+      {
+        "models": 2,
+        "points": 65
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Chaos Vindicator",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "VINDICATOR"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "9\"",
+      "T": 11,
+      "Sv": "2+",
+      "W": 11,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Demolisher cannon",
+        "range": "24\"",
+        "A": "D6+3",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Siege Shield",
+          "description": "When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Vindicator This model is equipped with: demolisher cannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 185
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Defiler",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "DAEMON",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "DEFILER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 14,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Defiler cannon",
+        "range": "48\"",
+        "A": "D6+3",
+        "S": "10",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "ANTI-INFANTRY 4+",
+          "DEVASTATING WOUNDS",
+          "RAPID FIRE 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Reaper autocannon",
+        "range": "36\"",
+        "A": "4",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "DEVASTATING WOUNDS",
+          "SUSTAINED HITS 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent",
+          "twin-linked"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Twin inferno heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "SUSTAINED HITS 1",
+          "TWIN-LINKED"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "TWIN-LINKED"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Defiler claws",
+        "range": "Melee",
+        "A": "5",
+        "S": "16",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Defiler scourge",
+        "range": "Melee",
+        "A": "3",
+        "S": "12",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3",
+        "Feel No Pain 6+"
+      ],
+      "unit": [
+        {
+          "name": "Scuttling Walker",
+          "description": "Each time this model makes a Normal , Advance or Fall Back move , it can move through friendly MONSTER and VEHICLE models and sections of terrain features that are 4\" or less in height."
+        },
+        {
+          "name": "Destroyer of Futures",
+          "description": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem. For each of those attacks that targets an enemy unit within 9\" of one or more THOUSAND SONS PSYKER units from your army, a hit is scored on an unmodified Hit roll of 4+ instead."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Defiler This model is equipped with: Defiler cannon; reaper autocannon; twin heavy flamer; Defiler claws."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 165
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Flamers",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "FLY",
+      "CHAOS",
+      "DAEMON",
+      "TZEENTCH",
+      "SUMMONED",
+      "FLAMERS"
+    ],
+    "factionKeywords": [
+      "SCINTILLATING LEGIONS"
+    ],
+    "stats": {
+      "M": "9\"",
+      "T": 4,
+      "Sv": "7+",
+      "W": 3,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Flickering flames",
+        "range": "12\"",
+        "A": "D6",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "psychic",
+          "torrent"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Flamer mouths",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Sorcery"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Bounding Leaps",
+          "description": "This unit is eligible to shoot in a turn in which it Fell Back ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 2,
+      "max": 5,
+      "description": "1 Pyrocaster 2-5 Flamers Every model is equipped with: flickering flames; Flamer mouths."
+    },
+    "points": [
+      {
+        "models": 3,
+        "points": 65
+      },
+      {
+        "models": 6,
+        "points": 130
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Forgefiend",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "DAEMON",
+      "CHAOS",
+      "TZEENTCH",
+      "FORGEFIEND"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 12,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Ectoplasma cannon",
+        "range": "36\"",
+        "A": "D3",
+        "S": "10",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Hades autocannon",
+        "range": "36\"",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Forgefiend claws",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Forgefiend jaws",
+        "range": "Melee",
+        "A": "5",
+        "S": "7",
+        "AP": "0",
+        "D": "2",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Blazing Salvoes",
+          "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Forgefiend This model is equipped with: 2 Hades autocannons; 1 Forgefiend jaws."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 130
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Helbrute",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "TZEENTCH",
+      "HELBRUTE"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 9,
+      "Sv": "2+",
+      "W": 8,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Helbrute plasma cannon",
+        "range": "36\"",
+        "A": "D3",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "blast",
+          "hazardous"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Missile launcher – frag",
+        "range": "48\"",
+        "A": "D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Missile launcher – krak",
+        "range": "48\"",
+        "A": "1",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin inferno heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Helbrute fist",
+        "range": "Melee",
+        "A": "5",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Helbrute hammer",
+        "range": "Melee",
+        "A": "5",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "WS": "4+"
+      },
+      {
+        "name": "Power scourge",
+        "range": "Melee",
+        "A": "8",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise 1"
+      ],
+      "unit": [
+        {
+          "name": "Terrifying Assault",
+          "description": "In your Shooting phase and the Fight phase , after this model has shot or fought, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test , subtracting 1 from that test if it is within 9\" of one or more THOUSAND SONS PSYKER units from your army."
+        },
+        {
+          "name": "Devoted to Destruction",
+          "description": "If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Helbrute This model is equipped with: missile launcher; multi-melta; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 110
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Heldrake",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "AIRCRAFT",
+      "FLY",
+      "DAEMON",
+      "CHAOS",
+      "TZEENTCH",
+      "HELDRAKE"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Baleflamer",
+        "range": "12\"",
+        "A": "D6+3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Hades autocannon",
+        "range": "36\"",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Heldrake claws",
+        "range": "Melee",
+        "A": "5",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "anti-fly 2+",
+          "devastating wounds"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Flame-wreathed",
+          "description": "Each time this model ends a Normal move , select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Heldrake This model is equipped with: Hades autocannon; Heldrake claws."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 215
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Maulerfiend",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "DAEMON",
+      "CHAOS",
+      "TZEENTCH",
+      "MAULERFIEND"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 12,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Magma cutter",
+        "range": "6\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Lasher tendrils",
+        "range": "Melee",
+        "A": "6",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Maulerfiend fists",
+        "range": "Melee",
+        "A": "6",
+        "S": "14",
+        "AP": "-2",
+        "D": "D6+1",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Snarling Protector",
+          "description": "You can target this model with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. In addition, each time this model declares a charge that targets an enemy unit within Engagement Range of one or more THOUSAND SONS PSYKER units from your army, you can re-roll the Charge roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Maulerfiend This model is equipped with: lasher tendrils; Maulerfiend fists."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 120
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Mutalith Vortex Beast",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MONSTER",
+      "CHAOS",
+      "TZEENTCH",
+      "MUTANT",
+      "MUTALITH VORTEX BEAST"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 10,
+      "Sv": "4+",
+      "W": 13,
+      "Ld": "6+",
+      "OC": 4
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Warp vortex – blast",
+        "range": "24\"",
+        "A": "D6+3",
+        "S": "9",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Warp vortex – beam",
+        "range": "36\"",
+        "A": "1",
+        "S": "18",
+        "AP": "-3",
+        "D": "D6+6",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Warp vortex – torrent",
+        "range": "18\"",
+        "A": "2D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Betentacled maw",
+        "range": "Melee",
+        "A": "15",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Mutalith claws",
+        "range": "Melee",
+        "A": "5",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6",
+        "Feel No Pain 5+"
+      ],
+      "unit": [
+        {
+          "name": "Mutating Vortex (Aura)",
+          "description": "At the end of your Movement phase , roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound ; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test ."
+        },
+        {
+          "name": "Immaterial Flare (Aura)",
+          "description": "While a friendly THOUSAND SONS PSYKER model is within 6\" of this model, each time that model Channels the Warp , add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Mutalith Vortex Beast This model is equipped with: warp vortex; betentacled maw; Mutalith claws."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 170
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Monster"
+  },
+  {
+    "name": "Scarab Occult Terminators",
+    "faction": "thousand-sons",
+    "keywords": [
+      "KEYWORDS – ALL MODELS: INFANTRY",
+      "TERMINATOR",
+      "CHAOS",
+      "TZEENTCH",
+      "RUBRICAE",
+      "SCARAB OCCULT SCARAB OCCULT SORCERER ONLY: PSYKER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 3,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Heavy warpflamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Hellfyre missile rack",
+        "range": "36\"",
+        "A": "2",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Malefic Curse",
+        "range": "24\"",
+        "A": "3",
+        "S": "4",
+        "AP": "-3",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Soulreaper cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": "Melee",
+        "A": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Cabal of Sorcerers (Scarab Occult Sorcerer only)"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Rites of Coalescence",
+          "description": "While this unit contains one or more PSYKER models, each time an attack targets this unit, subtract 1 from the Wound roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Scarab Occult Sorcerer 4-9 Scarab Occult Terminators The Scarab Occult Sorcerer is equipped with: inferno combi-bolter; Malefic Curse; force weapon. Every Scarab Occult Terminator is equipped with: inferno combi-bolter; Prosperine khopesh."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 180
+      },
+      {
+        "models": 10,
+        "points": 360
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Screamers",
+    "faction": "thousand-sons",
+    "keywords": [
+      "BEAST",
+      "FLY",
+      "CHAOS",
+      "DAEMON",
+      "TZEENTCH",
+      "SUMMONED",
+      "SCREAMERS"
+    ],
+    "factionKeywords": [
+      "SCINTILLATING LEGIONS"
+    ],
+    "stats": {
+      "M": "14\"",
+      "T": 4,
+      "Sv": "6+",
+      "W": 3,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lamprey bite",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "anti-monster 4+",
+          "anti-vehicle 4+"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Sorcery"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Slashing Dive",
+          "description": "In your Movement phase , after this unit ends a Normal move , you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 3,
+      "max": 6,
+      "description": "3-6 Screamers Every model is equipped with: lamprey bite."
+    },
+    "points": [
+      {
+        "models": 3,
+        "points": 80
+      },
+      {
+        "models": 6,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Sekhetar Robots",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "TZEENTCH",
+      "SEKHETAR ROBOTS"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 6,
+      "Sv": "3+",
+      "W": 4,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Heavy warpflamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Hellfyre missile rack",
+        "range": "36\"",
+        "A": "2",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "BS": "4+"
+      },
+      {
+        "name": "Pyreflux meltagun",
+        "range": "12\"",
+        "A": "1",
+        "S": "10",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Warpflame projector",
+        "range": "12\"",
+        "A": "D3",
+        "S": "3",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      },
+      {
+        "name": "Power claw",
+        "range": "Melee",
+        "A": "3",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Infiltrators",
+        "Stealth"
+      ],
+      "unit": [
+        {
+          "name": "Prophetic Sentinels",
+          "description": "Once per battle round , you can target this unit with the Fire Overwatch or Heroic Intervention Stratagem for 0CP."
+        }
+      ]
+    },
+    "composition": {
+      "min": 2,
+      "max": 4,
+      "description": "2-4 Sekhetar Robots Every model is equipped with: heavy warpflamer; hellfyre missile rack; pyreflux meltagun; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 2,
+        "points": 80
+      },
+      {
+        "models": 4,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Tzaangor Enlightened",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MOUNTED",
+      "FLY",
+      "CHAOS",
+      "TZEENTCH",
+      "MUTANT",
+      "TZAANGOR ENLIGHTENED"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 4,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 2
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "4+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainsword",
+        "range": "Melee",
+        "A": "6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision"
+        ],
+        "WS": "4+"
+      },
+      {
+        "name": "Divining spear",
+        "range": "Melee",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "lance",
+          "precision"
+        ],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [],
+      "unit": [
+        {
+          "name": "Prophesied Doom",
+          "description": "Each time this unit ends a Charge move , select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 2,
+      "max": 5,
+      "description": "1 Aviarch 2-5 Enlightened Every model is equipped with: divining spear."
+    },
+    "points": [
+      {
+        "models": 3,
+        "points": 45
+      },
+      {
+        "models": 6,
+        "points": 90
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Tzaangor Enlightened with Fatecaster Greatbows",
+    "faction": "thousand-sons",
+    "keywords": [
+      "MOUNTED",
+      "FLY",
+      "CHAOS",
+      "TZEENTCH",
+      "MUTANT",
+      "TZAANGOR ENLIGHTENED",
+      "TZAANGOR ENLIGHTENED WITH FATECASTER GREATBOWS"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 4,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 2
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Fatecaster greatbow",
+        "range": "30\"",
+        "A": "2",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "ignores cover",
+          "lethal hits",
+          "precision"
+        ],
+        "BS": "4+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [],
+      "unit": [
+        {
+          "name": "Malign Trickery",
+          "description": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+        }
+      ]
+    },
+    "composition": {
+      "min": 2,
+      "max": 5,
+      "description": "1 Aviarch 2-5 Enlightened Every model is equipped with: fatecaster greatbow; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 3,
+        "points": 55
+      },
+      {
+        "models": 6,
+        "points": 110
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Tzaangors",
+    "faction": "thousand-sons",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "TZEENTCH",
+      "MUTANT",
+      "TZAANGORS"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "6+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "6+",
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "4+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainsword",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      },
+      {
+        "name": "Tzaangor blades",
+        "range": "Melee",
+        "A": "2",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Scouts 6\""
+      ],
+      "unit": [
+        {
+          "name": "Ambushing Hunters",
+          "description": "At the end of your opponent’s turn, if this unit is more than 6\" horizontally away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+        },
+        {
+          "name": "Brayhorn",
+          "description": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+        },
+        {
+          "name": "Herd Banner",
+          "description": "While the bearer’s unit is within range of one or more objective markers you control, improve the Leadership characteristic of models in the bearer’s unit by 1."
+        }
+      ]
+    },
+    "composition": {
+      "min": 9,
+      "max": 19,
+      "description": "1 Twistbray 9-19 Tzaangors Every model is equipped with: Tzaangor blades."
+    },
+    "points": [
+      {
+        "models": 10,
+        "points": 70
+      },
+      {
+        "models": 20,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Cerberus",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "CERBERUS"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 18,
+      "Ld": "6+",
+      "OC": 6
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Cerberus neutron pulse array",
+        "range": "48\"",
+        "A": "3",
+        "S": "16",
+        "AP": "-4",
+        "D": "D6+3",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "torrent",
+          "ignores cover"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Atomantic Arc-reactor",
+          "description": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase , provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Cerberus This model is equipped with: Cerberus neutron pulse array; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 270
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Chaos Thunderhawk",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "FLY",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "CHAOS",
+      "THUNDERHAWK"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hellstrike missile battery",
+        "range": "72\"",
+        "A": "4",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "anti-fly 4+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Thunderhawk heavy cannon",
+        "range": "48\"",
+        "A": "D6+6",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Turbo-laser destructor",
+        "range": "96\"",
+        "A": "D3+1",
+        "S": "20",
+        "AP": "-4",
+        "D": "D6+6",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6+2",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Aerial Assault",
+          "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "name": "Thunderhawk Cluster Bombs",
+          "description": "Each time the bearer ends a Normal move , you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Thunderhawk This model is equipped with: 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 840
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Deredeo Dreadnought",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "DREADNOUGHT",
+      "DEREDEO DREADNOUGHT"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 9,
+      "Sv": "2+",
+      "W": 12,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Aiolos missile launcher",
+        "range": "48\"",
+        "A": "D6+3",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Anvilus autocannon battery",
+        "range": "48\"",
+        "A": "4",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Arachnus heavy lascannon battery",
+        "range": "48\"",
+        "A": "2",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Boreas air defence missiles",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "anti-fly 2+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Hellfire plasma cannonade – standard",
+        "range": "36\"",
+        "A": "6",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Hellfire plasma cannonade – supercharge",
+        "range": "36\"",
+        "A": "6",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "hazardous"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent",
+          "twin-linked"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Volkite falconet battery",
+        "range": "30\"",
+        "A": "6",
+        "S": "9",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured feet",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Deredeo Strike",
+          "description": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength , you can re-roll the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Deredeo Dreadnought This model is equipped with: anvilus autocannon battery; twin heavy bolter; armoured feet."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Falchion",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "FALCHION"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "9\"",
+      "T": 13,
+      "Sv": "2+",
+      "W": 24,
+      "Ld": "6+",
+      "OC": 8
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "A": "3",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "keywords": [
+          "heavy"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Quad lascannon",
+        "range": "48\"",
+        "A": "4",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin Falchion volcano cannon",
+        "range": "120\"",
+        "A": "D3+1",
+        "S": "24",
+        "AP": "-5",
+        "D": "12",
+        "keywords": [
+          "blast",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent",
+          "twin-linked"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6+2"
+      ],
+      "unit": [
+        {
+          "name": "Titan-killer",
+          "description": "Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Falchion This model is equipped with: 2 quad lascannons; twin heavy bolter; twin Falchion volcano cannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 420
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Fellblade",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "FELLBLADE"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "9\"",
+      "T": 13,
+      "Sv": "2+",
+      "W": 24,
+      "Ld": "6+",
+      "OC": 8
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Demolisher cannon",
+        "range": "24\"",
+        "A": "D6+3",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Fellblade accelerator cannon – AP shells",
+        "range": "72\"",
+        "A": "2",
+        "S": "14",
+        "AP": "-3",
+        "D": "6",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Fellblade accelerator cannon – HE shells",
+        "range": "72\"",
+        "A": "2D6",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "A": "3",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "keywords": [
+          "heavy"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Quad lascannon",
+        "range": "48\"",
+        "A": "4",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent",
+          "twin-linked"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6+2"
+      ],
+      "unit": [
+        {
+          "name": "Rolling Fortress",
+          "description": "Each time a ranged attack is allocated to a model from your army, if that model is not fully visible to every model in the attacking unit because of this Fellblade model, that model has the Benefit of Cover against that attack."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Fellblade This model is equipped with: demolisher cannon; Fellblade accelerator cannon; 2 quad lascannons; twin heavy bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 480
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Fire Raptor Gunship",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "AIRCRAFT",
+      "CHAOS",
+      "TZEENTCH",
+      "FIRE RAPTOR GUNSHIP"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Quad heavy bolter",
+        "range": "36\"",
+        "A": "6",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "twin-linked",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin avenger bolt cannon",
+        "range": "36\"",
+        "A": "10",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin hellstrike launcher",
+        "range": "72\"",
+        "A": "2",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "anti-fly 2+",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Strafing Run",
+          "description": "Each time this model makes a ranged attack that targets a unit that cannot Fly , add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Fire Raptor Gunship This model is equipped with: twin avenger bolt cannon; 2 twin autocannons; 2 twin hellstrike launchers; armoured hull"
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 290
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Hell Blade",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "AIRCRAFT",
+      "FLY",
+      "TZEENTCH",
+      "HELL BLADE"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Interceptor",
+          "description": "Each time this model makes a ranged attack that targets a unit that can FLY , add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Hell Blade This model is equipped with: 2 twin autocannons; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 115
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Hell Talon",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "AIRCRAFT",
+      "FLY",
+      "TZEENTCH",
+      "HELL TALON"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Autocannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Bomb Rack",
+          "description": "Each time this model ends a Normal move , you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Hell Talon This model is equipped with: autocannon; twin lascannon; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 140
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Kratos",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "KRATOS"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 18,
+      "Ld": "6+",
+      "OC": 6
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Autocannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "ANTI-INFANTRY 4+",
+          "DEVASTATING WOUNDS",
+          "RAPID FIRE 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "SUSTAINED HITS 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "IGNORES COVER",
+          "TORRENT"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Kratos battle cannon – AP",
+        "range": "36\"",
+        "A": "1",
+        "S": "18",
+        "AP": "-4",
+        "D": "D6+3",
+        "keywords": [
+          "heavy"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Kratos battle cannon – HE",
+        "range": "36\"",
+        "A": "D6+3",
+        "S": "10",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Lascannons",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Melta blast-gun",
+        "range": "24\"",
+        "A": "4",
+        "S": "12",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "MELTA 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin boltgun",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Volkite caliver",
+        "range": "24\"",
+        "A": "2",
+        "S": "5",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Volkite cardanelle",
+        "range": "36\"",
+        "A": "9",
+        "S": "9",
+        "AP": "0",
+        "D": "3",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Volkite culverin",
+        "range": "36\"",
+        "A": "4",
+        "S": "6",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Line-breaker",
+          "description": "When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Kratos This model is equipped with: autocannon; Kratos battle cannon; 4 heavy bolters; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 240
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Land Raider Achilles",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "LAND RAIDER ACHILLES"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Quad launcher – shatter shells",
+        "range": "24\"",
+        "A": "4",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Quad launcher – thunderfire shells",
+        "range": "60\"",
+        "A": "D6+4",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast",
+          "indirect fire"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin volkite culverin",
+        "range": "36\"",
+        "A": "4",
+        "S": "6",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Land Raider Achilles This model is equipped with: quad launcher; 2 twin volkite culverins; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 230
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Land Raider Proteus",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "LAND RAIDER PROTEUS"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "twin-linked",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent",
+          "twin-linked"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "name": "Explorator Augury Web",
+          "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this bearer, but the bearer must halve its Transport Capacity ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Land Raider Proteus This model is equipped with: 2 twin lascannons; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 220
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Leviathan Dreadnought",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "DREADNOUGHT",
+      "LEVIATHAN DREADNOUGHT"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 10,
+      "Sv": "2+",
+      "W": 12,
+      "Ld": "6+",
+      "OC": 4
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Cyclonic melta lance",
+        "range": "18\"",
+        "A": "D6",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Grav-flux bombard",
+        "range": "24\"",
+        "A": "2D3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "anti-vehicle 2+",
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Meltagun",
+        "range": "12\"",
+        "A": "1",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm cannon",
+        "range": "36\"",
+        "A": "4",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin volkite caliver",
+        "range": "24\"",
+        "A": "2",
+        "S": "5",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured feet",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Leviathan siege claw",
+        "range": "Melee",
+        "A": "5",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Leviathan siege drill",
+        "range": "Melee",
+        "A": "4",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "anti-vehicle 3+"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Duty Eternal",
+          "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Leviathan Dreadnought This model is equipped with: 2 heavy flamers; 2 grav-flux bombards; armoured feet."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Mastodon",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "CHAOS",
+      "TZEENTCH",
+      "TRANSPORT",
+      "SMOKE",
+      "MASTODON"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "9\"",
+      "T": 14,
+      "Sv": "2+",
+      "W": 30,
+      "Ld": "6+",
+      "OC": 12
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Siege melta array",
+        "range": "24\"",
+        "A": "6",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Skyreaper battery",
+        "range": "48\"",
+        "A": "8",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "anti-fly 4+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Volkite culverin",
+        "range": "36\"",
+        "A": "4",
+        "S": "6",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise 2D6"
+      ],
+      "unit": [
+        {
+          "name": "Inviolable Transport",
+          "description": "Once per battle round , when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Mastodon This model is equipped with: 2 heavy flamers; 2 lascannons; siege melta array; skyreaper battery; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 540
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Rapier Carrier",
+    "faction": "thousand-sons",
+    "keywords": [
+      "ARTILLERY",
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "RAPIER CARRIER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "3\"",
+      "T": 6,
+      "Sv": "2+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Boltgun",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Graviton cannon",
+        "range": "36\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "anti-vehicle 2+",
+          "blast",
+          "heavy"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "A": "3",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "keywords": [
+          "heavy"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Quad heavy bolter",
+        "range": "36\"",
+        "A": "6",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "heavy",
+          "twin-linked",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Quad launcher – shatter shells",
+        "range": "24\"",
+        "A": "4",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "heavy"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Quad launcher – thunderfire shells",
+        "range": "60\"",
+        "A": "D6+4",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast",
+          "heavy",
+          "indirect fire"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [],
+      "unit": [
+        {
+          "name": "Powerful Volley",
+          "description": "Each time this model shoots in your Shooting phase , provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Rapier Carrier This model is equipped with: boltgun; quad heavy bolter; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 90
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Relic Contemptor Dreadnought",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "TZEENTCH",
+      "DREADNOUGHT",
+      "RELIC CONTEMPTOR DREADNOUGHT"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 9,
+      "Sv": "2+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Conversion beam cannon",
+        "range": "24\"",
+        "A": "1",
+        "S": "7",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "conversion",
+          "sustained hits d3"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Cyclone missile launcher – frag",
+        "range": "36\"",
+        "A": "2D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "BLAST"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Cyclone missile launcher – krak",
+        "range": "36\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Graviton blaster",
+        "range": "18\"",
+        "A": "2",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "anti-vehicle 2+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "TWIN-LINKED"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "TWIN-LINKED",
+          "SUSTAINED HITS 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "TWIN-LINKED"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "IGNORES COVER",
+          "TORRENT"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Heavy plasma cannon – standard",
+        "range": "36\"",
+        "A": "D3",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy plasma cannon – supercharge",
+        "range": "36\"",
+        "A": "D3",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "blast",
+          "hazardous"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Kheres-pattern assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "MELTA 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma blaster – standard",
+        "range": "18\"",
+        "A": "2",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma blaster – supercharge",
+        "range": "18\"",
+        "A": "2",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "HAZARDOUS"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin volkite culverin",
+        "range": "36\"",
+        "A": "4",
+        "S": "6",
+        "AP": "0",
+        "D": "2",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured feet",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Dreadnought chainfist",
+        "range": "Melee",
+        "A": "4",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "anti-vehicle 3+"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Dreadnought combat weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise 1"
+      ],
+      "unit": [
+        {
+          "name": "Even In Death I Serve",
+          "description": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Relic Contemptor Dreadnought This model is equipped with: 2 heavy plasma cannons; armoured feet."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 140
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Sicaran Battle Tank",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "SICARAN BATTLE TANK"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 11,
+      "Sv": "2+",
+      "W": 14,
+      "Ld": "6+",
+      "OC": 4
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Herakles-pattern autocannon",
+        "range": "48\"",
+        "A": "6",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Armoured Spearhead",
+          "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Sicaran Battle Tank This model is equipped with: heavy bolter; Herakles-pattern autocannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Sicaran Punisher",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "SICARAN PUNISHER"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 11,
+      "Sv": "2+",
+      "W": 14,
+      "Ld": "6+",
+      "OC": 4
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Punisher rotary cannon",
+        "range": "36\"",
+        "A": "18",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Rotating Death",
+          "description": "This model’s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting INFANTRY units."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Sicaran Punisher This model is equipped with: heavy bolter; Punisher rotary cannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Sicaran Venator",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "SICARAN VENATOR"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 11,
+      "Sv": "2+",
+      "W": 14,
+      "Ld": "6+",
+      "OC": 4
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Venator neutron laser",
+        "range": "48\"",
+        "A": "3",
+        "S": "16",
+        "AP": "-4",
+        "D": "D3+3",
+        "keywords": [
+          "heavy"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Ferocious Assault",
+          "description": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Sicaran Venator This model is equipped with: heavy bolter; Venator neutron laser; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 180
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Sokar-pattern Stormbird",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "FLY",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "CHAOS",
+      "TZEENTCH",
+      "SOKAR-PATTERN STORMBIRD"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Hellstrike missile battery",
+        "range": "48\"",
+        "A": "4",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "anti-fly 3+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "9",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise 2D6",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Aerial Assault",
+          "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Sokar-pattern Stormbird This model is equipped with: hellstrike missile battery; 3 twin heavy bolters; 4 twin lascannons; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 900
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Spartan",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "TRANSPORT",
+      "SMOKE",
+      "SPARTAN"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 18,
+      "Ld": "6+",
+      "OC": 6
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "torrent",
+          "ignores cover"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "A": "3",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "keywords": [
+          "heavy"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Quad lascannon",
+        "range": "48\"",
+        "A": "4",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent",
+          "twin-linked"
+        ],
+        "BS": "N/A"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Spartan This model is equipped with: 2 quad lascannons; twin heavy bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 300
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Storm Eagle Gunship",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "CHAOS",
+      "TZEENTCH",
+      "STORM EAGLE GUNSHIP"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin hellstrike launcher",
+        "range": "72\"",
+        "A": "2",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "anti-fly 2+",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – frag",
+        "range": "48\"",
+        "A": "2D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – krak",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Vengeance launcher",
+        "range": "48\"",
+        "A": "2D6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Armoured Resilience",
+          "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Storm Eagle Gunship This model is equipped with: twin heavy bolter; 2 twin hellstrike launchers; vengeance launcher; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 250
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Typhon",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "TZEENTCH",
+      "SMOKE",
+      "TYPHON"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 18,
+      "Ld": "6+",
+      "OC": 6
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Dreadhammer siege cannon",
+        "range": "24\"",
+        "A": "D6+6",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "torrent",
+          "ignores cover"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Sunderer of Fortresses",
+          "description": "Each time this model makes an attack that targets a VEHICLE , improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Typhon This model is equipped with: dreadhammer siege cannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 320
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Whirlwind Scorpius",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "SMOKE",
+      "CHAOS",
+      "TZEENTCH",
+      "WHIRLWIND SCORPIUS"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 11,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Scorpius multi-launcher",
+        "range": "48\"",
+        "A": "2D3+3",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "blast",
+          "indirect fire"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Pinning Bombardment",
+          "description": "In your Shooting phase , after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Whirlwind Scorpius This model is equipped with: Scorpius multi-launcher; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 115
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Xiphon Interceptor",
+    "faction": "thousand-sons",
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "AIRCRAFT",
+      "CHAOS",
+      "TZEENTCH",
+      "XIPHON INTERCEPTOR"
+    ],
+    "factionKeywords": [
+      "THOUSAND SONS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Xiphon missile battery",
+        "range": "60\"",
+        "A": "3",
+        "S": "7",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "anti-fly 2+"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Interceptor",
+          "description": "Each time this model makes a ranged attack that targets a unit that can Fly , add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Xiphon Interceptor This model is equipped with: 2 twin lascannons; Xiphon missile battery; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 115
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  }
+]

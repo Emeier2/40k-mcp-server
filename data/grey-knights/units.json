@@ -1,0 +1,4028 @@
+[
+  {
+    "name": "Brother-captain",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GRENADES",
+      "TERMINATOR",
+      "IMPERIUM",
+      "BROTHER-CAPTAIN"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Hammerhand (Psychic)",
+          "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Eye of Judgement (Psychic)",
+          "description": "Each time this model makes an attack, you can re-roll the Wound roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Brother-Captain This model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 90
+      }
+    ],
+    "leader": {
+      "name": "Hammerhand (Psychic)",
+      "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+    },
+    "leaderAttachableTo": [
+      "Brotherhood Terminator Squad Paladin Squad"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Brotherhood Champion",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GRENADES",
+      "IMPERIUM",
+      "BROTHERHOOD CHAMPION"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "2+",
+      "W": 4,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "precision",
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Clarion of Haste (Psychic)",
+          "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced ."
+        },
+        {
+          "name": "Inspiring Exemplar",
+          "description": "Each time this model destroys an enemy CHARACTER model in the Fight phase , you gain 1CP and until the end of the battle, add 1 to the Attacks characteristic of its Nemesis force weapon."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Brotherhood Champion This model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 70
+      }
+    ],
+    "leader": {
+      "name": "Clarion of Haste (Psychic)",
+      "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced ."
+    },
+    "leaderAttachableTo": [
+      "Purgation Squad Strike Squad"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Brotherhood Chaplain",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "TERMINATOR",
+      "IMPERIUM",
+      "BROTHERHOOD CHAPLAIN"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 5,
+      "Ld": "5+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Crozius arcanum",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Zealous Path",
+          "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        },
+        {
+          "name": "Litanies of Sanctity",
+          "description": "Once per battle, at the start of any phase, you can select one friendly GREY KNIGHTS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Brotherhood Chaplain This model is equipped with: storm bolter; crozius arcanum."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 65
+      }
+    ],
+    "leader": {
+      "name": "Zealous Path",
+      "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+    },
+    "leaderAttachableTo": [
+      "Brotherhood Terminator Squad Paladin Squad"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Brotherhood Librarian",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "TERMINATOR",
+      "PSYKER",
+      "IMPERIUM",
+      "BROTHERHOOD LIBRARIAN"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 5,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Vortex of Doom",
+        "range": "18\"",
+        "A": "D6+3",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "blast",
+          "psychic"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Sanctic Hood",
+          "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks ."
+        },
+        {
+          "name": "Haloed in Soulfire (Psychic)",
+          "description": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Brotherhood Librarian This model is equipped with: Nemesis force weapon; Vortex of Doom."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 80
+      }
+    ],
+    "leader": {
+      "name": "Sanctic Hood",
+      "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks ."
+    },
+    "leaderAttachableTo": [
+      "Brotherhood Terminator Squad Paladin Squad"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Brotherhood Techmarine",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GRENADES",
+      "IMPERIUM",
+      "BROTHERHOOD TECHMARINE"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "2+",
+      "W": 4,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Forge bolter",
+        "range": "24\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "BS": "2+"
+      },
+      {
+        "name": "Grav-pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "anti-vehicle 2+",
+          "pistol"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Omnissian power axe",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Servo-arms",
+        "range": "Melee",
+        "A": "1",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Techmarine",
+          "description": "While this model is within 3\" of one or more friendly GREY KNIGHTS VEHICLE units, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Blessing of the Omnissiah",
+          "description": "In your Command phase , you can select one friendly GREY KNIGHTS VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll . Each model can only be selected for this ability once per turn."
+        },
+        {
+          "name": "Guardians of the Machine",
+          "description": "Each time an enemy unit ends a charge move within Engagement Range of one or more GREY KNIGHTS VEHICLE units from your army and within 6\" of this model’s unit, you can target this model’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Brotherhood Techmarine This model is equipped with: forge bolter; grav-pistol; Omnissian power axe; servo-arm."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 70
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": [
+      "Purgation Squad Purifier Squad Strike Squad"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Castellan Crowe",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "PSYKER",
+      "GRENADES",
+      "IMPERIUM",
+      "CASTELLAN CROWE"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "2+",
+      "W": 5,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Purifying Flame",
+        "range": "18\"",
+        "A": "3",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 2+",
+          "ignores cover",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Black Blade of Antwyr",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "devastating wounds",
+          "precision"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Champion of the Order of Purifiers (Psychic)",
+          "description": "While this model is leading a unit, add 1 to the Attacks characteristic of Purifying Flame weapons equipped by models in that unit."
+        },
+        {
+          "name": "Foresight (Psychic)",
+          "description": "Each time this model makes an attack that targets a CHARACTER unit, you can re-roll the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Castellan Crowe – EPIC HERO This model is equipped with: Purifying Flame; storm bolter; Black Blade of Antwyr."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 90
+      }
+    ],
+    "leader": {
+      "name": "Champion of the Order of Purifiers (Psychic)",
+      "description": "While this model is leading a unit, add 1 to the Attacks characteristic of Purifying Flame weapons equipped by models in that unit."
+    },
+    "leaderAttachableTo": [
+      "Purifier Squad"
+    ],
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Grand Master",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GRENADES",
+      "TERMINATOR",
+      "IMPERIUM",
+      "GRAND MASTER"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 7,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Warrior Strategist",
+          "description": "Once per battle round , one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "name": "Might of Titan (Psychic)",
+          "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped by this model."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Grand Master This model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 95
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": [
+      "Brotherhood Terminator Squad Paladin Squad"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Grand Master In Nemesis Dreadknight",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "CHARACTER",
+      "WALKER",
+      "PSYKER",
+      "IMPERIUM",
+      "GRAND MASTER IN NEMESIS DREADKNIGHT"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 8,
+      "Sv": "2+",
+      "W": 13,
+      "Ld": "6+",
+      "OC": 4
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Fragstorm grenade launcher",
+        "range": "18\"",
+        "A": "D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Gatling psilencer",
+        "range": "24\"",
+        "A": "12",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy incinerator",
+        "range": "18\"",
+        "A": "2D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Heavy psycannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "ignores cover",
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Sublimator",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 4",
+          "psychic",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Dreadfists",
+        "range": "Melee",
+        "A": "6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Nemesis daemon greathammer",
+        "range": "Melee",
+        "A": "5",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Nemesis flail",
+        "range": "Melee",
+        "A": "10",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Nemesis greatsword – strike",
+        "range": "Melee",
+        "A": "5",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Nemesis greatsword – sweep",
+        "range": "Melee",
+        "A": "10",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Nemesis mace",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "anti-character 2+",
+          "precision",
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Surge of Wrath (Psychic)",
+          "description": "Each time this model makes a melee attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll , you can re-roll the Wound roll and you can re-roll the Damage roll."
+        },
+        {
+          "name": "Warrior Strategist",
+          "description": "Once per battle round , one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Grand Master in Nemesis Dreadknight This model is equipped with: dreadfists."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 225
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Grand Master Voldus",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "PSYKER",
+      "TERMINATOR",
+      "IMPERIUM",
+      "GRAND MASTER VOLDUS"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 7,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Searing Purity",
+        "range": "12\"",
+        "A": "D3+1",
+        "S": "12",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Malleus Argyrum",
+        "range": "Melee",
+        "A": "5",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Sanctuary (Psychic)",
+          "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."
+        },
+        {
+          "name": "Hammer Aflame (Psychic)",
+          "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound ; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Grand Master Voldus – EPIC HERO This model is equipped with: Searing Purity; storm bolter; Malleus Argyrum."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 110
+      }
+    ],
+    "leader": {
+      "name": "Sanctuary (Psychic)",
+      "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."
+    },
+    "leaderAttachableTo": [
+      "Brotherhood Terminator Squad Paladin Squad"
+    ],
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Venerable Dreadnought",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHARACTER",
+      "PSYKER",
+      "SMOKE",
+      "IMPERIUM",
+      "VENERABLE DREADNOUGHT"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 9,
+      "Sv": "2+",
+      "W": 8,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Heavy plasma cannon – standard",
+        "range": "36\"",
+        "A": "D3",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy plasma cannon – supercharge",
+        "range": "36\"",
+        "A": "D3",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "blast",
+          "hazardous"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Dreadnought combat weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deadly Demise 1",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Guidance of the Ancients (Psychic)",
+          "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a GREY KNIGHTS model from your army makes an attack that targets that unit, add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Venerable Dreadnought This model is equipped with: assault cannon; storm bolter; Dreadnought combat weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 140
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Brother-captain Stern",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "PSYKER",
+      "IMPERIUM",
+      "TERMINATOR",
+      "BROTHER-CAPTAIN STERN"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force sword",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Exemplar of the Silvered Host",
+          "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, on a Critical Wound , the target suffers 1 mortal wound in addition to any normal damage."
+        },
+        {
+          "name": "Strands of Fate (Psychic)",
+          "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Brother-Captain Stern – EPIC HERO This model is equipped with: storm bolter; Nemesis force sword."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 90
+      }
+    ],
+    "leader": {
+      "name": "Exemplar of the Silvered Host",
+      "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, on a Critical Wound , the target suffers 1 mortal wound in addition to any normal damage."
+    },
+    "leaderAttachableTo": [
+      "Brotherhood Terminator Squad Paladin Squad"
+    ],
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Kaldor Draigo",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "PSYKER",
+      "TERMINATOR",
+      "GRENADES",
+      "IMPERIUM",
+      "KALDOR DRAIGO"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 7,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Scourging",
+        "range": "18\"",
+        "A": "3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "anti-daemon 2+",
+          "ignores cover",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Titansword",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "-4",
+        "D": "3",
+        "keywords": [
+          "anti-daemon 2+",
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Untouchable Purity",
+          "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
+        },
+        {
+          "name": "One With the Warp (Psychic)",
+          "description": "Once per battle, when this model’s unit declares a charge in the same turn it was set up on the battlefield using the Deep Strike or Teleport Assault ability, add 3 to the Charge roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Kaldor Draigo – EPIC HERO This model is equipped with: Scourging; storm bolter; the Titansword."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 125
+      }
+    ],
+    "leader": {
+      "name": "Untouchable Purity",
+      "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
+    },
+    "leaderAttachableTo": [
+      "Brotherhood Terminator Squad Paladin Squad"
+    ],
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Brotherhood Terminator Squad",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "PSYKER",
+      "TERMINATOR",
+      "GRENADES",
+      "IMPERIUM",
+      "BROTHERHOOD TERMINATOR SQUAD"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Force Edge (Psychic)",
+          "description": "Each time a model in this unit makes a melee attack that targets a unit (excluding MONSTERS and VEHICLES ), improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Ancient’s Banner",
+          "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+        },
+        {
+          "name": "Apothecary’s Narthecium",
+          "description": "In your Command phase , if the bearer is not destroyed, you can return 1 destroyed model (excluding CHARACTERS ) to the bearer’s unit."
+        }
+      ]
+    },
+    "composition": {
+      "min": 3,
+      "max": 9,
+      "description": "1 Justicar 3-9 Terminators Every model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 4,
+        "points": 160
+      },
+      {
+        "models": 5,
+        "points": 200
+      },
+      {
+        "models": 8,
+        "points": 320
+      },
+      {
+        "models": 10,
+        "points": 400
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Strike Squad",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "PSYKER",
+      "GRENADES",
+      "IMPERIUM",
+      "STRIKE SQUAD"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "2+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike",
+        "Scouts 6\""
+      ],
+      "unit": [
+        {
+          "name": "Sanctifying Ritual (Psychic)",
+          "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Justicar 4-9 Grey Knights Every model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 120
+      },
+      {
+        "models": 10,
+        "points": 240
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Razorback",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "DEDICATED TRANSPORT",
+      "SMOKE",
+      "IMPERIUM",
+      "RAZORBACK"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 9,
+      "Sv": "3+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Fire Focus",
+          "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Razorback This model is equipped with: twin heavy bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 85
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Rhino",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "DEDICATED TRANSPORT",
+      "SMOKE",
+      "IMPERIUM",
+      "RHINO"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 9,
+      "Sv": "3+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+      ],
+      "unit": [
+        {
+          "name": "Truesilver Aegis (Aura)",
+          "description": "While a friendly GREY KNIGHTS unit is wholly within 6\" of this unit, models in that unit have the Feel No Pain 6+ ability against mortal wounds ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Rhino This model is equipped with: storm bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 80
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Grey Knights Relic Razorback",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "SMOKE",
+      "TRANSPORT",
+      "DEDICATED TRANSPORT",
+      "IMPERIUM",
+      "RELIC RAZORBACK"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 9,
+      "Sv": "3+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Fire Support",
+          "description": "In your Shooting phase , after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Grey Knights Relic Razorback This model is equipped with: twin heavy bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 95
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Interceptor Squad",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "PSYKER",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INTERCEPTOR SQUAD"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 4,
+      "Sv": "2+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Personal Teleporters",
+          "description": "In your Shooting phase , after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Interceptor Justicar 4-9 Interceptors Every model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 125
+      },
+      {
+        "models": 10,
+        "points": 250
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Land Raider",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "IMPERIUM",
+      "LAND RAIDER"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Godhammer lascannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Land Raider This model is equipped with: 2 godhammer lascannons; twin heavy bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 220
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Land Raider Crusader",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "GRENADES",
+      "IMPERIUM",
+      "LAND RAIDER",
+      "CRUSADER"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Hurricane bolter",
+        "range": "24\"",
+        "A": "6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 6",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Land Raider Crusader This model is equipped with: 2 hurricane bolters; twin assault cannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 220
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Land Raider Redeemer",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "GRENADES",
+      "IMPERIUM",
+      "LAND RAIDER",
+      "REDEEMER"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Flamestorm cannon",
+        "range": "12\"",
+        "A": "D6+3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "A": "1",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "keywords": [
+          "one shot"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Land Raider Redeemer This model is equipped with: 2 flamestorm cannons; twin assault cannon; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 270
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Nemesis Dreadknight",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "PSYKER",
+      "IMPERIUM",
+      "NEMESIS DREADKNIGHT"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 8,
+      "Sv": "2+",
+      "W": 13,
+      "Ld": "6+",
+      "OC": 4
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Gatling psilencer",
+        "range": "24\"",
+        "A": "12",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy incinerator",
+        "range": "18\"",
+        "A": "2D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Heavy psycannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "ignores cover",
+          "psychic"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Dreadfists",
+        "range": "Melee",
+        "A": "6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Nemesis daemon greathammer",
+        "range": "Melee",
+        "A": "5",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Nemesis greatsword – strike",
+        "range": "Melee",
+        "A": "5",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Nemesis greatsword – sweep",
+        "range": "Melee",
+        "A": "10",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Indomitable Spirit (Psychic)",
+          "description": "This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Nemesis Dreadknight This model is equipped with: dreadfists."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 210
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Paladin Squad",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "PSYKER",
+      "TERMINATOR",
+      "GRENADES",
+      "IMPERIUM",
+      "PALADIN SQUAD"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "5\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Attuned Onslaught (Psychic)",
+          "description": "Each time this unit makes a Charge move , until the end of the turn, add 1 to the Damage characteristic of melee weapons equipped by PALADIN  SQUAD models in this unit."
+        },
+        {
+          "name": "Ancient’s Banner",
+          "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+        },
+        {
+          "name": "Apothecary's Narthecium",
+          "description": "In your Command phase , if the bearer is not destroyed, you can return 1 destroyed model (excluding CHARACTERS ) to the bearer’s unit."
+        }
+      ]
+    },
+    "composition": {
+      "min": 3,
+      "max": 9,
+      "description": "1 Paragon 3-9 Paladins Every model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 4,
+        "points": 180
+      },
+      {
+        "models": 5,
+        "points": 225
+      },
+      {
+        "models": 8,
+        "points": 360
+      },
+      {
+        "models": 10,
+        "points": 450
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Purgation Squad",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "PSYKER",
+      "GRENADES",
+      "IMPERIUM",
+      "PURGATION SQUAD"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "2+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Righteous Persecution",
+          "description": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks: until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for it."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Purgator Justicar 4-9 Purgators Every model is equipped with: storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 115
+      },
+      {
+        "models": 10,
+        "points": 230
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Purifier Squad",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "PSYKER",
+      "GRENADES",
+      "IMPERIUM",
+      "PURIFIER SQUAD"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "2+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Psilencer",
+        "range": "24\"",
+        "A": "6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "psychic",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Psycannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Purifying Flame",
+        "range": "18\"",
+        "A": "1",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 2+",
+          "ignores cover",
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Sanctity of Purpose",
+          "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker , you can re-roll the Wound roll instead."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Knight of the Flame 4-9 Purifiers Every model is equipped with: Purifying Flame; storm bolter; Nemesis force weapon."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 125
+      },
+      {
+        "models": 10,
+        "points": 250
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Stormhawk Interceptor",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "AIRCRAFT",
+      "FLY",
+      "SMOKE",
+      "IMPERIUM",
+      "STORMHAWK INTERCEPTOR"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Icarus stormcannon",
+        "range": "48\"",
+        "A": "6",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "anti-fly 2+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Las-talon",
+        "range": "36\"",
+        "A": "2",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Skyhammer missile launcher",
+        "range": "48\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "anti-fly 2+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – frag",
+        "range": "48\"",
+        "A": "2D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – krak",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Interceptor",
+          "description": "Each time this model makes a ranged attack that targets a unit that can FLY , add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Stormhawk Interceptor This model is equipped with: las-talon; skyhammer missile launcher; twin assault cannon; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Stormraven Gunship",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "FLY",
+      "IMPERIUM",
+      "STORMRAVEN GUNSHIP"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hurricane bolter",
+        "range": "24\"",
+        "A": "6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 6",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Stormstrike missile launcher",
+        "range": "48\"",
+        "A": "1",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+2",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy plasma cannon – standard",
+        "range": "36\"",
+        "A": "3",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "blast",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy plasma cannon – supercharge",
+        "range": "36\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "blast",
+          "hazardous",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – frag",
+        "range": "48\"",
+        "A": "2D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – krak",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Armoured Resilience",
+          "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Stormraven Gunship This model is equipped with: 2 stormstrike missile launchers; twin assault cannon; typhoon missile launcher; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 280
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Stormtalon Gunship",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "AIRCRAFT",
+      "FLY",
+      "IMPERIUM",
+      "STORMTALON GUNSHIP"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Skyhammer missile launcher",
+        "range": "48\"",
+        "A": "3",
+        "S": "8",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "anti-fly 2+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – frag",
+        "range": "48\"",
+        "A": "2D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Typhoon missile launcher – krak",
+        "range": "48\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D3",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Strafing Run",
+          "description": "Each time this model makes a ranged attack that targets a unit that cannot FLY , add 1 to the Hit roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Stormtalon Gunship This model is equipped with: skyhammer missile launcher; twin assault cannon; armoured hull."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 170
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Grey Knights Thunderhawk Gunship",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "FLY",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "IMPERIUM",
+      "THUNDERHAWK GUNSHIP"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {},
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Hellstrike missile battery",
+        "range": "72\"",
+        "A": "4",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "anti-fly 4+"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Thunderhawk heavy cannon",
+        "range": "48\"",
+        "A": "D6+6",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Turbo-laser destructor",
+        "range": "96\"",
+        "A": "D3+1",
+        "S": "20",
+        "AP": "-4",
+        "D": "D6+6",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [
+        "Deadly Demise D6+2",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Aerial Assault",
+          "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "name": "Thunderhawk Cluster Bombs",
+          "description": "Each time the bearer ends a Normal move , you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Grey Knights Thunderhawk Gunship This model is equipped with: 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 805
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Grey Knights Dreadnought",
+    "faction": "grey-knights",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "PSYKER",
+      "SMOKE",
+      "IMPERIUM",
+      "DREADNOUGHT"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 9,
+      "Sv": "2+",
+      "W": 8,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Assault cannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Heavy plasma cannon – standard",
+        "range": "36\"",
+        "A": "D3",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy plasma cannon – supercharge",
+        "range": "36\"",
+        "A": "D3",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "blast",
+          "hazardous"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Heavy psycannon",
+        "range": "24\"",
+        "A": "6",
+        "S": "10",
+        "AP": "-1",
+        "D": "3",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Incinerator",
+        "range": "12\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Missile launcher – frag",
+        "range": "48\"",
+        "A": "D6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Missile launcher – krak",
+        "range": "48\"",
+        "A": "1",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "A": "1",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured feet",
+        "range": "Melee",
+        "A": "5",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Dreadnought combat weapon",
+        "range": "Melee",
+        "A": "5",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Nemesis doomglaive",
+        "range": "Melee",
+        "A": "5",
+        "S": "14",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Gate of Infinity"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ],
+      "unit": [
+        {
+          "name": "Wisdom of the Ancients (Aura)",
+          "description": "While a friendly GREY KNIGHTS INFANTRY unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Grey Knights Dreadnought This model is equipped with: assault cannon; storm bolter; Dreadnought combat weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Servitors",
+    "faction": "grey-knights",
+    "keywords": [
+      "INFANTRY",
+      "IMPERIUM",
+      "SERVITORS"
+    ],
+    "factionKeywords": [
+      "GREY KNIGHTS"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 4,
+      "Sv": "4+",
+      "W": 1,
+      "Ld": "8+",
+      "OC": 0
+    },
+    "invulnerableSave": "6+",
+    "rangedWeapons": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "heavy",
+          "sustained hits 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "heavy",
+          "melta 2"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Plasma cannon – standard",
+        "range": "36\"",
+        "A": "D3",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "blast",
+          "heavy"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Plasma cannon – supercharge",
+        "range": "36\"",
+        "A": "D3",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "blast",
+          "hazardous",
+          "heavy"
+        ],
+        "BS": "4+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Servitor’s servo-arm",
+        "range": "Melee",
+        "A": "1",
+        "S": "6",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "5+"
+      },
+      {
+        "name": "Servitor’s tools",
+        "range": "Melee",
+        "A": "1",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "5+"
+      }
+    ],
+    "abilities": {
+      "faction": [],
+      "core": [],
+      "unit": [
+        {
+          "name": "Mindlock",
+          "description": "While a BROTHERHOOD TECHMARINE model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1."
+        },
+        {
+          "name": "Retinue",
+          "description": "While a BROTHERHOOD TECHMARINE model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 4,
+      "description": "4 Servitors Every model is equipped with: Servitor’s servo-arm."
+    },
+    "points": [
+      {
+        "models": 4,
+        "points": 50
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  }
+]

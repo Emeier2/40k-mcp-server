@@ -1,0 +1,562 @@
+[
+  {
+    "name": "INSENSIBLE TO PAIN",
+    "detachment": "Realspace Raiders",
+    "cpCost": 2,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictions": null
+  },
+  {
+    "name": "FIGHTING SHADOWS",
+    "detachment": "Realspace Raiders",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DRUKHARI unit from your army (excluding HAEMONCULUS COVENS units) that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "INSTINCTIVE SPITE",
+    "detachment": "Realspace Raiders",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Start of your Shooting phase or the start of the Fight phase .",
+    "target": "Up to two DRUKHARI BATTLELINE units from your army, or one other DRUKHARI unit from your army.",
+    "effect": "You can spend 1 Pain token . Until the end of the phase, each time a model in each of those units makes an attack that targets an enemy unit that is Below Half-strength , add 1 to the Hit roll . If you spent 1 Pain token, add 1 to the Wound roll as well.",
+    "restrictions": null
+  },
+  {
+    "name": "DARK HARVEST",
+    "detachment": "Realspace Raiders",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start of the Fight phase .",
+    "target": "Up to two WRACKS units from your army, or one other DRUKHARI unit from your army.",
+    "effect": "Until the end of the phase, melee weapons equipped by models in each of those units have the [LETHAL HITS] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "EAGER FOR THE KILL",
+    "detachment": "Realspace Raiders",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Start of your Movement phase .",
+    "target": "Up to two WYCHES units from your army, or one other DRUKHARI unit from your army, that have not been selected to move this phase.",
+    "effect": "Until the end of the phase, each time one of those units Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit (this is not cumulative with the REAVERS ’ Matchless Swiftness ability).",
+    "restrictions": null
+  },
+  {
+    "name": "RAID AND FADE",
+    "detachment": "Realspace Raiders",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "End of your Shooting phase .",
+    "target": "Up to two KABALITE WARRIORS units from your army, or one other DRUKHARI unit from your army (excluding SCOURGES and AIRCRAFT ).",
+    "effect": "Each of those units can make a Normal move of up to 6\".",
+    "restrictions": "You cannot select units that are within Engagement Range of one or more enemy units. Until the end of the turn, those units are not eligible to declare a charge ."
+  },
+  {
+    "name": "VICIOUS BLADES",
+    "detachment": "Skysplinter Assault",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after a DRUKHARI TRANSPORT from your army has selected its targets.",
+    "target": "That TRANSPORT .",
+    "effect": "After your TRANSPORT has fought, select one enemy unit that was the target of one or more of those attacks and roll one D6 for each model embarked within your TRANSPORT , adding 1 to the result if that embarked model is a WRACKS model: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "restrictions": null
+  },
+  {
+    "name": "WRAITHLIKE RETREAT",
+    "detachment": "Skysplinter Assault",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of the Fight phase .",
+    "target": "One DRUKHARI INFANTRY unit from your army that fought this phase.",
+    "effect": "Your unit can make a Normal or Fall Back move , but unless it is a WYCHES unit, it must end that move wholly within 3\" horizontally and 5\" vertically of a friendly DRUKHARI TRANSPORT and must embark within that TRANSPORT at the end of that move (otherwise, it cannot make that move).",
+    "restrictions": null
+  },
+  {
+    "name": "POUNCE ON THE PREY",
+    "detachment": "Skysplinter Assault",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after a DRUKHARI INFANTRY unit from your army disembarks from a TRANSPORT that made a Normal move this phase.",
+    "target": "That INFANTRY unit.",
+    "effect": "Until the end of the turn, your unit is eligible to declare a charge .",
+    "restrictions": null
+  },
+  {
+    "name": "SKYBORNE ANNIHILATION",
+    "detachment": "Skysplinter Assault",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One DRUKHARI unit from your army that has not been selected to shoot this phase and that disembarked from a TRANSPORT this turn.",
+    "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability, or the [SUSTAINED HITS 2] ability if your unit is a KABALITE WARRIORS or HAND OF THE ARCHON unit.",
+    "restrictions": null
+  },
+  {
+    "name": "SWOOPING MOCKERY",
+    "detachment": "Skysplinter Assault",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Movement phase , just after an enemy unit ends a Normal , Advance or Fall Back move .",
+    "target": "One DRUKHARI TRANSPORT from your army that is within 9\" of that enemy unit.",
+    "effect": "Your TRANSPORT can make a Normal move of up to 6\".",
+    "restrictions": null
+  },
+  {
+    "name": "NIGHT SHIELD",
+    "detachment": "Skysplinter Assault",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One DRUKHARI VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save .",
+    "restrictions": null
+  },
+  {
+    "name": "BERSERK FUGUE",
+    "detachment": "Spectacle of Spite",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One WYCH CULT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictions": null
+  },
+  {
+    "name": "DEADLY DEBUT",
+    "detachment": "Spectacle of Spite",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One DRUKHARI unit from your army that made a Charge move this turn and has not been selected to fight this phase.",
+    "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a WYCHES unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well.",
+    "restrictions": null
+  },
+  {
+    "name": "FEIGNED WEAKNESS",
+    "detachment": "Spectacle of Spite",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after a DRUKHARI unit from your army Falls Back .",
+    "target": "That DRUKHARI unit.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in turn in which it Fell Back .",
+    "restrictions": null
+  },
+  {
+    "name": "PRETERNATURAL AGILITY",
+    "detachment": "Spectacle of Spite",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start of your Movement or Charge phase .",
+    "target": "One WYCH CULT unit from your army.",
+    "effect": "Until the end of the phase, each time your unit makes a Normal , Advance or Charge move , you can ignore any or all modifiers to its Move characteristic and to Advance and Charge rolls made for it and, until the end of the turn, each time a model in your unit makes such a move, it can move horizontally through models (when doing so, such a model can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them).",
+    "restrictions": null
+  },
+  {
+    "name": "A CHALLENGE MET",
+    "detachment": "Spectacle of Spite",
+    "cpCost": 2,
+    "type": "Battle Tactic",
+    "when": "End of your opponent’s Movement phase .",
+    "target": "One WYCH CULT unit from your army that would be able to declare a charge if it were your Charge phase .",
+    "effect": "Select one enemy unit within 9\" of your unit that was set up on the battlefield this phase or that ended a Normal or Advance move this phase. Your unit now declares a charge that targets only that enemy unit, and you resolve that charge.",
+    "restrictions": "Even if that charge is successful, your unit does not receive any Charge bonus this turn."
+  },
+  {
+    "name": "ACROBATIC DISPLAY",
+    "detachment": "Spectacle of Spite",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One WYCH CULT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, models in your unit have a 5+ invulnerable save .",
+    "restrictions": null
+  },
+  {
+    "name": "POSTMORTALITY",
+    "detachment": "Covenite Coterie",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase.",
+    "target": "One HAEMONCULUS model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+    "effect": "Spend 1-3 Pain tokens . At the end of the phase, set the destroyed model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with a number of wounds remaining equal to the number of Pain tokens you just spent.",
+    "restrictions": "You cannot use this Stratagem if you have 0 Pain tokens, and you cannot target the same HAEMONCULUS model with this Stratagem more than once per battle."
+  },
+  {
+    "name": "SYMPHONY OF SUFFERING",
+    "detachment": "Covenite Coterie",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Fight phase , just after a DRUKHARI unit from your army destroys an enemy unit.",
+    "target": "That DRUKHARI unit.",
+    "effect": "Each enemy unit within 9\" of and visible to your unit must take a Battle-shock test , subtracting 1 from that test if your unit is a HAEMONCULUS COVENS unit.",
+    "restrictions": null
+  },
+  {
+    "name": "POISONER’S ART",
+    "detachment": "Covenite Coterie",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Fight phase , just after a HAEMONCULUS COVENS unit from your army has fought.",
+    "target": "That HAEMONCULUS COVENS unit.",
+    "effect": "Select one enemy unit (excluding VEHICLES ) hit by one or more of your unit’s attacks this phase. Until the end of the battle, that enemy unit is poisoned. At the start of each Command phase , roll one D6 for each poisoned unit on the battlefield: on a 4+, that unit suffers D3 mortal wounds .",
+    "restrictions": null
+  },
+  {
+    "name": "DISTILLERS OF FEAR",
+    "detachment": "Covenite Coterie",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Fight phase .",
+    "target": "One HAEMONCULUS COVENS unit from your army that has not been selected to fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is Battle-shocked , that attack has the [DEVASTATING WOUNDS] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "CONNOISSEURS OF PAIN",
+    "detachment": "Covenite Coterie",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DRUKHARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Spend 1 Pain token . Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1. At the end of the phase, if your unit is still on the battlefield and it is a HAEMONCULUS COVENS unit, you gain 1 Pain token.",
+    "restrictions": null
+  },
+  {
+    "name": "ENFOLDING NIGHTMARE",
+    "detachment": "Covenite Coterie",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has shot.",
+    "target": "One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Roll one D6: your unit can be moved a number of inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT ). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictions": null
+  },
+  {
+    "name": "DOUBLE-CROSS",
+    "detachment": "Kabalite Cartel",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One KABAL or BLADES FOR HIRE unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly DRUKHARI unit (excluding VEHICLES ).",
+    "effect": "Until the end of the phase, each time you would allocate an attack to a model in your KABAL or BLADES FOR HIRE unit, if your DRUKHARI unit is within Engagement Range of the attacking model, no saving throw is made for that attack; instead, your DRUKHARI unit suffers a number of mortal wounds equal to the Damage characteristic of that attack.",
+    "restrictions": null
+  },
+  {
+    "name": "TAKEN ALIVE",
+    "detachment": "Kabalite Cartel",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One DRUKHARI unit from your army that has not been selected to fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll . If your Contract unit is destroyed as a result of those attacks, every unit in your opponent’s army must take a Battle-shock test . You cannot gain more than 3 Pain tokens as a result of failed Battle-shock tests caused by this Stratagem.",
+    "restrictions": null
+  },
+  {
+    "name": "TAILORED TOXINS",
+    "detachment": "Kabalite Cartel",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One KABAL or BLADES FOR HIRE unit from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets your Contract unit , an unmodified Hit roll of 5+ scores a Critical Hit .",
+    "restrictions": null
+  },
+  {
+    "name": "ENEMIES WITHOUT NUMBER",
+    "detachment": "Kabalite Cartel",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Your Command phase , just after you complete a Contract .",
+    "target": "One ARCHON WARLORD from your army.",
+    "effect": "Select one new Contract (this can be one you have already completed), then select one unit from your opponent’s army that is on the battlefield and matches the ‘Contract’ description in that Contract. Until that Contract is completed, that unit is your Contract unit and the Murderous Agenda Detachment rule applies as normal.",
+    "restrictions": null
+  },
+  {
+    "name": "MAKING A POINT",
+    "detachment": "Kabalite Cartel",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One KABALITE WARRIORS or HAND OF THE ARCHON unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, improve the Ballistic Skill and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1.",
+    "restrictions": null
+  },
+  {
+    "name": "DEADLY DECEIVERS",
+    "detachment": "Kabalite Cartel",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One KABAL or BLADES FOR HIRE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictions": null
+  },
+  {
+    "name": "MALICIOUS FRENZY",
+    "detachment": "Reaper’s Wager",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase or the Fight phase .",
+    "target": "One DRUKHARI or HARLEQUINS unit from your army that has not been selected to shoot or fight this phase.",
+    "effect": "Select [LETHAL HITS] or [SUSTAINED HITS 1] . Until the end of the phase, weapons equipped by models in your unit have the selected ability.",
+    "restrictions": null
+  },
+  {
+    "name": "FATEFUL ROLE",
+    "detachment": "Reaper’s Wager",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DRUKHARI or HARLEQUINS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if that unit is losing the wager: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+    "restrictions": null
+  },
+  {
+    "name": "MURDERER’S CIRCUS",
+    "detachment": "Reaper’s Wager",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DRUKHARI or HARLEQUINS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "SHORTEN THE ODDS",
+    "detachment": "Reaper’s Wager",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after a DRUKHARI or HARLEQUINS unit from your army has Advanced .",
+    "target": "That unit.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+    "restrictions": null
+  },
+  {
+    "name": "SCINTILLATING TEMPO",
+    "detachment": "Reaper’s Wager",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase or your Charge phase , just after a DRUKHARI or HARLEQUINS unit from your army is selected to make a Normal , Advance or Fall Back move , is set up on the battlefield, or declares a charge.",
+    "target": "That unit.",
+    "effect": "Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at your unit.",
+    "restrictions": null
+  },
+  {
+    "name": "DANCE MACABRE",
+    "detachment": "Reaper’s Wager",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Movement phase , just after an enemy unit ends a Normal , Advance or Fall Back move .",
+    "target": "One DRUKHARI INFANTRY or HARLEQUINS INFANTRY unit from your army that is within 9\" of that enemy unit.",
+    "effect": "Your unit can make a Normal move of up to D6\". If your unit is currently losing the wager, it can make a Normal move of up to 6\" instead.",
+    "restrictions": null
+  },
+  {
+    "name": "SHIPBOARD SHADES",
+    "detachment": "Space Lane Raiders",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DRUKHARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "CREW-THIEVES",
+    "detachment": "Space Lane Raiders",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One WRACKS unit from your army that has not been selected to fight this phase.",
+    "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [ANTI-INFANTRY 3+] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "VOIDSHIP GLADIATORS",
+    "detachment": "Space Lane Raiders",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One WYCHES unit from your army that has not been selected to move this phase.",
+    "effect": "Roll one D6: on a 2+, until the end of the turn, enemy units cannot fire Overwatch at your unit.",
+    "restrictions": null
+  },
+  {
+    "name": "VETERAN PIRATES",
+    "detachment": "Space Lane Raiders",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase , just after a KABALITE WARRIORS unit from your army has shot.",
+    "target": "That KABALITE WARRIORS unit.",
+    "effect": "Your unit can make a Normal move of up to 3\".",
+    "restrictions": null
+  },
+  {
+    "name": "ELUSIVE DUELLISTS",
+    "detachment": "Kabalite Corsairs",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One DRUKHARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and, if your unit has the INCUBI keyword, models in your unit have a 4+ invulnerable save .",
+    "restrictions": null
+  },
+  {
+    "name": "DECKPLATE SWEEPERS",
+    "detachment": "Kabalite Corsairs",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One KABAL unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, improve the Armour Penetration characteristic of splinter cannons, splinter rifles and splinter pistols equipped by models in your unit by 1.",
+    "restrictions": null
+  },
+  {
+    "name": "TAKE THEM ALIVE",
+    "detachment": "Kabalite Corsairs",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase , just after a KABAL unit from your army has shot.",
+    "target": "That KABAL unit.",
+    "effect": "Select one enemy unit hit by one or more of your unit’s attacks this phase (excluding those made with Pistols ). That enemy unit must take a Battle-shock test , subtracting 1 from the result if your unit is within 6” of it.",
+    "restrictions": null
+  },
+  {
+    "name": "OPPORTUNISTIC THIEVES",
+    "detachment": "Kabalite Corsairs",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of your Fight phase .",
+    "target": "One KABAL unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effect": "Select one objective marker you do not control that is visible to your unit. Your unit can make a Normal move of up to D6\", but if it does, every model in that unit must end that move as close as possible to that objective marker.",
+    "restrictions": null
+  },
+  {
+    "name": "HYPERAGILITY",
+    "detachment": "Ship-killer Cult",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent's Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One WYCH CULT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "TOYING WITH THE PREY",
+    "detachment": "Ship-killer Cult",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after a WYCH CULT unit from your army has fought.",
+    "target": "That WYCH CULT unit.",
+    "effect": "If your unit destroyed one or more enemy models this phase, select one of those enemy models. Until the end of your opponent’s next turn, subtract 1 from the Objective Control characteristic of models in that enemy model's unit (to a minimum of l).",
+    "restrictions": null
+  },
+  {
+    "name": "NO OBSTACLE",
+    "detachment": "Ship-killer Cult",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Charge phase .",
+    "target": "One WYCH CULT unit from your army that opened a Hatchway this turn.",
+    "effect": "Until the end of the phase, your unit can declare a charge that includes one or more targets that are not visible to it, provided each of those units that are not visible to it are wholly on the opposite side of that Hatchway from your unit.",
+    "restrictions": null
+  },
+  {
+    "name": "PHANTASM GRENADES",
+    "detachment": "Ship-killer Cult",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your Movement phase , just after a WYCH CULT unit from your army ends a Normal move , before any enemy units fire Overwatch .",
+    "target": "That WYCH CULT unit.",
+    "effect": "Select one enemy unit within 9\" of and visible to your unit. That enemy unit must take a Battle-shock test , subtracting 1 from the result: if failed, until the end of the turn, that enemy unit cannot fire Overwatch.",
+    "restrictions": null
+  },
+  {
+    "name": "HORRIFYING FORM",
+    "detachment": "Painbringers",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of any phase, when an objective marker Secured by your army would be Seized by an enemy unit.",
+    "target": "One HAEMONCULUS COVENS unit from your army within range of that objective marker.",
+    "effect": "Until the end of your next turn, while you have one or more DRUKHARI units within range of that objective marker (excluding Battle-shocked units), that objective marker remains Secured by your army and cannot be Seized by enemy units.",
+    "restrictions": "You can only use this Stratagem once per battle round ."
+  },
+  {
+    "name": "UNFEELING ABOMINATIONS",
+    "detachment": "Painbringers",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effect": "Until the end of the phase, each time a model in your unit is destroyed , if that model has not fought this phase, roll one D6, adding 1 if your unit has the GROTESQUES keyword: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictions": "If your unit has the GROTESQUES keyword, until the end of the phase, it loses the Mindless Killing Machines ability."
+  },
+  {
+    "name": "MOULDED MUSCULATURE",
+    "detachment": "Painbringers",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Fight phase .",
+    "target": "One HAEMONCULUS COVENS unit from your army that has not been selected to fight this phase.",
+    "effect": "Select any number of models in your unit. Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by the selected models by 1, and each time you select targets for attacks made by those models, they must target an enemy unit that is wholly on the opposite side of a Hatchway from them.",
+    "restrictions": null
+  },
+  {
+    "name": "TERRIFYING AURA",
+    "detachment": "Painbringers",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent's Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit's attacks and is within 6\" of the attacking unit.",
+    "effect": "That enemy unit must take a Leadership test , subtracting 1 if it is within 3\" of your unit: if failed, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers.",
+    "restrictions": null
+  },
+  {
+    "name": "FIRE OVERWATCH",
+    "detachment": "Core",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Movement or Charge phase , just after an enemy unit is set up or when an enemy unit starts or ends a Normal , Advance or Fall Back move , or declares a charge .",
+    "target": "One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase .",
+    "effect": "If that enemy unit is visible to your unit, your unit can shoot that enemy unit as if it were your Shooting phase.",
+    "restrictions": "You cannot target a TITANIC unit with this Stratagem. Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers. You can only use this Stratagem once per turn."
+  },
+  {
+    "name": "RAPID INGRESS",
+    "detachment": "Core",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of your opponent’s Movement phase .",
+    "target": "One unit from your army that is in Reserves .",
+    "effect": "Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase, and if every model in that unit has the Deep Strike ability, you can set that unit up as described in the Deep Strike ability (even though it is not your Movement phase).",
+    "restrictions": "You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in."
+  },
+  {
+    "name": "POSTMORTALITY",
+    "detachment": "Covenite Coterie",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase.",
+    "target": "One HAEMONCULUS model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+    "effect": "Spend 1-3 Pain tokens . At the end of the phase, set the destroyed model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with a number of wounds remaining equal to the number of Pain tokens you just spent.",
+    "restrictions": "You cannot use this Stratagem if you have 0 Pain tokens, and you cannot target the same HAEMONCULUS model with this Stratagem more than once per battle."
+  },
+  {
+    "name": "BATTLEFIELD COMMAND",
+    "detachment": "Boarding Actions",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start or end of any phase.",
+    "target": "One Leader unit from your army and one friendly Bodyguard unit within 6\" of it that it could normally be attached to.",
+    "effect": "Select one of your Leader unit’s Leader abilities . Until the start of your next Command phase , that Bodyguard unit is treated as being led by that Leader unit for the purposes of that Leader ability.",
+    "restrictions": "Once you target a unit with this Stratagem, that unit cannot be targeted with it again until your next Command phase."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Bearer of the Iron Chalice",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "At the end of your Movement phase , select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. That selected model regains up to D3 lost wounds, or up to 3 lost wounds if your army is Honoured ."
+  },
+  {
+    "name": "Bearer of the Evanescent Ion",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "At the end of your Movement phase , select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the start of your next Movement phase, that selected model has the Stealth ability."
+  },
+  {
+    "name": "Bearer of the Judicant’s Helm",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "At the start of your Shooting phase , select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, ranged weapons equipped by that selected model have the [ignores cover] ability."
+  },
+  {
+    "name": "Bearer of the Lancer’s Sigil",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "At the start of your Charge phase , select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, you can re-roll Charge rolls made for that selected model."
+  },
+  {
+    "name": "Acquisitor-at-Arms",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "While the bearer is on your defensive line and there are no enemy units on your defensive line, add the bearers Objective Control characteristic to that of each model affected by the bearers Bondsman ability."
+  },
+  {
+    "name": "Purgation’s Hand",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "Each time the bearer makes a melee attack, if the bearer is on your defensive line , re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+  },
+  {
+    "name": "Augury Halo",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "Each time the bearer makes a ranged attack, while the bearer is on your defensive line , weapons equipped by the bearer have the [ignores cover] ability."
+  },
+  {
+    "name": "Vengeful Tread",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "Once per turn, you can target the bearer with the Tank Shock Stratagem for 0CP."
+  },
+  {
+    "name": "Herald of Triumph",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "When the bearer ends a Charge move , it can use this Enhancement. If it does, this Enhancement is expended, then each enemy unit within Engagement Range of the bearer must take a Battle-shock test , subtracting 1 from the result."
+  },
+  {
+    "name": "Wyrmslayer Divination",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "In your Shooting phase , when the bearer is selected to shoot, it can use this Enhancement. If it does, this Enhancement is expended, then until the end of the phase, each time it makes an attack that targets a unit that can FLY , you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Pennant of Silvered Fury",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "When the bearer is selected to fight, it can use this Enhancement. If it does, this Enhancement is expended, then until the end of the phase, melee weapons equipped by the bearer have the [sustained hits 2] ability."
+  },
+  {
+    "name": "Crushing Condemnation",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "When the bearer is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, the bearer can use this Enhancement. If it does, this Enhancement is expended, then select one enemy unit that is not within Engagement Range of any units from your army and is within 12\" of and visible to the bearer. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound ."
+  },
+  {
+    "name": "Mentor’s Pride",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "While two or more ARMIGER models are under the effects of the bearers Bondsman ability, each time each of those ARMIGER models makes an attack, you can re-roll a Hit roll of 1."
+  },
+  {
+    "name": "Fables of Nightmare",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "While two or more ARMIGER models are under the effects of the bearer’s Bondsman ability, melee weapons equipped by those ARMIGER models have the [precision] ability."
+  },
+  {
+    "name": "Tales of Heroism",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "While two or more ARMIGER models are under the effects of the bearer’s Bondsman ability, each time one of those ARMIGER models makes a melee attack, you can ignore any or all modifiers to the Hit roll and/or the Wound roll ."
+  },
+  {
+    "name": "Martial Tuition",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "While two or more ARMIGER models arc under the effects of the bearer’s Bondsman ability, once per turn, you can target one of those ARMIGER models with the Counter-offensive Stratagem for 0CP."
+  },
+  {
+    "name": "Omnissian Champion",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "Add 4 to the bearer’s Wounds characteristic."
+  },
+  {
+    "name": "Knight of the Opus Machina",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "Each time the bearer makes a ranged attack, if the bearer is within 6\" of one or more friendly ADEPTUS MECHANICUS units, re-roll a Hit roll of 1."
+  },
+  {
+    "name": "Magos Questoris",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "TECH-PRIEST model only.",
+    "effect": "While the bearer is within 3\" of one or more friendly IMPERIAL KNIGHTS units, it has the Lone Operative ability. In your Command phase , select one friendly Imperial Knights model within 3\" of the bearer. That model regains up to 2 lost wounds."
+  },
+  {
+    "name": "Vocifer Magnificat (Aura)",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "IMPERIAL KNIGHTS model only.",
+    "effect": "While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly ADEPTUS MECHANICUS unit is within 6\" of the bearer, improve the Leadership characteristic of 1 models in that ADEPTUS MECHANICUS unit by 1."
+  }
+]

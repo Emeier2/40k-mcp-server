@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Kauyon",
+    "ruleName": "Patient Hunter",
+    "ruleText": "During the third, fourth and fifth battle rounds , ranged weapons equipped by T’AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit (see For the Greater Good ), each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll ."
+  },
+  {
+    "name": "Mont’ka",
+    "ruleName": "Killing Blow",
+    "ruleText": "During the first, second and third battle rounds , ranged weapons equipped by T’AU EMPIRE models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit , its ranged weapons have the [LETHAL HITS] ability."
+  },
+  {
+    "name": "Retaliation Cadre",
+    "ruleName": "Bonded Heroes",
+    "ruleText": "Each time a T’AU EMPIRE BATTLESUIT model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1 as well."
+  },
+  {
+    "name": "Kroot Hunting Pack",
+    "ruleName": "Hunter’s Instincts",
+    "ruleText": "Each time a KROOT model from your army makes an attack, add 1 to the Hit roll if the target of that attack is below its Starting Strength , and add 1 to the Wound roll as well if the target of that attack is Below Half-strength ."
+  },
+  {
+    "name": "Auxiliary Cadre",
+    "ruleName": "Integrated Command Structure",
+    "ruleText": "KROOT and VESPID STINGWINGS units from your army have the following ability: Targeting Triangulation (Aura): While an enemy unit is within 9\" of and visible to this unit, each time a ranged attack made by a friendly T’AU EMPIRE model (excluding KROOT , VESPID STINGWINGS and TITANIC models) targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. T’AU EMPIRE units (excluding KROOT and VESPID STINGWINGS units) from your army have the following ability: Localised Stealth Projectors (Aura): While a friendly KROOT or VESPID STINGWINGS unit is wholly within 6\" of and visible to this unit, that KROOT or VESPID STINGWINGS unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+  },
+  {
+    "name": "Experimental Prototype Cadre",
+    "ruleName": "Superior Craftsmanship",
+    "ruleText": "Add 6\" to the Range characteristic of ranged weapons equipped by T’AU EMPIRE models from your army"
+  }
+]

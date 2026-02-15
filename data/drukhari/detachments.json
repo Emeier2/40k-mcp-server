@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Realspace Raiders",
+    "ruleName": "Alliance of Agony",
+    "ruleText": "At the start of the battle, you gain 2 Pain tokens for each of the following combinations your army contains (these do not need to be in the same Attached unit ): One or more ARCHON models and one or more KABALITE WARRIORS units. One or more SUCCUBUS models and one or more WYCHES units. One or more HAEMONCULUS models and one or more WRACKS units. Designer’s Note: These are all cumulative, so if your army contains at least one of all of the combinations listed above, you start the battle with 6 Pain tokens."
+  },
+  {
+    "name": "Skysplinter Assault",
+    "ruleName": "Rain Of Cruelty",
+    "ruleText": "Each time a DRUKHARI unit from your army disembarks from a TRANSPORT , until the end of the turn: Ranged weapons equipped by models in that disembarking unit have the [ignores cover] ability. Melee weapons equipped by models in that disembarking unit have the [lance] ability."
+  },
+  {
+    "name": "Spectacle of Spite",
+    "ruleName": "Combat Drugs",
+    "ruleText": "At the start of your Command phase , select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect. 1. Adrenalight Add 1 to the Attacks characteristic of melee weapons equipped by WYCH CULT models from your army. 2. Hypex Add 2\" to the Move characteristic of WYCH CULT models from your army. 3. Serpentin Improve the Weapon Skill characteristic of melee weapons equipped by WYCH CULT models from your army by 1. 4. Painbringer Add 1 to the Toughness characteristic of WYCH CULT models from your army. 5. Grave Lotus Add 1 to the Strength characteristic of melee weapons equipped by WYCH CULT models from your army. 6. Splintermind Improve the Leadership characteristic of WYCH CULT models from your army by 1, and improve the Ballistic Skill characteristic of ranged weapons equipped by WYCH CULT models from your army by 1."
+  },
+  {
+    "name": "Covenite Coterie",
+    "ruleName": "Stitchflesh Abominations",
+    "ruleText": "Each time an attack targets a HAEMONCULUS COVENS unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll ."
+  },
+  {
+    "name": "Kabalite Cartel",
+    "ruleName": "Murderous Agenda",
+    "ruleText": "At the start of the first battle round , select one of the Contracts below, then select one unit from your opponent’s army that matches the ‘Contract’ description in that Contract. Until that Contract is completed, that unit is your Contract unit and KABAL and BLADES FOR HIRE units from your army have the ability stated in that Contract. At the start of your Command phase , if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens . Trophy Hunters Contract: One CHARACTER unit. Ability: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets the Contract unit, that attack has the [precision] ability. Sow Fear and Terror Contract: One INFANTRY or MOUNTED unit (excluding units containing only CHARACTER models). At the start of your Command phase, this Contract is completed if all non- CHARACTER models in that unit are destroyed. Ability: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets an INFANTRY or MOUNTED unit, that attack has the [sustained hits 1] ability. Show of Strength Contract: One MONSTER or VEHICLE unit. Ability: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets a MONSTER or VEHICLE unit, that attack has the [lethal hits] ability."
+  },
+  {
+    "name": "Reaper’s Wager",
+    "ruleName": "Callous Competition",
+    "ruleText": "At the start of the battle, DRUKHARI units from your army are winning the wager. Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager. Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager. While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa. Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is winning the wager, re-roll a Hit roll of 1. If that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 instead. HARLEQUINS You can include HARLEQUINS units in your army (see Codex: Aeldari ). The combined points cost of such units depends on your battle size: Incursion: Up to 500 pts Strike Force: Up to 1000 pts Onslaught: Up to 1500 pts No HARLEQUINS models from your army can be your WARLORD . If you select this Detachment, you cannot use the Corsairs and Travelling Players army rule."
+  }
+]

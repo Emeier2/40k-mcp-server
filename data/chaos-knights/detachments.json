@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Traitoris Lance",
+    "ruleName": "Paragons of Terror",
+    "ruleText": "At the start of the first battle round , after selecting one or more Dread abilities to be active for your army, you can select one additional Dread ability to be active for your army (this additional Dread ability cannot be randomly selected)."
+  },
+  {
+    "name": "Infernal Lance",
+    "ruleName": "Malefic Surge",
+    "ruleText": "In your Command phase , one or more CHAOS KNIGHTS units from your army can make a Malefic Surge. Each one that does must first take a Leadership test ; if that test is failed, that unit suffers D3 mortal wounds . Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered. Unholy Hunger: When a model in this unit makes a Normal , Advance or Fall Back move , until the end of the phase, add 3\" to its Move characteristic. Diabolic Power: When this unit is selected to shoot or fight, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability. Unnatural Fortitude: When this unit is selected as the target of an attack, until the end of the phase, select one of the following: Models in this unit have a 5+ invulnerable save . Models in this unit have the Feel No Pain 6+ ability. Designer’s Note: We recommend placing a token next to Chaos Knights models that are Empowered, removing it once they have used a Malefic Surge ability, and removing all unused tokens at the start of your Command phase."
+  },
+  {
+    "name": "Lords of Dread",
+    "ruleName": "Tyrannical Court",
+    "ruleText": "Improve the Objective Control characteristic of CHAOS KNIGHTS CHARACTER models from your army by 2. In addition, once per battle round , if your WARLORD is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
+  },
+  {
+    "name": "Houndpack Lance",
+    "ruleName": "Marked Prey",
+    "ruleText": "At the start of your Command phase , select one unit from your opponent’s army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [SUSTAINED HITS 1] ability. KEYWORDS While using the Houndpack Lance Detachment, the following rules apply: Your army must include three or more WAR DOG units. WAR DOG units from your army have the BATTLELINE keyword. When mustering your army, select three WAR DOG units from your army. Until the end of the battle, those units have the CHARACTER keyword.* * Designer’s Note: This means that the selected units can be given Enhancements and one of them can be selected as your WARLORD ."
+  },
+  {
+    "name": "Iconoclast Fiefdom",
+    "ruleName": "Dreaded Masters",
+    "ruleText": "TITANIC CHAOS KNIGHTS units from your army have the following abilities: Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. CHAOS KNIGHTS units from your army have the following abilities: Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test : if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS] ; [SUSTAINED HITS 1] . WRETCHED THRALLS You can include DAMNED units in your army (see Codex: Chaos Space Marines ). The combined points cost of such units depends on your battle size: Incursion: Up to 250 pts Strike Force: Up to 500 pts Onslaught: Up to 750 pts No DAMNED models from your army can be your WARLORD ."
+  }
+]

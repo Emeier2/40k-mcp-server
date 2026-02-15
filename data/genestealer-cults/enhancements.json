@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Prowling Agitant",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\"."
+  },
+  {
+    "name": "A Chink in Their Armour",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "Each time the bearer is set up on the battlefield as Reinforcements , until the end of your next Fight phase , ranged weapons equipped by models in the bearer’s unit have the [LETHAL HITS] ability."
+  },
+  {
+    "name": "Our Time Is Nigh",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "Once per battle, when the bearer’s unit declares a charge , the bearer can use this Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Assassination Edict",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll"
+  },
+  {
+    "name": "Gene-sire’s Reliquant",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "MAGUS , PRIMUS or ACOLYTE ICONWARD model only.",
+    "effect": "You can re-roll Battle-shock tests taken for the bearer’s unit."
+  },
+  {
+    "name": "Denunciator of Tyrants",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "MAGUS , PRIMUS or ACOLYTE ICONWARD model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll and add 1 to the Wound roll ."
+  },
+  {
+    "name": "Deeds That Speak to the Masses",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "MAGUS , PRIMUS or ACOLYTE ICONWARD model only.",
+    "effect": "You start the battle with 2 additional Resurgence points ."
+  },
+  {
+    "name": "Incendiary Inspiration",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "MAGUS , PRIMUS or ACOLYTE ICONWARD model only.",
+    "effect": "The bearer’s unit is eligible to declare a charge in a turn in which it Advanced ."
+  },
+  {
+    "name": "Predatory Instincts",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ABOMINANT , BIOPHAGUS or PATRIARCH model only.",
+    "effect": "Models in the bearer’s unit have the Infiltrators ability and, once per battle round , you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+  },
+  {
+    "name": "Biomorph Adaptation",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ABOMINANT or PATRIARCH model only.",
+    "effect": "Improve the Armour Penetration and Damage characteristics of melee weapons equipped by the bearer by 1."
+  },
+  {
+    "name": "Mutagenic Regeneration",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ABOMINANT , BIOPHAGUS or PATRIARCH model only.",
+    "effect": "In each Command phase , one model in the bearer’s unit regains 1 lost wound."
+  },
+  {
+    "name": "Alien Majesty",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ABOMINANT , BIOPHAGUS or PATRIARCH model only.",
+    "effect": "While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1)."
+  },
+  {
+    "name": "Serpentine Tactics",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GENESTEALER CULTS MOUNTED model only.",
+    "effect": "The bearer’s unit is eligible to shoot in a turn in which it Fell Back ."
+  },
+  {
+    "name": "Cartographic Data-leech",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "While the bearer is embarked within a TRANSPORT , each time that TRANSPORT is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that TRANSPORT as a result of the Firing Deck ability by 1."
+  },
+  {
+    "name": "Starfall Shells",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GENESTEALER CULTS MOUNTED model only.",
+    "effect": "In your Shooting phase , after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll ."
+  },
+  {
+    "name": "Assault Commando",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "Each time a model in the bearer’s unit makes a ranged attack, if it disembarked from a TRANSPORT this turn, you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Martial Espionage",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "GENESTEALER CULTS INFANTRY model only.",
+    "effect": "Once per turn, when a friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit within 9\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1."
+  },
+  {
+    "name": "Adaptive Reprisal",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "GENESTEALER CULTS INFANTRY model only.",
+    "effect": "Once per turn, you can target a friendly GENESTEALER CULTS unit within 9\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+  },
+  {
+    "name": "The Hero Returned",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GENESTEALER CULTS INFANTRY model only.",
+    "effect": "Improve the Leadership and Objective Control characteristics of models in the bearer’s unit by 1."
+  },
+  {
+    "name": "Firepoint Commander",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GENESTEALER CULTS INFANTRY model only.",
+    "effect": "Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+  },
+  {
+    "name": "Synaptic Auger",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "TYRANIDS model only.",
+    "effect": "Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead."
+  },
+  {
+    "name": "Enraptured Damnation",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+  },
+  {
+    "name": "Vanguard Tyrant",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "WINGED HIVE TYRANT model only.",
+    "effect": "Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1."
+  },
+  {
+    "name": "Inhuman Integration",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GENESTEALER CULTS model only.",
+    "effect": "Weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 6\" of one or more friendly TYRANIDS units."
+  }
+]

@@ -5,24 +5,27 @@ import type {
   Enhancement,
   Detachment,
   FactionRule,
+  CoreRule,
 } from "../data/types.js";
 
 export interface Chunk {
   text: string;
   metadata: {
-    type: "unit_overview" | "unit_weapons" | "unit_abilities" | "stratagem" | "enhancement" | "detachment_rule" | "faction_rule" | "unit_composition";
+    type: "unit_overview" | "unit_weapons" | "unit_abilities" | "stratagem" | "enhancement" | "detachment_rule" | "faction_rule" | "unit_composition" | "core_rule";
     unitName?: string;
     detachment?: string;
+    faction: string;
     source: string;
   };
 }
 
 function chunkUnit(unit: Unit): Chunk[] {
   const chunks: Chunk[] = [];
+  const faction = unit.faction || "";
 
   // Overview chunk: name, stats, keywords, points
   const overviewParts = [
-    `[Unit: ${unit.name}]`,
+    `[Unit: ${unit.name}] (${faction})`,
     `Category: ${unit.unitCategory}`,
     `Stats: M ${unit.stats.M}, T ${unit.stats.T}, Sv ${unit.stats.Sv}, W ${unit.stats.W}, Ld ${unit.stats.Ld}, OC ${unit.stats.OC}`,
   ];
@@ -37,7 +40,7 @@ function chunkUnit(unit: Unit): Chunk[] {
 
   chunks.push({
     text: overviewParts.join(". "),
-    metadata: { type: "unit_overview", unitName: unit.name, source: "units" },
+    metadata: { type: "unit_overview", unitName: unit.name, faction, source: "units" },
   });
 
   // Weapons chunk
@@ -57,7 +60,7 @@ function chunkUnit(unit: Unit): Chunk[] {
 
     chunks.push({
       text: weaponParts.join("\n"),
-      metadata: { type: "unit_weapons", unitName: unit.name, source: "units" },
+      metadata: { type: "unit_weapons", unitName: unit.name, faction, source: "units" },
     });
   }
 
@@ -84,6 +87,7 @@ function chunkUnit(unit: Unit): Chunk[] {
       metadata: {
         type: "unit_abilities",
         unitName: unit.name,
+        faction,
         source: "units",
       },
     });
@@ -111,6 +115,7 @@ function chunkUnit(unit: Unit): Chunk[] {
       metadata: {
         type: "unit_composition",
         unitName: unit.name,
+        faction,
         source: "units",
       },
     });
@@ -121,7 +126,7 @@ function chunkUnit(unit: Unit): Chunk[] {
 
 function chunkStratagem(strat: Stratagem): Chunk {
   const parts = [
-    `[Stratagem: ${strat.name}]`,
+    `[Stratagem: ${strat.name}] (${strat.faction})`,
     `Detachment: ${strat.detachment}`,
     `Type: ${strat.type}`,
     `CP Cost: ${strat.cpCost}CP`,
@@ -138,6 +143,7 @@ function chunkStratagem(strat: Stratagem): Chunk {
     metadata: {
       type: "stratagem",
       detachment: strat.detachment,
+      faction: strat.faction || "",
       source: "stratagems",
     },
   };
@@ -145,7 +151,7 @@ function chunkStratagem(strat: Stratagem): Chunk {
 
 function chunkEnhancement(enh: Enhancement): Chunk {
   const parts = [
-    `[Enhancement: ${enh.name}]`,
+    `[Enhancement: ${enh.name}] (${enh.faction})`,
     `Detachment: ${enh.detachment}`,
     `Points Cost: ${enh.pointsCost}pts`,
   ];
@@ -159,6 +165,7 @@ function chunkEnhancement(enh: Enhancement): Chunk {
     metadata: {
       type: "enhancement",
       detachment: enh.detachment,
+      faction: enh.faction || "",
       source: "enhancements",
     },
   };
@@ -166,10 +173,11 @@ function chunkEnhancement(enh: Enhancement): Chunk {
 
 function chunkDetachmentRule(detach: Detachment): Chunk {
   return {
-    text: `[Detachment Rule: ${detach.name}] ${detach.ruleName}: ${detach.ruleText}`,
+    text: `[Detachment Rule: ${detach.name}] (${detach.faction}) ${detach.ruleName}: ${detach.ruleText}`,
     metadata: {
       type: "detachment_rule",
       detachment: detach.name,
+      faction: detach.faction || "",
       source: "detachments",
     },
   };
@@ -177,10 +185,22 @@ function chunkDetachmentRule(detach: Detachment): Chunk {
 
 function chunkFactionRule(rule: FactionRule): Chunk {
   return {
-    text: `[Faction Rule: ${rule.name}] ${rule.text}`,
+    text: `[Faction Rule: ${rule.name}] (${rule.faction}) ${rule.text}`,
     metadata: {
       type: "faction_rule",
+      faction: rule.faction || "",
       source: "faction-rules",
+    },
+  };
+}
+
+function chunkCoreRule(rule: CoreRule): Chunk {
+  return {
+    text: `[Core Rule: ${rule.name}] ${rule.text}`,
+    metadata: {
+      type: "core_rule",
+      faction: "",
+      source: "core-rules",
     },
   };
 }
@@ -206,6 +226,10 @@ export function generateAllChunks(data: GameData): Chunk[] {
 
   for (const rule of data.factionRules) {
     chunks.push(chunkFactionRule(rule));
+  }
+
+  for (const rule of data.coreRules) {
+    chunks.push(chunkCoreRule(rule));
   }
 
   console.error(`Generated ${chunks.length} chunks`);

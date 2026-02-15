@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Virulent Vectorium",
+    "ruleName": "Worldblight",
+    "ruleText": "If you control an objective marker at the end of your Command phase and a DEATH GUARD unit from your army (excluding Battle-shocked units) is within range of that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Nurgle’s Gift ability as if it were a DEATH GUARD model from your army."
+  },
+  {
+    "name": "Mortarion’s Hammer",
+    "ruleName": "Miasmic Bombardment",
+    "ruleText": "At the start of the battle round , select a number of enemy units more than 12\" away from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are Afflicted . The maximum number of units you can select in this way depends on the battle size, as shown below. BATTLE SIZE UNITS Incursion 1 Strike Force 2 Onslaught 3"
+  },
+  {
+    "name": "Champions of Contagion",
+    "ruleName": "Manifold Maladies",
+    "ruleText": "At the start of the battle round , you can select one of the Plagues listed in Nurgle’s Gift . Until the end of the battle, that is your chosen Plague instead of any previously chosen Plague."
+  },
+  {
+    "name": "Tallyband Summoners",
+    "ruleName": "Reverberant Rancidity",
+    "ruleText": "While a PLAGUE LEGIONS unit from your army is within 7\" of one or more DEATH GUARD units from your army, that PLAGUE LEGIONS unit has the Nurgle’s Gift ability. While a DEATH GUARD unit from your army is within 7\" of one or more PLAGUE LEGIONS units from your army, add 3\" to that DEATH GUARD units Contagion Range . PLAGUE LEGIONS You can include PLAGUE LEGIONS units in your army, even though they do not have the DEATH GUARD Faction keyword . The combined points cost of such units you can include in your army is: Incursion: Up to 500 pts Strike Force: Up to 1000 pts Onslaught: Up to 1500 pts No PLAGUE LEGIONS models from your army can be your WARLORD ."
+  },
+  {
+    "name": "Shamblerot Vectorium",
+    "ruleName": "Numberless Horde",
+    "ruleText": "In your Command phase in each of the following battle rounds , depending on your chosen battle size, add a new POXWALKERS unit with a Starting Strength of 10 to your army, in Strategic Reserves . BATTLE SIZE BATTLE ROUNDS Incursion 2,3 Strike Force 2, 3, 4 Onslaught 2, 3, 4, 5 KEYWORDS POXWALKERS units from your army gain the BATTLELINE keyword."
+  },
+  {
+    "name": "Death Lord’s Chosen",
+    "ruleName": "Deadly Vectors",
+    "ruleText": "In your opponent’s Command phase , roll 2D6 for each Afflicted enemy unit, subtracting 1 from the result if that unit is Below Half-strength . If the result is 6 or less, that enemy unit suffers D3 mortal wounds ."
+  }
+]

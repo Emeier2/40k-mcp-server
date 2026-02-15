@@ -1,0 +1,512 @@
+[
+  {
+    "name": "PSYCHIC DOMINION",
+    "detachment": "Grand Coven",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase, just after an enemy unit has selected its targets.",
+    "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, Psychic weapons equipped by models in the attacking unit have the [hazardous] ability, and models in your unit have the Feel No Pain 4+ ability against Psychic Attacks .",
+    "restrictions": null
+  },
+  {
+    "name": "DESTINED BY FATE",
+    "detachment": "Grand Coven",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase, just after a saving throw is failed for a THOUSAND SONS PSYKER model from your army. If you are using fast dice rolling , this Stratagem can still be used after rolling multiple saving throws at once.",
+    "target": "That PSYKER model.",
+    "effect": "Change the Damage characteristic of that attack to 0. If you are using fast dice rolling, select one of those attacks you failed a saving throw for.",
+    "restrictions": null
+  },
+  {
+    "name": "EGOTISTICAL POWER",
+    "detachment": "Grand Coven",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Command phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army.",
+    "effect": "Select the Imbued Manifestation , Psychic Maelstrom or Wrath of the Immaterium ability. Until the start of your next Command phase, that ability applies to your unit instead of any other Kindred Sorcery ability, even if you have already selected that ability this battle.",
+    "restrictions": null
+  },
+  {
+    "name": "DESECRATION OF WORLDS",
+    "detachment": "Grand Coven",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Your Command phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control.",
+    "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictions": null
+  },
+  {
+    "name": "ARCANE FOCUS",
+    "detachment": "Grand Coven",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Your Shooting phase , just after you take a Psychic test for a THOUSAND SONS model from your army that Channelled the Warp (before resolving that Ritual ).",
+    "target": "That THOUSAND SONS model.",
+    "effect": "Re-roll all of the D6 rolled for that Psychic test (including the additional D6 for Channelling the Warp).",
+    "restrictions": null
+  },
+  {
+    "name": "DEVASTATING SORCERY",
+    "detachment": "Grand Coven",
+    "cpCost": 2,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, add 9\" to the Range characteristic of Psychic weapons equipped by models in your unit, and each time a model in your unit makes an attack with a Psychic weapon, you can re-roll the Hit roll and you can re-roll the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "SULPHUROUS VEIL",
+    "detachment": "Changehost of Deceit",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One THOUSAND SONS or SCINTILLATING LEGIONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll .",
+    "restrictions": null
+  },
+  {
+    "name": "DECEPTIVE GLAMOUR",
+    "detachment": "Changehost of Deceit",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Start of the Fight phase .",
+    "target": "One THOUSAND SONS unit from your army.",
+    "effect": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects targets for its attacks, it can only target your unit if there are no eligible SCINTILLATING LEGIONS targets for those attacks.",
+    "restrictions": null
+  },
+  {
+    "name": "ETHEREAL PHANTASM",
+    "detachment": "Changehost of Deceit",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Movement phase , just after an enemy unit ends a Normal , Advance or Fall Back move .",
+    "target": "One SCINTILLATING LEGIONS unit from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+    "effect": "Your unit can make a Normal move of up to D6\", or a Normal move of up to 6\" instead if it is wholly within 6\" of one or more friendly THOUSAND SONS units.",
+    "restrictions": null
+  },
+  {
+    "name": "FRACTAL DISJUNCTION",
+    "detachment": "Changehost of Deceit",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One SCINTILLATING LEGIONS unit from your army (excluding MONSTERS ) that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictions": null
+  },
+  {
+    "name": "CHRONOSORCEROUS BLEED",
+    "detachment": "Changehost of Deceit",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Charge phase , just after an enemy unit has declared a charge .",
+    "target": "One THOUSAND SONS PSYKER or SCINTILLATING LEGIONS unit from your army that was selected as a target of that charge.",
+    "effect": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit (this is not cumulative with any other negative modifiers to that Charge roll).",
+    "restrictions": null
+  },
+  {
+    "name": "GLIMMERSHIFT PORTAL",
+    "detachment": "Changehost of Deceit",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of your opponent’s Fight phase .",
+    "target": "Up to two SCINTILLATING LEGIONS units from your army (excluding MONSTERS ), or one SCINTILLATING LEGIONS MONSTER unit from your army, if all of those units are more than 6\" horizontally away from all enemy units.",
+    "effect": "Remove those units from the battlefield and place them into Strategic Reserves .",
+    "restrictions": null
+  },
+  {
+    "name": "GIFT OF CHANGE",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Any phase.",
+    "target": "One THOUSAND SONS CHARACTER model from your army (excluding MONSTERS ) that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+    "effect": "At the end of the phase, add one TZEENTCH CHAOS SPAWN unit containing one model to your army, and set it up as close as possible to where your model was destroyed and not within Engagement Range of one or more enemy units.",
+    "restrictions": "You can only use this Stratagem once per battle round ."
+  },
+  {
+    "name": "WARPED VICISSITUDE",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save .",
+    "restrictions": null
+  },
+  {
+    "name": "DERANGED FEROCITY",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after a TZEENTCH MUTANT unit from your army is selected to fight.",
+    "target": "That TZEENTCH MUTANT unit.",
+    "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move , it can move up to 6\" instead of up to 3\", and when determining which models in it are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
+    "restrictions": null
+  },
+  {
+    "name": "BLESSED TRANSMUTATIONS",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Command phase .",
+    "target": "One THOUSAND SONS PSYKER model from your army, and one friendly TZAANGORS unit that is below its Starting Strength and within 12\" of that PSYKER model.",
+    "effect": "Return up to D3+1 destroyed models (excluding CHARACTERS ) to your TZAANGORS unit.",
+    "restrictions": null
+  },
+  {
+    "name": "TOUCHED BY TZEENTCH",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start of your Movement phase .",
+    "target": "One TZEENTCH MUTANT unit from your army.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced .",
+    "restrictions": null
+  },
+  {
+    "name": "TWISTED MIRAGE",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Reinforcements step of your Movement phase .",
+    "target": "One TZEENTCH MUTANT unit from your army that is arriving from Strategic Reserves this phase.",
+    "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 9\" horizontally away from all enemy units if it is a MONSTER unit. In either case, until the end of the turn, it is not eligible to declare a charge .",
+    "restrictions": null
+  },
+  {
+    "name": "ARDENT AUTOMATA",
+    "detachment": "Rubricae Phalanx",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after a RUBRICAE unit from your army Falls Back .",
+    "target": "That RUBRICAE unit.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictions": null
+  },
+  {
+    "name": "INEXORABLE ADVANCE",
+    "detachment": "Rubricae Phalanx",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase .",
+    "target": "One RUBRICAE unit from your army.",
+    "effect": "Until the end of the turn, your unit can ignore any or all modifiers to its Move characteristic and to Advance rolls made for it, and ranged weapons equipped by models in your unit have the [ASSAULT] ability.",
+    "restrictions": null
+  },
+  {
+    "name": "INFERNAL FUSILLADE",
+    "detachment": "Rubricae Phalanx",
+    "cpCost": 2,
+    "type": "Wargear",
+    "when": "Your Shooting phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, all inferno bolt pistols, inferno boltguns, inferno combi-bolters and inferno combi-weapons equipped by models in your unit have the [PSYCHIC] ability and a Strength characteristic of 5.",
+    "restrictions": null
+  },
+  {
+    "name": "REVENGE OF THE RUBRICAE",
+    "detachment": "Rubricae Phalanx",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after a THOUSAND SONS PSYKER model from your army is destroyed.",
+    "target": "One RUBRICAE unit from your army that was within 6\" of that PSYKER model when it was destroyed.",
+    "effect": "After the attacking unit has shot, your RUBRICAE unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target the enemy unit that just destroyed your PSYKER model (and only if it is an eligible target).",
+    "restrictions": null
+  },
+  {
+    "name": "IMPLACABLE GUARDIANS",
+    "detachment": "Rubricae Phalanx",
+    "cpCost": 2,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One RUBRIC MARINES PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit (excluding PSYKER models), subtract 1 from the Damage characteristic of that attack.",
+    "restrictions": null
+  },
+  {
+    "name": "UNWAVERING PHALANX",
+    "detachment": "Rubricae Phalanx",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Charge phase , just after an enemy unit ends a Charge move .",
+    "target": "One RUBRIC MARINES unit from your army within Engagement Range of that enemy unit.",
+    "effect": "Until the end of the turn, each time an attack targets your unit, subtract 1 from the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "HEX-MARKED ARMOUR",
+    "detachment": "Warpforged Cabal",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One THOUSAND SONS VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictions": null
+  },
+  {
+    "name": "MUTATE LANDSCAPE",
+    "detachment": "Warpforged Cabal",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Your Command phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control.",
+    "effect": "That objective marker is mutated, and remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. While an objective marker is mutated and under your control, each time an enemy unit ends a Normal , Advance , Fall Back or Charge move within range of that objective marker, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds .",
+    "restrictions": null
+  },
+  {
+    "name": "CYBERSPIRIT MACHINATIONS",
+    "detachment": "Warpforged Cabal",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after a THOUSAND SONS VEHICLE unit from your army Falls Back .",
+    "target": "That VEHICLE unit, and one friendly THOUSAND SONS PSYKER unit within 6\" of that VEHICLE unit.",
+    "effect": "Until the end of the turn, your VEHICLE unit is eligible to shoot and declare a charge in a turn in which it Fell Back .",
+    "restrictions": null
+  },
+  {
+    "name": "MALEVOLENT ANIMUS",
+    "detachment": "Warpforged Cabal",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Your Command phase .",
+    "target": "One THOUSAND SONS VEHICLE unit from your army within 6\" of one or more friendly THOUSAND SONS PSYKER units.",
+    "effect": "Until the start of your next Command phase, your VEHICLE unit is malevolent. While a unit is malevolent, it can ignore any or all modifiers to the following: the profile characteristics of its models; the Weapon Skill and Ballistic Skill characteristics of weapons equipped by its models; any roll or test made for it (excluding modifiers to saving throws ).",
+    "restrictions": null
+  },
+  {
+    "name": "ENSORCELLED INFUSION",
+    "detachment": "Warpforged Cabal",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One THOUSAND SONS VEHICLE unit from your army that has not been selected to shoot this phase, that is within 6\" of one or more friendly THOUSAND SONS PSYKER units.",
+    "effect": "Until the end of the phase, ranged weapons equipped by VEHICLE models in your unit have the [PSYCHIC] ability and each time an attack is made with such a weapon, add 1 to the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "WARPFLAME GARGOYLES",
+    "detachment": "Warpforged Cabal",
+    "cpCost": 1,
+    "type": "Wargear",
+    "when": "Your opponent’s Charge phase , just after an enemy unit ends a Charge move .",
+    "target": "One THOUSAND SONS VEHICLE unit from your army within Engagement Range of that enemy unit.",
+    "effect": "Roll six D6: for each 5+, that enemy unit suffers 1 mortal wound . That enemy unit must then take a Battle-shock test .",
+    "restrictions": null
+  },
+  {
+    "name": "WARDING HEX",
+    "detachment": "Hexwarp Thrallband",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Command phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic .",
+    "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictions": null
+  },
+  {
+    "name": "WRATH OF THE DOOMED",
+    "detachment": "Hexwarp Thrallband",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is wholly within your army’s Flow of Magic : on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictions": null
+  },
+  {
+    "name": "STRANDS OF TIME",
+    "detachment": "Hexwarp Thrallband",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Movement phase , just after a THOUSAND SONS PSYKER unit from your army Falls Back .",
+    "target": "That THOUSAND SONS PSYKER unit.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit is wholly within your army’s Flow of Magic when it is targeted with this Stratagem, then until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictions": null
+  },
+  {
+    "name": "THROUGH THE VEIL",
+    "detachment": "Hexwarp Thrallband",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Start of the Reinforcements step of your Movement phase .",
+    "target": "One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that is in Strategic Reserves .",
+    "effect": "If it is a RUBRIC MARINES unit, until the end of the phase, it has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, if it is a SCARAB OCCULT TERMINATOR unit it can be set up anywhere on the battlefield that is wholly within your army’s Flow of Magic and more than 6\" horizontally away from all enemy models.",
+    "restrictions": "If a SCARAB OCCULT TERMINATORS unit is targeted with this Stratagem, it is not eligible to declare a charge in the same turn."
+  },
+  {
+    "name": "SCOURING WARPFLAME",
+    "detachment": "Hexwarp Thrallband",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase and is wholly within your army’s Flow of Magic .",
+    "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has shot this phase, select one enemy unit hit by one or more of those attacks. Until the end of the phase, models in that unit cannot have the Benefit of Cover .",
+    "restrictions": null
+  },
+  {
+    "name": "KALEIDOSCOPIC TEMPEST",
+    "detachment": "Hexwarp Thrallband",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has selected its targets.",
+    "target": "One THOUSAND SONS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, your unit has the Stealth ability, and, if your unit is wholly within your army’s Flow of Magic , each time an attack targets your unit, it has the Benefit of Cover against that attack.",
+    "restrictions": null
+  },
+  {
+    "name": "COSTLY BLESSING",
+    "detachment": "Chosen Cabal",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One THOUSAND SONS PSYKER CHARACTER model from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, your model has a 3+ invulnerable save . At the end of the phase, your model suffers D3 mortal wounds .",
+    "restrictions": null
+  },
+  {
+    "name": "EMPYRIC DESECRATION",
+    "detachment": "Chosen Cabal",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "End of your Fight phase .",
+    "target": "One THOUSAND SONS PSYKER CHARACTER model from your army.",
+    "effect": "Select one objective marker Secured by your opponent’s army that is within 6\" of and visible to your model, then roll one D6: on a 2+, that objective marker is no longer considered Secured by your opponent’s army.",
+    "restrictions": null
+  },
+  {
+    "name": "INFERNO BOLTERS",
+    "detachment": "Chosen Cabal",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase .",
+    "target": "One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that has not been selected to shoot this phase.",
+    "effect": "Select one closed Hatchway . Until the end of the phase, models in your unit can make attacks with ranged weapons (excluding Torrent weapons) that target enemy units within 1\" of that Hatchway and that are wholly on the opposite side of it from your unit, as if that Hatchway was open. Each time a model does so, that attack has an Armour Penetration characteristic of 0.",
+    "restrictions": null
+  },
+  {
+    "name": "TZEENTCH’S BOON",
+    "detachment": "Chosen Cabal",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your Shooting phase .",
+    "target": "One THOUSAND SONS PSYKER model from your army within range of an objective marker that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, each time your model makes a Psychic Attack , you can re-roll the Wound roll .",
+    "restrictions": null
+  },
+  {
+    "name": "PSYCHIC INGRESS",
+    "detachment": "Devoted Thralls",
+    "cpCost": 1,
+    "type": "Epic Deed",
+    "when": "End of any phase.",
+    "target": "One THOUSAND SONS PSYKER CHARACTER model from your army.",
+    "effect": "Open every Hatchway within 3\" of your model. When measuring this distance, ignore Walls and closed Hatchways.",
+    "restrictions": "You can only use this Stratagem once."
+  },
+  {
+    "name": "FLESH CHANGE",
+    "detachment": "Devoted Thralls",
+    "cpCost": 1,
+    "type": "Battle Tactic",
+    "when": "Your opponent’s Shooting phase or the Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+    "restrictions": null
+  },
+  {
+    "name": "FELL SACRIFICE",
+    "detachment": "Devoted Thralls",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Command phase , at the start of the Battle-shock step.",
+    "target": "One THOUSAND SONS CHARACTER or TZAANGORS unit from your army.",
+    "effect": "Select one enemy unit below its Starting Strength that is within Engagement Range of your unit. That enemy unit must take a Battle-shock test . If that enemy unit is also Below Half-strength , subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.",
+    "restrictions": null
+  },
+  {
+    "name": "BESTIAL SURGE",
+    "detachment": "Devoted Thralls",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your opponent’s Shooting phase , just after an enemy unit has shot.",
+    "target": "One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Your unit can make a Bestial Surge move. To do so, roll one D6: your unit can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
+    "restrictions": null
+  },
+  {
+    "name": "ENDURING ANIMUS",
+    "detachment": "Fateseekers",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Fight phase , just after an enemy unit has selected its targets.",
+    "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effect": "Until the end of the phase, each time a model in your unit is destroyed , if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictions": null
+  },
+  {
+    "name": "STRATEGIC VISION",
+    "detachment": "Fateseekers",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army that is within Engagement Range of one or more enemy units and has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability, and models in your unit can target enemy units that are not within Engagement Range of them (as long as they are otherwise eligible targets).",
+    "restrictions": null
+  },
+  {
+    "name": "PHANTASMIC MUNITIONS",
+    "detachment": "Fateseekers",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Your Shooting phase .",
+    "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, models in your unit can ignore enemy models for the purposes of determining visibility .",
+    "restrictions": null
+  },
+  {
+    "name": "INVISIBLE ASSAILANTS",
+    "detachment": "Fateseekers",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start of your opponent’s Movement phase .",
+    "target": "One THOUSAND SONS PSYKER model from your army.",
+    "effect": "Select one enemy unit visible to your model. That unit must take a Leadership test , subtracting 1 from the result: if failed, until the start of your opponent’s next Movement phase, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for it; if passed, subtract 1\" from the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it.",
+    "restrictions": null
+  },
+  {
+    "name": "TOUCHED BY TZEENTCH",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Start of your Movement phase .",
+    "target": "One TZEENTCH MUTANT unit from your army.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced .",
+    "restrictions": null
+  },
+  {
+    "name": "TWISTED MIRAGE",
+    "detachment": "Warpmeld Pact",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "Reinforcements step of your Movement phase .",
+    "target": "One TZEENTCH MUTANT unit from your army that is arriving from Strategic Reserves this phase.",
+    "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 9\" horizontally away from all enemy units if it is a MONSTER unit. In either case, until the end of the turn, it is not eligible to declare a charge .",
+    "restrictions": null
+  },
+  {
+    "name": "RAPID INGRESS",
+    "detachment": "Core",
+    "cpCost": 1,
+    "type": "Strategic Ploy",
+    "when": "End of your opponent’s Movement phase .",
+    "target": "One unit from your army that is in Reserves .",
+    "effect": "Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase, and if every model in that unit has the Deep Strike ability, you can set that unit up as described in the Deep Strike ability (even though it is not your Movement phase).",
+    "restrictions": "You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in."
+  }
+]

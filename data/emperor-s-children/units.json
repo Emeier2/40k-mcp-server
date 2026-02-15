@@ -1,0 +1,2434 @@
+[
+  {
+    "name": "Daemon Prince of Slaanesh",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "DAEMON PRINCE"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 10,
+      "Sv": "2+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Infernal cannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons – strike",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Hellforged weapons – sweep",
+        "range": "Melee",
+        "A": "14",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Lord of Excess",
+          "description": "While this model is within 3\" of one or more friendly SLAANESH INFANTRY units, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Excessive Vigour (Aura)",
+          "description": "While a friendly SLAANESH unit is within 6\" of this model, if that unit made a Charge move this turn, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+        },
+        {
+          "name": "Ecstatic Death",
+          "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Daemon Prince of Slaanesh This model is equipped with: infernal cannon; hellforged weapons."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 180
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Daemon Prince of Slaanesh with Wings",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "MONSTER",
+      "FLY",
+      "CHARACTER",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "DAEMON PRINCE WITH WINGS"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "14\"",
+      "T": 9,
+      "Sv": "2+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Infernal cannon",
+        "range": "24\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons – strike",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Hellforged weapons – sweep",
+        "range": "Melee",
+        "A": "14",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Daemonic Destruction",
+          "description": "Each time this model ends a Charge move , select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        {
+          "name": "Stimulated by Pain",
+          "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Daemon Prince of Slaanesh with Wings This model is equipped with: infernal cannon; hellforged weapons."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 215
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Fulgrim",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "MONSTER",
+      "FLY",
+      "CHARACTER",
+      "EPIC HERO",
+      "DAEMON",
+      "CHAOS",
+      "SLAANESH",
+      "PRIMARCH",
+      "FULGRIM"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "16\"",
+      "T": 11,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "5+",
+      "OC": 6
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Malefic lash",
+        "range": "12\"",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Daemonic blades – strike",
+        "range": "Melee",
+        "A": "6",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Daemonic blades – sweep",
+        "range": "Melee",
+        "A": "12",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Serpentine tail",
+        "range": "Melee",
+        "A": "6",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Daemonic Poisons",
+          "description": "In your Shooting phase and the Fight phase , after this model has finished making its attacks, select one enemy unit hit by one or more of those attacks. Until the end of the battle, that enemy unit is poisoned. At the start of each player’s Command phase , roll one D6 for each poisoned enemy unit on the battlefield: on a 4+,that enemy unit suffers D3 mortal wounds ."
+        },
+        {
+          "name": "Daemon Primarch of Slaanesh",
+          "description": "At the start of your opponent’s Command phase , select one of the abilities in the Daemon Primarch of Slaanesh section. Until the start of your opponent’s next Command phase, this model has that ability."
+        },
+        {
+          "name": "Serpentine",
+          "description": "Each time this model makes a Normal , Advance or Fall Back move , it can move over sections of terrain features that are 4\" or less in height."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Fulgrim – EPIC HERO This model is equipped with: malefic lash; daemonic blades; serpentine tail."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 340
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Keeper of Secrets",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "PSYKER",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "KEEPER OF SECRETS"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "stats": {
+      "M": "14\"",
+      "T": 10,
+      "Sv": "5+",
+      "W": 18,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Living whip",
+        "range": "12\"",
+        "A": "6",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "assault"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Phantasmagoria – witchfire",
+        "range": "18\"",
+        "A": "6",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Phantasmagoria – focused witchfire",
+        "range": "18\"",
+        "A": "9",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "hazardous",
+          "psychic"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ritual knife",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Snapping claws",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "devastating wounds",
+          "extra attacks"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Witstealer sword",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Excess"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Daemon Lord of Slaanesh (Aura)",
+          "description": "While a friendly LEGIONS OF EXCESS unit is within 6\" of this model, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+        },
+        {
+          "name": "Mesmerising Form",
+          "description": "Each time an attack targets this model, subtract 1 from the Hit roll ."
+        },
+        {
+          "name": "Shining Aegis",
+          "description": "The bearer has a Save characteristic of 3+."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Keeper of Secrets This model is equipped with: Phantasmagoria; snapping claws; witstealer sword."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 240
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Lord Exultant",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "LORD EXULTANT"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "7\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 5,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Plasma pistol - standard",
+        "range": "12\"",
+        "A": "1",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Plasma pistol - supercharge",
+        "range": "12\"",
+        "A": "1",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "hazardous",
+          "pistol"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Screamer pistol",
+        "range": "12\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "ignores cover",
+          "pistol"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Master-crafted power sword",
+        "range": "Melee",
+        "A": "5",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "precision"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Phoenix power spear",
+        "range": "Melee",
+        "A": "5",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "lance"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Power fist",
+        "range": "Melee",
+        "A": "5",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Rapture lash",
+        "range": "Melee",
+        "A": "4",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Perfectionists",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Euphoric Strikes",
+          "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Lord Exultant This model is equipped with: bolt pistol; plasma pistol; Phoenix power spear; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 80
+      }
+    ],
+    "leader": {
+      "name": "Perfectionists",
+      "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+    },
+    "leaderAttachableTo": [
+      "Infractors Tormentors"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Lord Kakophonist",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "LORD KAKOPHONIST"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Screamer pistol",
+        "range": "12\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "ignores cover",
+          "pistol"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "6",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      },
+      {
+        "name": "Power sword",
+        "range": "Melee",
+        "A": "6",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Obsessive Annunciation",
+          "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "name": "Doom Siren",
+          "description": "In your Shooting phase , after this model’s unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound . If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Lord Kakophonist This model is equipped with: screamer pistol; power sword."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 70
+      }
+    ],
+    "leader": {
+      "name": "Obsessive Annunciation",
+      "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+    },
+    "leaderAttachableTo": [
+      "Chaos Terminators Noise Marines"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Lucius the Eternal",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "CHAOS",
+      "SLAANESH",
+      "LUCIUS THE ETERNAL"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 6,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of the Laer",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "keywords": [
+          "precision"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Lash of Torment",
+        "range": "Melee",
+        "A": "10",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "sustained hits 1"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Feel No Pain 5+",
+        "Leader",
+        "Lone Operative"
+      ],
+      "unit": [
+        {
+          "name": "A Challenge Worthy of Skill",
+          "description": "Each time this model makes an attack that targets a CHARACTER , MONSTER or WALKER unit, you can re-roll the Hit roll and you can re-roll the Wound roll ."
+        },
+        {
+          "name": "Duellist’s Hubris",
+          "description": "At the start of the Fight phase ; if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Lucius the Eternal – EPIC HERO This model is equipped with: Blade of the Laer; Lash of Torment."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 150
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": [
+      "Flawless Blades"
+    ],
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Shalaxi Helbane",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "PSYKER",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "SHALAXI HELBANE"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "stats": {
+      "M": "14\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 20,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Lash of Slaanesh",
+        "range": "12\"",
+        "A": "6",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "assault"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Pavane of Slaanesh – witchfire",
+        "range": "18\"",
+        "A": "D6",
+        "S": "9",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "devastating wounds",
+          "psychic"
+        ],
+        "BS": "2+"
+      },
+      {
+        "name": "Pavane of Slaanesh – focused witchfire",
+        "range": "18\"",
+        "A": "D6",
+        "S": "9",
+        "AP": "-2",
+        "D": "D3",
+        "keywords": [
+          "hazardous",
+          "devastating wounds",
+          "psychic",
+          "sustained hits 3"
+        ],
+        "BS": "2+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Snapping claws",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "devastating wounds",
+          "extra attacks"
+        ],
+        "WS": "2+"
+      },
+      {
+        "name": "Soulpiercer",
+        "range": "Melee",
+        "A": "6",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+2",
+        "keywords": [
+          "precision"
+        ],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Excess"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "No Prey Can Evade",
+          "description": "You can re-roll Advance and Charge rolls made for this model."
+        },
+        {
+          "name": "Monarch of the Hunt",
+          "description": "At the start of the first battle round , select one enemy unit to be this model’s quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll . Each time this model’s quarry is destroyed, select one new enemy unit to be this model’s quarry."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Shalaxi Helbane – EPIC HERO This model is equipped with: lash of Slaanesh; Pavane of Slaanesh; snapping claws; Soulpiercer."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 340
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Epic Hero"
+  },
+  {
+    "name": "Sorcerer",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "SORCERER"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "7\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 4,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Agonising Energies – witchfire",
+        "range": "18\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Agonising Energies – focused witchfire",
+        "range": "18\"",
+        "A": "D6",
+        "S": "6",
+        "AP": "-2",
+        "D": "D3",
+        "keywords": [
+          "devastating wounds",
+          "hazardous",
+          "psychic"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-2",
+        "D": "D3",
+        "keywords": [
+          "psychic"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Leader"
+      ],
+      "unit": [
+        {
+          "name": "Warped Interference (Psychic)",
+          "description": "While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack."
+        },
+        {
+          "name": "Wracking Agonies (Psychic)",
+          "description": "In your Shooting phase , after this model has shot, select one INFANTRY unit hit by one or more of those attacks made with its Agonising Energies. Until the start of your next turn, that unit is wracked with agonies. While a unit is wracked with agonies, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Sorcerer This model is equipped with: Agonising Energies; bolt pistol; force weapon."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 60
+      }
+    ],
+    "leader": {
+      "name": "Warped Interference (Psychic)",
+      "description": "While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack."
+    },
+    "leaderAttachableTo": [
+      "Infractors Noise Marines Tormentors"
+    ],
+    "unitCategory": "Character"
+  },
+  {
+    "name": "Daemonettes",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "DAEMONETTES"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "stats": {
+      "M": "9\"",
+      "T": 3,
+      "Sv": "7+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slashing claws",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Excess"
+      ],
+      "core": [
+        "Deep Strike",
+        "Fights First"
+      ],
+      "unit": [
+        {
+          "name": "Horrifying Beauty",
+          "description": "At the start of the Fight phase , each enemy unit within Engagement Range of one or more units from your army with this ability must take a Battle-shock test , subtracting 1 from the result if that enemy unit is Below Half-strength ."
+        },
+        {
+          "name": "Daemonic Icon",
+          "description": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        },
+        {
+          "name": "Instrument of Chaos",
+          "description": "Add 1 to Charge rolls made for the bearer’s unit."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Alluress 9 Daemonettes Every model is equipped with: slashing claws."
+    },
+    "points": [
+      {
+        "models": 10,
+        "points": 90
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Infractors",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "INFRACTORS"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "7\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma pistol - standard",
+        "range": "12\"",
+        "A": "1",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma pistol - supercharge",
+        "range": "12\"",
+        "A": "1",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "hazardous",
+          "pistol"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Duelling sabre",
+        "range": "Melee",
+        "A": "4",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "precision"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Power sword",
+        "range": "Melee",
+        "A": "4",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "precision"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Rapture lash",
+        "range": "Melee",
+        "A": "6",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "precision"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Scouts 6\""
+      ],
+      "unit": [
+        {
+          "name": "Excessive Assault",
+          "description": "Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker , you can re-roll the Wound roll instead."
+        },
+        {
+          "name": "Icon of Excess",
+          "description": "At the end of your Shooting phase or the Fight phase , if the bearer’s unit destroyed one or more enemy units that phase, the bearer’s unit takes a Leadership test . If that test is passed, you gain 1CP."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Obsessionist 4-9 Infractors The Obsessionist is equipped with: bolt pistol; power sword. Every Infractor is equipped with: bolt pistol; duelling sabre."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 85
+      },
+      {
+        "models": 10,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Tormentors",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "TORMENTORS"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "7\"",
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol",
+          "precision"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Boltgun",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "precision"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Meltagun",
+        "range": "12\"",
+        "A": "1",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2",
+          "precision"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma gun - standard",
+        "range": "24\"",
+        "A": "1",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "precision",
+          "rapid fire 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma gun - supercharge",
+        "range": "24\"",
+        "A": "1",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "hazardous",
+          "precision",
+          "rapid fire 1"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma pistol - standard",
+        "range": "12\"",
+        "A": "1",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "pistol",
+          "precision"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Plasma pistol - supercharge",
+        "range": "12\"",
+        "A": "1",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [
+          "hazardous",
+          "pistol",
+          "precision"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Power sword",
+        "range": "Melee",
+        "A": "4",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Rapture lash",
+        "range": "Melee",
+        "A": "6",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Infiltrators"
+      ],
+      "unit": [
+        {
+          "name": "Objective Defiled",
+          "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "name": "Icon of Excess",
+          "description": "At the end of your Shooting phase or the Fight phase , if the bearer’s unit destroyed one or more enemy units that phase, the bearer’s unit takes a Leadership test . If that test is passed, you gain 1CP."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Obsessionist 4-9 Tormentors The Obsessionist is equipped with: bolt pistol; power sword. Every Tormentor is equipped with: boltgun; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 85
+      },
+      {
+        "models": 10,
+        "points": 170
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Battleline"
+  },
+  {
+    "name": "Chaos Rhino",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "DEDICATED TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "SLAANESH",
+      "RHINO"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 9,
+      "Sv": "3+",
+      "W": 10,
+      "Ld": "6+",
+      "OC": 2
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "3",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+      ],
+      "unit": [
+        {
+          "name": "Assault Vehicle",
+          "description": "Units can disembark from this TRANSPORT after it has Advanced . Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Rhino This model is equipped with: combi-bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 80
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Chaos Land Raider",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "SLAANESH",
+      "LAND RAIDER"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 12,
+      "Sv": "2+",
+      "W": 16,
+      "Ld": "6+",
+      "OC": 5
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "blast"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Soulshatter lascannon",
+        "range": "48\"",
+        "A": "2",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": [],
+        "BS": "3+"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "sustained hits 1",
+          "twin-linked"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": "Melee",
+        "A": "6",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ],
+      "unit": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Chaos Land Raider This model is equipped with: 2 soulshatter lascannons; twin heavy bolter; armoured tracks."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 220
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Chaos Spawn",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "SLAANESH",
+      "CHAOS SPAWN"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 5,
+      "Sv": "4+",
+      "W": 4,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hideous mutations",
+        "range": "Melee",
+        "A": "D6+2",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "WS": "4+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Feel No Pain 5+"
+      ],
+      "unit": [
+        {
+          "name": "Scuttling Horrors",
+          "description": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, this unit can make a Normal move of up to 6\"."
+        }
+      ]
+    },
+    "composition": {
+      "min": 2,
+      "max": 2,
+      "description": "2 Chaos Spawn Every model is equipped with: hideous mutations."
+    },
+    "points": [
+      {
+        "models": 2,
+        "points": 70
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Chaos Terminators",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "SLAANESH",
+      "TERMINATOR",
+      "TERMINATOR SQUAD"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 5,
+      "Sv": "2+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "4+",
+    "rangedWeapons": [
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "rapid fire 2"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
+        ],
+        "BS": "4+"
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "A": "D6",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Reaper autocannon",
+        "range": "36\"",
+        "A": "4",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "devastating wounds",
+          "sustained hits 1"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Accursed weapon",
+        "range": "Melee",
+        "A": "4",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Chainfist",
+        "range": "Melee",
+        "A": "3",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "anti-vehicle 3+"
+        ],
+        "WS": "4+"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "range": "Melee",
+        "A": "5",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "twin-linked"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Power fist",
+        "range": "Melee",
+        "A": "3",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Lethal Obsession",
+          "description": "In your Shooting phase , each time this unit is selected to shoot, if it makes one or more ranged attacks and all of those attacks target the same enemy unit, until the end of the turn, each time this unit declares a charge , if that enemy unit is a target of that charge, you can re-roll the Charge roll ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Terminator Champion 4 Chaos Terminators Every model is equipped with: combi-bolter; accursed weapon."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 155
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Fiends",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "FIENDS"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "stats": {
+      "M": "12\"",
+      "T": 5,
+      "Sv": "7+",
+      "W": 4,
+      "Ld": "7+",
+      "OC": 2
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Barbed tail and dissecting claws",
+        "range": "Melee",
+        "A": "5",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Excess"
+      ],
+      "core": [
+        "Deep Strike"
+      ],
+      "unit": [
+        {
+          "name": "Soporific Musk",
+          "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of one or more units from your army with this ability Falls Back , models in that enemy unit must take Desperate Escape tests . When doing so, if that enemy unit is also Battle-shocked , subtract 1 from each of those Desperate Escape tests."
+        }
+      ]
+    },
+    "composition": {
+      "min": 2,
+      "max": 5,
+      "description": "1 Blissbringer 2-5 Fiends Every model is equipped with: barbed tail and dissecting claws."
+    },
+    "points": [
+      {
+        "models": 3,
+        "points": 95
+      },
+      {
+        "models": 6,
+        "points": 190
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Flawless Blades",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "FLAWLESS BLADES"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "8\"",
+      "T": 5,
+      "Sv": "3+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "A": "1",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "pistol"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blissblade",
+        "range": "Melee",
+        "A": "4",
+        "S": "6",
+        "AP": "-3",
+        "D": "2",
+        "keywords": [],
+        "WS": "2+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [],
+      "unit": [
+        {
+          "name": "Daemonic Patrons",
+          "description": "Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack, an unmodified Wound roll of 3+ scores a Critical Wound . At the end of the Fight phase , if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed."
+        }
+      ]
+    },
+    "composition": {
+      "min": 3,
+      "max": 6,
+      "description": "3-6 Flawless Blades Every model is equipped with: bolt pistol; blissblade."
+    },
+    "points": [
+      {
+        "models": 3,
+        "points": 110
+      },
+      {
+        "models": 6,
+        "points": 220
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Heldrake",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "AIRCRAFT",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "HELDRAKE"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {},
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Baleflamer",
+        "range": "12\"",
+        "A": "D6+3",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "ignores cover",
+          "torrent"
+        ],
+        "BS": "N/A"
+      },
+      {
+        "name": "Hades autocannon",
+        "range": "36\"",
+        "A": "6",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Heldrake claws",
+        "range": "Melee",
+        "A": "5",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "anti-fly 2+",
+          "devastating wounds"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Hover"
+      ],
+      "unit": [
+        {
+          "name": "Airborne Predator",
+          "description": "Each time this model ends a Normal move , you can select one enemy unit that it moved over during that move and roll two D6, adding 1 to each result if that enemy unit can FLY : for each 4+, that enemy unit suffers D3 mortal wounds ."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Heldrake This model is equipped with: Hades autocannon; Heldrake claws."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 195
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Maulerfiend",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "MAULERFIEND"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "10\"",
+      "T": 10,
+      "Sv": "3+",
+      "W": 12,
+      "Ld": "6+",
+      "OC": 3
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [
+      {
+        "name": "Magma cutters",
+        "range": "6\"",
+        "A": "2",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": [
+          "melta 2"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Lasher tendrils",
+        "range": "Melee",
+        "A": "6",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "extra attacks"
+        ],
+        "WS": "3+"
+      },
+      {
+        "name": "Maulerfiend fists",
+        "range": "Melee",
+        "A": "6",
+        "S": "14",
+        "AP": "-2",
+        "D": "D6+1",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "unit": [
+        {
+          "name": "Glutton for Punishment",
+          "description": "Each time this model makes an attack, if it is below its Starting Strength , add 1 to the Hit roll . If this model is also Below Half-strength , add 1 to the Wound roll as well."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Maulerfiend This model is equipped with: lasher tendrils; Maulerfiend fists."
+    },
+    "points": [
+      {
+        "models": 1,
+        "points": 130
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Vehicle"
+  },
+  {
+    "name": "Noise Marines",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "SLAANESH",
+      "NOISE MARINES"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "stats": {
+      "M": "6\"",
+      "T": 5,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 1
+    },
+    "invulnerableSave": null,
+    "rangedWeapons": [
+      {
+        "name": "Blastmaster – single frequency",
+        "range": "18\"",
+        "A": "3",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": [
+          "ignores cover"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Blastmaster – varied frequency",
+        "range": "18\"",
+        "A": "6",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [
+          "ignores cover"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Screamer pistol",
+        "range": "12\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "ignores cover",
+          "pistol"
+        ],
+        "BS": "3+"
+      },
+      {
+        "name": "Sonic blaster",
+        "range": "18\"",
+        "A": "3",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": [
+          "ignores cover"
+        ],
+        "BS": "3+"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      },
+      {
+        "name": "Power sword",
+        "range": "Melee",
+        "A": "4",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": [],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Thrill Seekers"
+      ],
+      "core": [],
+      "unit": [
+        {
+          "name": "Terrifying Crescendo",
+          "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+        }
+      ]
+    },
+    "composition": {
+      "min": 1,
+      "max": 1,
+      "description": "1 Disharmonist 5 Noise Marines Every model is equipped with: sonic blaster; close combat weapon."
+    },
+    "points": [
+      {
+        "models": 6,
+        "points": 145
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  },
+  {
+    "name": "Seekers",
+    "faction": "emperor-s-children",
+    "keywords": [
+      "MOUNTED",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "SEEKERS"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "stats": {
+      "M": "14\"",
+      "T": 4,
+      "Sv": "7+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+    },
+    "invulnerableSave": "5+",
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lashing tongue",
+        "range": "Melee",
+        "A": "2",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": [
+          "extra attacks",
+          "lethal hits"
+        ],
+        "WS": "4+"
+      },
+      {
+        "name": "Slashing claws",
+        "range": "Melee",
+        "A": "3",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "keywords": [
+          "devastating wounds"
+        ],
+        "WS": "3+"
+      }
+    ],
+    "abilities": {
+      "faction": [
+        "Pact of Excess"
+      ],
+      "core": [
+        "Deep Strike",
+        "Scouts 9\""
+      ],
+      "unit": [
+        {
+          "name": "Unholy Speed",
+          "description": "You can re-roll Advance and Charge rolls made for this unit."
+        },
+        {
+          "name": "Daemonic Icon",
+          "description": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        },
+        {
+          "name": "Instrument of Chaos",
+          "description": "Add 1 to Charge rolls made for the bearer’s unit."
+        }
+      ]
+    },
+    "composition": {
+      "min": 4,
+      "max": 9,
+      "description": "1 Heartseeker 4-9 Seekers Every model is equipped with: lashing tongue; slashing claws."
+    },
+    "points": [
+      {
+        "models": 5,
+        "points": 80
+      },
+      {
+        "models": 10,
+        "points": 160
+      }
+    ],
+    "leader": null,
+    "leaderAttachableTo": null,
+    "unitCategory": "Other"
+  }
+]

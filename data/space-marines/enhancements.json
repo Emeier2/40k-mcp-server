@@ -1,0 +1,1045 @@
+[
+  {
+    "name": "Artificer Armour",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "The Honour Vehement",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is under the effects of the Assault Doctrine , add 2 to the Attacks and Strength characteristics of the bearers melee weapons instead."
+  },
+  {
+    "name": "Adept of the Codex",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "CAPTAIN model only.",
+    "effect": "At the start of your Command phase , if the bearer is on the battlefield, instead of selecting a Combat Doctrine to be active for your army, you can select the Tactical Doctrine . If you do, until the start of your next Command phase, that Combat Doctrine is active for the bearer’s unit only, even if you have already selected that Combat Doctrine to be active for your army this battle."
+  },
+  {
+    "name": "Fire Discipline",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine , you can reroll Advance rolls made for that unit."
+  },
+  {
+    "name": "Indomitable Fury",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "GRAVIS model only.",
+    "effect": "The first time the bearer is destroyed , roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+  },
+  {
+    "name": "Fleet Commander",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "CAPTAIN model only.",
+    "effect": "Once per battle, at the start of your Shooting phase , you can select one point on the battlefield and place a marker on that point. At the start of your next Shooting phase, place another marker on the battlefield within 12\" of the centre of the first marker, then draw a straight line between the centre of each of these markers. Roll one D6 for each unit that line passes over or through: on a 3+, that unit suffers D3 mortal wounds . Both markers are then removed."
+  },
+  {
+    "name": "Stoic Defender",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, models in that unit have the Feel No Pain 6+ ability while they are within range of an objective marker you control and, while that unit is Battle-shocked , halve the Objective Control characteristic of models in that unit instead of changing it to 0."
+  },
+  {
+    "name": "Architect of War",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+  },
+  {
+    "name": "Target Augury Web",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "TECHMARINE model only.",
+    "effect": "In your Command phase , select one ADEPTUS ASTARTES VEHICLE model within 6\" of the bearer. Until the start of your next Command phase, weapons equipped by that VEHICLE model have the [LETHAL HITS] ability."
+  },
+  {
+    "name": "The Flesh is Weak",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The bearer has the Feel No Pain 4+ ability."
+  },
+  {
+    "name": "Adept of the Omnissiah",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "TECHMARINE model only.",
+    "effect": "Once per battle round , when a saving throw is failed for a friendly ADEPTUS ASTARTES VEHICLE model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
+  },
+  {
+    "name": "Master of Machine War",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "In your Command phase , select one ADEPTUS ASTARTES VEHICLE model within 6\" of the bearer. Until the start of your next Command phase, that VEHICLE is eligible to shoot even if it Fell Back or Advanced this turn."
+  },
+  {
+    "name": "Champion of Humanity",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "TACTICUS model only.",
+    "effect": "While the bearer is leading a unit, models in that unit can ignore any or all modifiers to their characteristics and/or to any roll or test made for them (excluding modifiers to saving throws )."
+  },
+  {
+    "name": "War-tempered Artifice",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES INFANTRY model only.",
+    "effect": "Add 3 to the Strength characteristic of the bearer’s melee weapons."
+  },
+  {
+    "name": "Forged in Battle",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, once per turn, after making a Hit roll or a saving throw for a model in that unit, you can change the result of that roll to an unmodified 6."
+  },
+  {
+    "name": "Adamantine Mantle",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made with a Melta or Torrent weapon, change the Damage characteristic of that attack to 1 instead."
+  },
+  {
+    "name": "Fury of the Storm",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES MOUNTED model only.",
+    "effect": "Improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 1. Each time the bearer ends a Charge move , until the end of the turn, improve the Strength and Armour Penetration characteristics of the bearers melee weapons by 2 instead."
+  },
+  {
+    "name": "Portents of Wisdom",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, you can re-roll Advance rolls made for that unit."
+  },
+  {
+    "name": "Feinting Withdrawal",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back ."
+  },
+  {
+    "name": "Hunter’s Instincts",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES MOUNTED model only.",
+    "effect": "If the bearer’s unit is in Strategic Reserves , for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+  },
+  {
+    "name": "The Blade Driven Deep",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES INFANTRY model only.",
+    "effect": "While the bearer is leading a unit, models in that unit have the Infiltrators ability."
+  },
+  {
+    "name": "Ghostweave Cloak",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The bearer has the Stealth and Lone Operative abilities."
+  },
+  {
+    "name": "Execute and Redeploy",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "PHOBOS model only.",
+    "effect": "In your Shooting phase , after the bearer’s unit has shot, if that unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, that unit is not eligible to declare a charge . This cannot allow the bearer’s unit to move more than once in your Shooting phase."
+  },
+  {
+    "name": "Shadow War Veteran",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "PHOBOS model only.",
+    "effect": "Gain following ability: Lord of Deceit (Aura): Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
+  },
+  {
+    "name": "The Imperium’s Sword",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks characteristic of the bearers melee weapons. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by all other models in the bearer’s unit as well."
+  },
+  {
+    "name": "Fear Made Manifest (Aura)",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While an enemy unit (excluding MONSTERS and VEHICLES ) is within 6\" of the bearer, each time that unit fails a Battle-shock test , one model in that unit is destroyed (chosen by its controlling player). Once per battle, when such an enemy unit fails a Battle-shock test, you can choose for D3 models in that unit to be destroyed in this way instead."
+  },
+  {
+    "name": "Rites of War",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "Improve the Objective Control characteristic of the bearer by 1. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Objective Control characteristic of all other models in the bearer’s unit as well."
+  },
+  {
+    "name": "Iron Resolve",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "The bearer has the Feel No Pain 5+ ability. Once per battle, after the bearer’s unit is selected as the target of one or more attacks, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "Prescience",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "ADEPTUS ASTARTES PSYKER model only (excluding TERMINATOR models). Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of the bearer’s unit, the bearer’s unit can make a Normal move of up to D6\", or up to 6\" instead if the Divination Discipline is active for your army."
+  },
+  {
+    "name": "Celerity",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTUS ASTARTES PSYKER model only.",
+    "effect": "The bearer’s unit is eligible to declare a charge in a turn in which it Advanced , and if the Biomancy Discipline is active for your army, it is eligible to declare a charge in a turn in which it Fell Back ."
+  },
+  {
+    "name": "Obfuscation",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES PSYKER model only.",
+    "effect": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit, and if the Telepathy Discipline is active for your army, the bearer’s unit cannot be targeted by ranged attacks unless the attacking model is within 18\"."
+  },
+  {
+    "name": "Fusillade",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "ADEPTUS ASTARTES PSYKER model only.",
+    "effect": "Ranged weapons equipped by models in the bearer’s unit have the [ANTI-MONSTER 5+] and [ANTI-VEHICLE 5+] abilities, and:"
+  },
+  {
+    "name": "Eye of the Primarch",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Ranged weapons equipped by the bearer and BATTLELINE models in the bearer’s unit have the [PRECISION] ability."
+  },
+  {
+    "name": "Hero of the Chapter",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, the bearer has the BATTLELINE keyword."
+  },
+  {
+    "name": "Blades of Valour",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer and BATTLELINE models in the bearer’s unit by 1."
+  },
+  {
+    "name": "Bombast Omnivox",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 1 if the bearer’s unit has the BATTLELINE keyword: on a 4+, you gain 1CP."
+  },
+  {
+    "name": "Laurels of Thunder",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "You can re-roll Charge rolls made for the bearer’s unit in a turn in which it was set up on the battlefield."
+  },
+  {
+    "name": "Veteran of the Vanguard",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 6\" ability."
+  },
+  {
+    "name": "Orbital Uplink Reliquary",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "After both players have deployed their armies, select up to three ADEPTUS ASTARTES units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "Dedicated Gunship",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "Once per battle, at the end of your opponent’s Fight phase , if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, remove the bearer’s unit from the battlefield and place it into Strategic Reserves ."
+  },
+  {
+    "name": "Champion of the Feast",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks characteristic of the bearer’s melee weapons. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by other models in the bearer’s unit as well."
+  },
+  {
+    "name": "Disciple of Rhetoricus",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "Improve the Objective Control characteristic of the bearer by 1. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Objective Control characteristic of other models in the bearer’s unit as well."
+  },
+  {
+    "name": "Indomitable Champion",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining."
+  },
+  {
+    "name": "Malodraxian Standard",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES ANCIENT model only.",
+    "effect": "Each time an attack targets the bearer’s unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of the bearer’s unit, subtract 1 from the Wound roll ."
+  },
+  {
+    "name": "Armour of Antoninus",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "Oath of Macragge",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is under the effects of the Assault Doctrine , add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead."
+  },
+  {
+    "name": "Student of the Codex",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "At the start of your Command phase , if the bearer is on the battlefield, it can use this Enhancement. If it does, until the start of your next Command phase, the Tactical Doctrine is active for this unit (instead of any other Combat Doctrine you select to be active for your army, and even if there is no Combat Doctrine active for your army)."
+  },
+  {
+    "name": "Veteran of Behemoth",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine , you can re-roll Advance rolls made for that unit."
+  },
+  {
+    "name": "Seals of Reconquest",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have a 5+ invulnerable save ."
+  },
+  {
+    "name": "Avenging Avatar (Aura)",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "In the Battle-shock step of your opponent’s Command phase , if an enemy unit that is below its Starting Strength is within 9\" of the bearer, that enemy unit must take a Battle-shock test ."
+  },
+  {
+    "name": "Scroll of Proclamation",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time the bearer’s unit declares a charge , if one or more targets of that charge are within range of an objective marker , you can re-roll the Charge roll ."
+  },
+  {
+    "name": "Liberatum",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time the bearer makes an attack that targets an enemy unit, if the target is within range of an objective marker , you can re-roll the Hit roll and you can re-roll the Wound roll ."
+  },
+  {
+    "name": "Blackwing Shroud",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES INFANTRY model only.",
+    "effect": "While the bearer is leading a unit, models in that unit have the Infiltrators ability."
+  },
+  {
+    "name": "Coronal Susurrant",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "PHOBOS model only.",
+    "effect": "The bearer has the following ability: Lord of Deceit (Aura): Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that usage of that Stratagem by 1CP."
+  },
+  {
+    "name": "Umbral Raptor",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The bearer has the Stealth and Lone Operative abilities."
+  },
+  {
+    "name": "Hunter’s Instincts",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "In your Movement phase , if the bearer’s unit is in Strategic Reserves , for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+  },
+  {
+    "name": "Immolator",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks characteristics of Torrent weapons equipped by models in the bearer’s unit."
+  },
+  {
+    "name": "War-tempered Artifice",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES INFANTRY model only.",
+    "effect": "Add 3 to the Strength characteristic of the bearer’s melee weapons."
+  },
+  {
+    "name": "Forged in Battle",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, once per turn, after making a Hit roll or a saving throw for a model in that unit, you can change the result of that roll to an unmodified 6."
+  },
+  {
+    "name": "Adamantine Mantle",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made with a Melta or Torrent weapon , change the Damage characteristic of that attack to 1 instead."
+  },
+  {
+    "name": "Spiritus Ferrum",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks characteristic of the bearer’s melee weapons. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by all other models in the bearer’s unit as well."
+  },
+  {
+    "name": "Medusan Roar (Aura)",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While an enemy unit (excluding MONSTERS and VEHICLES ) is within 6\" of the bearer, each time that unit fails a Battle-shock test , one model in that unit is destroyed (chosen by its controlling player). Once per battle, when such an enemy unit fails a Battle-shock test, you can choose for D3 models in that unit to be destroyed in this way instead."
+  },
+  {
+    "name": "Iron Laurel",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Improve the Objective Control characteristic of the bearer by 1. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Objective Control characteristic of all other models in the bearer’s unit as well."
+  },
+  {
+    "name": "Steel Font",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "While the bearer is leading a unit, in your Command phase , you can return 1 destroyed Bodyguard model to that unit."
+  },
+  {
+    "name": "Spearpoint Paragon",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 1. Each time the bearer ends a Charge move , until the end of the turn, improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+  },
+  {
+    "name": "Stormseers’ Wisdom",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, you can re-roll Advance rolls made for that unit."
+  },
+  {
+    "name": "Hunter’s Eye",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Ranged weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+  },
+  {
+    "name": "Chogorian Huntmaster",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES MOUNTED model only.",
+    "effect": "If the bearer’s unit is in Strategic Reserves , for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+  },
+  {
+    "name": "Incendiary Animus",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "CHAPLAIN or JUDICIAR model only.",
+    "effect": "Improve the Armour Penetration characteristic of melee weapons equipped by models in the bearer’s unit by 1."
+  },
+  {
+    "name": "Oathbound Exemplar",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES INFANTRY model only.",
+    "effect": "Add 1 to Advance rolls made for the bearer’s unit. If the mission pack you are playing features Actions , the bearer’s unit is eligible to start to perform an Action in a turn in which it Advanced ."
+  },
+  {
+    "name": "Merciless Denunciation",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "CHAPLAIN or JUDICIAR model only.",
+    "effect": "Each time a model in the bearer’s unit makes a melee attack, you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Zealous Vanguard",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 6\" ability."
+  },
+  {
+    "name": "Imperialis of the Eternal Crusade",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ANCIENT model only.",
+    "effect": "Each time an enemy unit selects the bearer’s unit as a target of a charge, subtract 2 from the Charge roll (this is not cumulative with any olher negative modifiers to that Charge roll)."
+  },
+  {
+    "name": "Consecrating Aura",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have a 5+ invulnerable save ."
+  },
+  {
+    "name": "Orb of the Emperor’s Aegis",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have the Deep Strike ability."
+  },
+  {
+    "name": "Warden of Honour",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "CRUSADE ANCIENT model only.",
+    "effect": "While the bearer is leading a unit, each time you roll one D6 for the bearer’s Vengeful Exhortation ability, add 1 to the result."
+  },
+  {
+    "name": "Paragon of Fury",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 2 to the Strength characteristic of melee weapons equipped by the bearer. Each time a melee attack made by the bearer is allocated to an enemy model, if the bearer disembarked from a TRANSPORT this turn, add 1 to the Damage characteristic of that attack."
+  },
+  {
+    "name": "Battle-psalm Precentor",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time the bearer’s unit declares a charge , if an enemy unit takes a Battle-shock test as a result of the Shock and Awe Detachment rule, subtract 1 from that Battle-shock test."
+  },
+  {
+    "name": "Augury Servo-host",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "At the start of your Shooting phase , select one enemy unit within 12\" of and visible to the bearer. Until the end of the phase, models in that unit cannot have the Benefit of Cover ."
+  },
+  {
+    "name": "Herald of Sacred Slaughter",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT , that DEDICATED TRANSPORT has the Scouts 9\" ability."
+  },
+  {
+    "name": "Pyrebrand",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "BLACK TEMPLARS model only.",
+    "effect": "Models in the bearer’s unit have the Stealth ability."
+  },
+  {
+    "name": "Sacred Rage",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Once per battle, at the start of the Fight phase , the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability."
+  },
+  {
+    "name": "Taramond’s Censer",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "BLACK TEMPLARS model only.",
+    "effect": "At the start of the Fight phase , each enemy unit within Engagement Range of the bearer’s unit must take a Battle-shock test . When doing so, subtract 1 from the result."
+  },
+  {
+    "name": "Benediction of Fury",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "CHAPLAIN model only.",
+    "effect": "The bearer’s melee weapons have the [DEVASTATING WOUNDS] ability."
+  },
+  {
+    "name": "Speed of the Primarch",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Once per battle, at the start of the Fight phase , the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability."
+  },
+  {
+    "name": "Rage-fuelled Warrior",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Once per battle, at the start of the Fight phase , the bearer can use this Enhancement. If it does, until the end of the phase, the bearers melee weapons have the [sustained hits 3] ability."
+  },
+  {
+    "name": "Icon of the Angel",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of the bearer’s unit is selected to Fall Back , models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked . When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+  },
+  {
+    "name": "Gift of Foresight",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Once per battle round , just after making a Hit roll , a Wound roll or a saving throw for the bearer, you can treat the result as an unmodified roll of 6 instead."
+  },
+  {
+    "name": "Sanguinius’ Grace",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATH COMPANY model only.",
+    "effect": "Once per battle, at the end of the Fight phase , if the bearer is within Engagement Range of three or more enemy models, the bearer can fight one additional time."
+  },
+  {
+    "name": "Blood Shard",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "DEATH COMPANY model only.",
+    "effect": "The first time the bearer is destroyed , at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining."
+  },
+  {
+    "name": "To Slay the Warmaster",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DEATH COMPANY model only.",
+    "effect": "Once per battle, at the start of the Fight phase , if the bearer is within Engagement Range of one or more enemy CHARACTER units, you can select one of those CHARACTER units and roll six D6: for each 4+, one CHARACTER model in that unit suffers 1 mortal wound ."
+  },
+  {
+    "name": "Vengeful Onslaught",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DEATH COMPANY model only.",
+    "effect": "It the bearer is destroyed , until the end of your next turn, each time a friendly DEATH COMPANY model makes an attack, add 1 to the 1 Hit roll ."
+  },
+  {
+    "name": "Artisan of War",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES JUMP PACK model only.",
+    "effect": "Improve the Armour Penetration characteristic of the bearers weapons by 1, and the bearer has a Save characteristic of 2+."
+  },
+  {
+    "name": "Visage of Death",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES JUMP PACK model only.",
+    "effect": "In the Battle-shock step of your opponents Command phase , each enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of the bearer must take a Battle-shock test."
+  },
+  {
+    "name": "Archangel’s Shard",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES JUMP PACK model only.",
+    "effect": "The bearer’s melee weapons have the [Anti-Chaos 5+] and [Lance] abilities."
+  },
+  {
+    "name": "Gleaming Pinions",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES JUMP PACK model only.",
+    "effect": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of the bearer, if this bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+  },
+  {
+    "name": "Prescient Flash",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 6\" ability."
+  },
+  {
+    "name": "Troubling Visions",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Once per battle, in your Command phase , the bearer can use this Enhancement. When it does, until the start of your next Command phase, all Angelic Legacy abilities are active for the bearer’s unit, instead of only two of them."
+  },
+  {
+    "name": "Blazing Icon",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES INFANTRY model only.",
+    "effect": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+  },
+  {
+    "name": "Ordained Sacrifice",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The first time the bearer is destroyed, roll one D6 at the end of the phase: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wounds remaining."
+  },
+  {
+    "name": "Carmine Reliquary",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "CHAPLAIN model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 6\" ability. Each time you take a Battle-shock test for an ADEPTUS ASTARTES unit within 6\" of the bearer, you can re-roll the result."
+  },
+  {
+    "name": "Master of the Red Thirst",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Once per battle, at the start of the Fight phase , the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability."
+  },
+  {
+    "name": "Sanguinary Tear (Aura)",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While a friendly DEATH COMPANY unit is within 6\" of the bearer, add 1 to the Strength characteristic of weapons equipped by models in that unit."
+  },
+  {
+    "name": "Angel’s Fang",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time the bearer makes a melee attack that targets a CHARACTER , MONSTER or VEHICLE unit, that attack has the [SUSTAINED HITS 2] ability."
+  },
+  {
+    "name": "Shroud of Heroes",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The first time the bearer is destroyed , roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining (if the bearer was Battle-shocked when it was destroyed, it is instead returned with its full wounds remaining)."
+  },
+  {
+    "name": "Stubborn Tenacity",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength , and add 1 to the Wound roll as well if that unit is Battle-shocked and below its Starting Strength."
+  },
+  {
+    "name": "Weapons of the First Legion",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons. While the bearer is Battle-shocked , add 2 to the Attacks, Strength and Damage characteristics of the bearer s melee weapons instead."
+  },
+  {
+    "name": "Pennant of Remembrance",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ANCIENT model only.",
+    "effect": "While the bearer is leading a unit, models in that unit have the Feel No Pain 6+ ability. While that unit is Battle-shocked , models in that unit have the Feel No Pain 4+ ability instead."
+  },
+  {
+    "name": "Champion of the Deathwing",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DEATHWING model only.",
+    "effect": "Melee weapons equipped by the bearer have the [lethal hits] ability, and each time the bearer makes a melee attack, if it is within range of your Vowed objective marker , a Critical Hit is scored on an unmodified Hit roll of 5+."
+  },
+  {
+    "name": "Eye of the Unseen",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DEATHWING model only.",
+    "effect": "Each time you target the bearer’s unit with a Stratagem , roll one D6, adding 1 if the bearer is within range of your Vowed objective marker : on a 5+, you gain 1CP"
+  },
+  {
+    "name": "Singular Will",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATHWING model only.",
+    "effect": "Each time the bearer’s unit Piles In or Consolidates , models in that unit can move an additional 3\"."
+  },
+  {
+    "name": "Deathwing Assault",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "",
+    "effect": "DEATHWING model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules."
+  },
+  {
+    "name": "Master-crafted Weapon",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "RAVENWING model only.",
+    "effect": "Melee weapons equipped by the bearer have the [PRECISION] ability."
+  },
+  {
+    "name": "Mounted Strategist",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "RAVENWING model only.",
+    "effect": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Master of Manoeuvre",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "RAVENWING model only.",
+    "effect": "If the bearer’s unit starts the battle in Strategic Reserves , its points value does not count towards the combined points limit for units from your army that are in Strategic Reserve, and for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+  },
+  {
+    "name": "Recon Hunter",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "RAVENWING model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 9\" ability."
+  },
+  {
+    "name": "Tempered in Battle (Aura)",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+  },
+  {
+    "name": "Ancient Weapons",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1."
+  },
+  {
+    "name": "Deathwing Assault",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "",
+    "effect": "DEATHWING model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules."
+  },
+  {
+    "name": "Lord of the Ravenwing",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "RAVENWING model only.",
+    "effect": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Calibanite Armaments",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Damage characteristic of the bearer’s melee weapons."
+  },
+  {
+    "name": "Lord of the Hunt",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "RAVENWING model only.",
+    "effect": "The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back and you can re-roll Desperate Escape tests taken for models in the bearer’s unit."
+  },
+  {
+    "name": "Stalwart Champion",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "CAPTAIN , CHAPLAIN or LIEUTENANT model only.",
+    "effect": "While the bearer’s unit is not Battle-shocked , add 1 to the Objective Control characteristic of models in the bearer’s unit."
+  },
+  {
+    "name": "Fulgus Magna",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATHWING model only.",
+    "effect": "Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, remove the bearer’s unit from the battlefield and place it into Strategic Reserves ."
+  },
+  {
+    "name": "Thief of Secrets",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Improve the Strength, Damage and Armour Penetration characteristics of the bearer’s melee weapons by 1. At the end of the Fight phase , if one or more enemy models were destroyed as a result of a melee attack made by the bearer this phase, until the end of the battle, improve the Strength, Damage and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+  },
+  {
+    "name": "Osseus Key",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "WATCH MASTER or TECHMARINE model only.",
+    "effect": "At the start of your opponent’s Shooting phase , select one enemy VEHICLE unit (excluding TITANIC units) within 12\" of and visible to the bearer. That unit must take a Leadership test . If that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll ; if that test is failed, that unit is not eligible to shoot this phase."
+  },
+  {
+    "name": "Beacon Angelis",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Models in the bearer’s unit have the Deep Strike ability. In addition, you can target the bearer’s unit with the Rapid Ingress Stratagem for 0CP."
+  },
+  {
+    "name": "The Tome of Ectoclades",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "WATCH MASTER or CAPTAIN model only.",
+    "effect": "Once per battle, after you have selected your Oath of Moment target , the bearer can use this Enhancement. If it does, select a second enemy unit to be an Oath of Moment target. Designer’s Note: This means that each time a model with the Oath of Moment ability makes an attack that targets either of your Oath of Moment targets, you can re-roll the Hit roll ."
+  },
+  {
+    "name": "Swift Hunter",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "SPACE WOLVES model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 7\" ability."
+  },
+  {
+    "name": "Fenrisian Grit",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The bearer has the Feel No Pain 4+ ability."
+  },
+  {
+    "name": "Wolf Master",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "SPACE WOLVES model only.",
+    "effect": "In your Command phase , select one friendly SPACE WOLVES unit within 9\" of the bearer. Until the start of your next Command phase, teeth and claws and Tyrnak and Fenrir weapons equipped by models in that unit have the [LETHAL HITS] ability."
+  },
+  {
+    "name": "Feral Rage",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Add 1 to the Attacks characteristic of melee weapons equipped by the bearer. Each time the bearer ends a Charge move , until the end of the turn, add an additional 1 to the Attacks characteristic of those weapons."
+  },
+  {
+    "name": "Braggart’s Steel",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "SPACE WOLVES model only.",
+    "effect": "Add 2 to the Strength characteristic of melee weapons equipped by the bearer. If the bearer’s unit has achieved one or more Boasts , add 1 to the Damage characteristic of those weapons as well."
+  },
+  {
+    "name": "Skjald",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time a SPACE WOLVES CHARACTER unit from your army achieves a Boast , if the bearer is on the battlefield, you gain 1CP."
+  },
+  {
+    "name": "Hordeslayer",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SPACE WOLVES model only.",
+    "effect": "At the start of the Fight phase , if there are more enemy models than friendly models wholly within 6\" of the bearer, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer. If the bearer’s unit has achieved one or more Boasts , add 3 to the Attacks characteristic instead."
+  },
+  {
+    "name": "Thunderwolf’s Fortitude",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wounds remaining."
+  },
+  {
+    "name": "Wolf-touched",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SPACE WOLVES model only.",
+    "effect": "Add 2\" to the Move characteristic of the bearer. In the Declare Battle Formations step, the bearer can be attached to a WULFEN INFANTRY unit."
+  },
+  {
+    "name": "Hunter’s Guile",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "After both players have deployed their armies, select up to three THUNDERWOLF CAVALRY , WULFEN and/or BLOOD CLAWS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "Elder’s Guidance",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "SPACE WOLVES model only.",
+    "effect": "Once per battle, at the start of the Fight phase , if the bearer is leading a BLOOD CLAWS unit, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+  },
+  {
+    "name": "Helm of the Beastslayer",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "Each time an attack made by a CHARACTER , MONSTER or VEHICLE model targets the bearer’s unit, reduce the Armour Penetration characteristic of that attack by 1."
+  },
+  {
+    "name": "Wolves’ Wisdom",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTUS ASTARTES INFANTRY model only.",
+    "effect": "The bearer’s unit can declare a charge against one or more units within 6\" instead of within 3\" when using The Great Wolf Watches Detachment rule."
+  },
+  {
+    "name": "Foes’ Fate",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of the bearer’s unit Falls Back , all models in that enemy unit must take Desperate Escape tests . When doing so, if that enemy unit is Battle-shocked , subtract 1 from each of those tests."
+  },
+  {
+    "name": "Fangrune Pendant",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR model only.",
+    "effect": "The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back ."
+  },
+  {
+    "name": "Longstrider",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "You can re-roll Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Grimnar’s Mark",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTUS ASTARTES TERMINATOR CAPTAIN model only.",
+    "effect": "Once per battle round , from the second battle round onwards, you can target the bearer’s unit with the Rapid Ingress or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn. In the Declare Battle Formations step, the bearer can be attached to a WOLF GUARD TERMINATORS unit."
+  },
+  {
+    "name": "Howlmaw",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "WOLF PRIEST model only.",
+    "effect": "At the start of the Fight phase , you can select one enemy unit within 6\" of the bearer. That unit must take a Battle-shock , subtracting 1 from the result."
+  },
+  {
+    "name": "Chariots of the Storm",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTUS ASTARTES model only.",
+    "effect": "After both players have deployed their armies, select up to three ADEPTUS ASTARTES units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves , regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "Skjald’s Foretelling",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "WOLF GUARD BATTLE LEADER model only.",
+    "effect": "While the bearer is leading a unit, weapons equipped by models in that unit have the [LANCE] ability."
+  },
+  {
+    "name": "Hunter’s Instincts",
+    "detachment": "Gladius Task Force",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  }
+]

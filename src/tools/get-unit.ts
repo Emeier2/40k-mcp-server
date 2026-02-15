@@ -8,18 +8,41 @@ export function registerGetUnit(server: McpServer, data: GameData) {
     "get_unit",
     {
       description:
-        "Get the full datasheet for a Warhammer 40k Aeldari unit including stats, weapons, abilities, points, and keywords. Supports exact and partial name matching.",
+        "Get the full datasheet for a Warhammer 40k unit including stats, weapons, abilities, points, and keywords. Supports exact and partial name matching. Optionally filter by faction.",
       inputSchema: {
         name: z
           .string()
-          .describe("Unit name or partial match (e.g. 'Wraithguard', 'avatar')"),
+          .describe("Unit name or partial match (e.g. 'Intercessors', 'avatar')"),
+        faction: z
+          .string()
+          .optional()
+          .describe(
+            "Filter by faction slug (e.g. 'space-marines', 'aeldari', 'necrons')"
+          ),
       },
     },
-    async ({ name }) => {
+    async ({ name, faction }) => {
       const query = name.toLowerCase().trim();
+      let units = data.units;
+
+      if (faction) {
+        const fq = faction.toLowerCase();
+        units = units.filter((u) => u.faction.toLowerCase() === fq);
+        if (units.length === 0) {
+          const factions = [...new Set(data.units.map((u) => u.faction))].sort();
+          return {
+            content: [
+              {
+                type: "text" as const,
+                text: `No faction found matching "${faction}". Available factions:\n${factions.map((f) => `- ${f}`).join("\n")}`,
+              },
+            ],
+          };
+        }
+      }
 
       // Exact match first
-      const exact = data.units.find(
+      const exact = units.find(
         (u) => u.name.toLowerCase() === query
       );
       if (exact) {
@@ -29,7 +52,7 @@ export function registerGetUnit(server: McpServer, data: GameData) {
       }
 
       // Partial match
-      const matches = data.units.filter((u) =>
+      const matches = units.filter((u) =>
         u.name.toLowerCase().includes(query)
       );
 
@@ -40,7 +63,7 @@ export function registerGetUnit(server: McpServer, data: GameData) {
       }
 
       if (matches.length > 1) {
-        const names = matches.map((u) => `- ${u.name}`).join("\n");
+        const names = matches.map((u) => `- ${u.name} (${u.faction})`).join("\n");
         return {
           content: [
             {
@@ -52,18 +75,19 @@ export function registerGetUnit(server: McpServer, data: GameData) {
       }
 
       // No match - suggest similar names
-      const suggestions = data.units
+      const suggestions = units
         .filter((u) => {
           const uName = u.name.toLowerCase();
           return query.split(" ").some((word) => uName.includes(word));
         })
         .slice(0, 5)
-        .map((u) => `- ${u.name}`)
+        .map((u) => `- ${u.name} (${u.faction})`)
         .join("\n");
 
+      const scope = faction ? `${faction} units` : `all ${data.units.length} units`;
       const msg = suggestions
         ? `No unit found matching "${name}". Did you mean:\n${suggestions}`
-        : `No unit found matching "${name}". There are ${data.units.length} Aeldari units available.`;
+        : `No unit found matching "${name}". There are ${units.length} ${scope} available.`;
 
       return {
         content: [{ type: "text" as const, text: msg }],

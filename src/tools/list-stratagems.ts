@@ -8,13 +8,19 @@ export function registerListStratagems(server: McpServer, data: GameData) {
     "list_stratagems",
     {
       description:
-        "List Aeldari stratagems, optionally filtered by detachment, type, or keyword search. Returns stratagem names, CP costs, timing, targets, and effects.",
+        "List Warhammer 40k stratagems, optionally filtered by faction, detachment, type, or keyword search. Returns stratagem names, CP costs, timing, targets, and effects.",
       inputSchema: {
+        faction: z
+          .string()
+          .optional()
+          .describe(
+            "Filter by faction slug (e.g. 'space-marines', 'aeldari', 'necrons')"
+          ),
         detachment: z
           .string()
           .optional()
           .describe(
-            "Filter by detachment name (e.g. 'Warhost', 'Aspect Host')"
+            "Filter by detachment name (e.g. 'Warhost', 'Gladius Task Force')"
           ),
         type: z
           .string()
@@ -28,8 +34,15 @@ export function registerListStratagems(server: McpServer, data: GameData) {
           .describe("Search stratagem text for a keyword"),
       },
     },
-    async ({ detachment, type, keyword }) => {
+    async ({ faction, detachment, type, keyword }) => {
       let results = [...data.stratagems];
+
+      if (faction) {
+        const fq = faction.toLowerCase();
+        results = results.filter((s) =>
+          s.faction.toLowerCase() === fq
+        );
+      }
 
       if (detachment) {
         const dq = detachment.toLowerCase();
@@ -59,7 +72,7 @@ export function registerListStratagems(server: McpServer, data: GameData) {
           content: [
             {
               type: "text" as const,
-              text: `No stratagems found matching the given filters. There are ${data.stratagems.length} total stratagems across all detachments.`,
+              text: `No stratagems found matching the given filters. There are ${data.stratagems.length} total stratagems across all factions.`,
             },
           ],
         };

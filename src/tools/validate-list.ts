@@ -7,7 +7,7 @@ export function registerValidateList(server: McpServer, data: GameData) {
     "validate_list",
     {
       description:
-        "Validate an Aeldari army list against points limits and basic army construction rules. Checks total points, identifies unknown units, and reports constraint violations.",
+        "Validate a Warhammer 40k army list against points limits and basic army construction rules. Checks total points, identifies unknown units, and reports constraint violations. Works across all factions.",
       inputSchema: {
         units: z
           .array(

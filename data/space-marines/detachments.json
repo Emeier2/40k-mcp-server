@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Gladius Task Force",
+    "ruleName": "Combat Doctrines",
+    "ruleText": "At the start of your Command phase , you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all ADEPTUS ASTARTES units from your army. You can only select each Combat Doctrine once per battle. Devastator Doctrine The Codex Astartes details the strategic value of overwhelming firepower applied to key targets while advancing into position to eliminate threats. This unit is eligible to shoot in a turn in which it Advanced . Tactical Doctrine As the warring armies close upon one another and vicious fire-fights erupt, the Codex lays out strategies for swiftly seizing the initiative and combining versatility with firepower. This unit is eligible to shoot and declare a charge in a turn in which it Fell Back . Assault Doctrine The Codex Astartes leaves no doubt that the killing blow in most engagements must be delivered with a decisive close-quarters strike. It presents plentiful tactical means to achieve this end. This unit is eligible to declare a charge in a turn in which it Advanced ."
+  },
+  {
+    "name": "Anvil Siege Force",
+    "ruleName": "Shield of the Imperium",
+    "ruleText": ""
+  },
+  {
+    "name": "Ironstorm Spearhead",
+    "ruleName": "Armoured Wrath",
+    "ruleText": ""
+  },
+  {
+    "name": "Firestorm Assault Force",
+    "ruleName": "Close-range Eradication",
+    "ruleText": ""
+  },
+  {
+    "name": "Stormlance Task Force",
+    "ruleName": "Lightning Assault",
+    "ruleText": ""
+  },
+  {
+    "name": "Vanguard Spearhead",
+    "ruleName": "Shadow Masters",
+    "ruleText": ""
+  },
+  {
+    "name": "1st Company Task Force",
+    "ruleName": "Extremis-level Threat",
+    "ruleText": ""
+  },
+  {
+    "name": "Librarius Conclave",
+    "ruleName": "Psychic Disciplines",
+    "ruleText": ""
+  },
+  {
+    "name": "Bastion Task Force",
+    "ruleName": "Interlocking Tactics",
+    "ruleText": ""
+  },
+  {
+    "name": "Orbital Assault Force",
+    "ruleName": "Rapid-drop Deployment",
+    "ruleText": ""
+  },
+  {
+    "name": "Emperor’s Shield",
+    "ruleName": "Wrath of Dorn",
+    "ruleText": ""
+  },
+  {
+    "name": "Blade of Ultramar",
+    "ruleName": "Mastered Doctrines",
+    "ruleText": ""
+  },
+  {
+    "name": "Reclamation Force",
+    "ruleName": "Oath of Reclamation",
+    "ruleText": ""
+  },
+  {
+    "name": "Shadowmark Talon",
+    "ruleName": "Masters of Shadow",
+    "ruleText": ""
+  },
+  {
+    "name": "Forgefather’s Seekers",
+    "ruleName": "Vulkan’s Quest",
+    "ruleText": ""
+  },
+  {
+    "name": "Hammer of Avernii",
+    "ruleName": "Calculated Annihilation",
+    "ruleText": ""
+  },
+  {
+    "name": "Spearpoint Task Force",
+    "ruleName": "Storm-swift Onslaught",
+    "ruleText": ""
+  },
+  {
+    "name": "Companions of Vehemence",
+    "ruleName": "Righteous Fervour",
+    "ruleText": ""
+  },
+  {
+    "name": "Vindication Task Force",
+    "ruleName": "Purge and Sanctify",
+    "ruleText": ""
+  },
+  {
+    "name": "Godhammer Assault Force",
+    "ruleName": "Shock and Awe",
+    "ruleText": ""
+  },
+  {
+    "name": "Wrathful Procession",
+    "ruleName": "Zealous Litanies",
+    "ruleText": ""
+  },
+  {
+    "name": "Liberator Assault Group",
+    "ruleName": "Red Thirst",
+    "ruleText": ""
+  },
+  {
+    "name": "The Lost Brethren",
+    "ruleName": "A Noble Death in Combat",
+    "ruleText": ""
+  },
+  {
+    "name": "The Angelic Host",
+    "ruleName": "Upon Wings of Fire",
+    "ruleText": ""
+  },
+  {
+    "name": "Angelic Inheritors",
+    "ruleName": "Legacy of the Angel",
+    "ruleText": ""
+  },
+  {
+    "name": "Rage-cursed Onslaught",
+    "ruleName": "Maddened Ferocity",
+    "ruleText": ""
+  },
+  {
+    "name": "Unforgiven Task Force",
+    "ruleName": "Grim Resolve",
+    "ruleText": ""
+  },
+  {
+    "name": "Inner Circle Task Force",
+    "ruleName": "Vowed Target",
+    "ruleText": ""
+  },
+  {
+    "name": "Company of Hunters",
+    "ruleName": "Masters Of Manoeuvre",
+    "ruleText": ""
+  },
+  {
+    "name": "Wrath of the Rock",
+    "ruleName": "Dutiful Tenacity",
+    "ruleText": ""
+  },
+  {
+    "name": "Lion’s Blade Task Force",
+    "ruleName": "In The Lion’s Claws",
+    "ruleText": ""
+  },
+  {
+    "name": "Black Spear Task Force",
+    "ruleName": "Mission Tactics",
+    "ruleText": ""
+  },
+  {
+    "name": "Saga of the Hunter",
+    "ruleName": "Pack’s Quarry",
+    "ruleText": ""
+  },
+  {
+    "name": "Saga of the Bold",
+    "ruleName": "Heroes All",
+    "ruleText": ""
+  },
+  {
+    "name": "Saga of the Beastslayer",
+    "ruleName": "Legendary Slayers",
+    "ruleText": ""
+  },
+  {
+    "name": "Champions of Fenris",
+    "ruleName": "The Great Wolf Watches",
+    "ruleText": ""
+  },
+  {
+    "name": "Saga of the Great Wolf",
+    "ruleName": "Master of Wolves",
+    "ruleText": ""
+  }
+]

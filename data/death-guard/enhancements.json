@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Daemon Weapon of Nurgle",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "Each time the bearer makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit ."
+  },
+  {
+    "name": "Furnace of Plagues",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "Add 1 to the Strength and Attacks characteristics of the bearers melee weapons, and the bearer’s melee weapons have the [DEVASTATING WOUNDS] ability."
+  },
+  {
+    "name": "Arch Contaminator",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "While the bearer’s unit is within range of an objective marker you control, each time a model in the bearer’s unit makes an attack, you can re-roll the Wound roll ."
+  },
+  {
+    "name": "Revolting Regeneration",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "The bearer has the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "Eye of Affliction",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "Ranged weapons equipped by models in the bearer’s unit have the [ignores cover] ability while targeting an Afflicted enemy unit."
+  },
+  {
+    "name": "Bilemaw Blight",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "",
+    "effect": "MALIGNANT PLAGUECASTER only. At the start of your Shooting phase , until the end of the phase, add 12\" to the Range characteristics of the bearer’s Plague Wind weapon."
+  },
+  {
+    "name": "Shriekworm Familiar",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "Once per battle round , you can target the bearer’s unit with the Fire Overwatch Stratagem for 0CP."
+  },
+  {
+    "name": "Tendrilous Emissions",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "",
+    "effect": "LORD OF VIRULENCE only. While the bearer is within 3\" of one or more friendly DEATH GUARD VEHICLE units, the bearer has the Lone Operative ability, and each time one of those VEHICLE units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1."
+  },
+  {
+    "name": "Final Ingredient",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "BIOLOGUS PUTRIFIER only. Once per battle, after the bearers unit has fought, if one or more CHARACTER models were destroyed as a result of those attacks, select one Plague. Until the end of the battle, while an enemy unit is Afflicted , that unit has the effect of the selected Plague in addition to any other."
+  },
+  {
+    "name": "Visions of Virulence",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "",
+    "effect": "MALIGNANT PLAGUECASTER only. While an enemy unit is enfeebled by the bearer’s Pestilent Fallout ability, that unit is also Afflicted ."
+  },
+  {
+    "name": "Needle of Nurgle",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "PLAGUE SURGEON only. Each time the bearer uses its Tainted Narthecium ability, you can return up to D3 destroyed models to the bearer’s unit (instead of 1)."
+  },
+  {
+    "name": "Cornucophagus",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "",
+    "effect": "LORD OF POXES only. In the Declare Battle Formations step select one Plague. Until the end of the battle, while an enemy unit is within Contagion Range of the bearer, that enemy unit has the effect of that Plague in addition to any other."
+  },
+  {
+    "name": "Beckoning Blight",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "Each time a PLAGUE LEGIONS unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within 12\" of the bearer, it can be set up anywhere that is more than 6\" horizontally away from all enemy models, instead of more than 9\"."
+  },
+  {
+    "name": "Fell Harvester",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "Add 2 to the Attacks characteristic of the bearer’s melee weapons."
+  },
+  {
+    "name": "Entropic Knell",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "",
+    "effect": "GREAT UNCLEAN ONE only. In the Battle-shock step of your opponent’s Command phase , each enemy unit within 6\" of the bearer that is below its Starting Strength must take a Battle-shock test , subtracting 1 from that test."
+  },
+  {
+    "name": "Tome of Bounteous Blessings",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "MALIGNANT PLAGUECASTER only. Each time a PLAGUE LEGIONS unit within 12\" of the bearer takes a Battle-shock test , add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a BATTLELINE unit and that test is passed, up to D3 destroyed models can be returned to that unit instead)."
+  },
+  {
+    "name": "Witherbone Pipes",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "NOXIOUS BLIGHTBRINGER only. While the bearer is leading a POXWALKERS unit, add 1 to the Objective Control characteristic of models in that unit, and each time that unit takes a Battle-shock or Leadership test , add 1 to that test."
+  },
+  {
+    "name": "Lord of the Walking Pox",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "If the bearer is leading a POXWALKER unit, and is in Strategic Reserves , for the purposes of setting up that unit on the battlefield, treat the current battle round as the third battle round."
+  },
+  {
+    "name": "Sorrowsyphon",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "",
+    "effect": "MALIGNANT PLAGUECASTER only. While the bearer is leading a POXWALKERS unit, add 1 to the Damage characteristic of the bearer’s Plague Wind weapon. Each time the bearer makes one or more attacks with a Plague Wind weapon, after the bearer’s unit has resolved its attacks, D3 Bodyguard models from the bearer’s unit are destroyed."
+  },
+  {
+    "name": "Talisman of Burgeoning",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "DEATH GUARD model only.",
+    "effect": "While the bearer is leading a unit, add 1 to the Toughness characteristic of POXWALKERS models in that unit."
+  },
+  {
+    "name": "Face of Death",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "TERMINATOR model only.",
+    "effect": "At the start of the Fight phase , each enemy unit within Engagement Range of the bearer’s unit must take a Battle-shock test ."
+  },
+  {
+    "name": "Vile Vigour",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "TERMINATOR model only.",
+    "effect": "While the bearer is leading a unit, add 1\" to the Movement characteristic of models in that unit and you can re-roll Advance rolls made for that unit."
+  },
+  {
+    "name": "Warprot Talisman",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "TERMINATOR model only.",
+    "effect": "Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves ."
+  },
+  {
+    "name": "Helm of the Fly King",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "TERMINATOR model only.",
+    "effect": "While the bearer is leading a unit, models in that unit cannot be targeted by ranged attacks unless the attacking model is within 18\"."
+  },
+  {
+    "name": "Droning Chorus",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "DEATH GUARD INFANTRY model only.",
+    "effect": "Ranged weapons equipped by models in the bearer’s unit have the [ASSAULT] ability."
+  },
+  {
+    "name": "Insectile Murmuration",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATH GUARD INFANTRY model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack that targets a unit that is within Contagion Range of one or more DEATH GUARD units from your army, re-roll a Wound roll of 1."
+  },
+  {
+    "name": "Rejuvenating Swarm",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DEATH GUARD INFANTRY model only.",
+    "effect": "At the end of each phase, the bearer regains all of its lost wounds."
+  },
+  {
+    "name": "Plagueveil",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "DEATH GUARD INFANTRY model only.",
+    "effect": "While the bearer’s unit is within range of one or more objective markers that you control, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+  }
+]

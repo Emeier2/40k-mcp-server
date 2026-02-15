@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Ordo Xenos Alien Hunters",
+    "ruleName": "Deathwatch Mission Tactics",
+    "ruleText": "At the start of your Command phase , you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all DEATHWATCH units from your army. Each Mission Tactic can only be selected once per battle. Furor Tactics The warriors of the Deathwatch are often sorely outnumbered by swarming foes, yet by striking for maximum indiscriminate carnage they soon even the odds. While this Mission Tactic is active, weapons equipped by DEATHWATCH units from your army have the [SUSTAINED HITS 1] ability. Malleus Tactics Even the largest behemoth has a weak point, and the Deathwatch find them all. While this Mission Tactic is active, weapons equipped by DEATHWATCH units from your army have the [LETHAL HITS] ability. Purgatus Tactics Adopting Purgatus tactics, the Deathwatch focus their ire upon the commanders of the enemy host. While this Mission Tactic is active, each time a DEATHWATCH model from your army makes an attack, on a Critical Wound , that attack has the [PRECISION] ability."
+  },
+  {
+    "name": "Ordo Hereticus Purgation Force",
+    "ruleName": "Root out Heresy",
+    "ruleText": "Ranged weapons equipped by ADEPTUS ARBITES , INQUISITOR , INQUISITORIAL AGENTS and ORDO HERETICUS models from your army have the [IGNORES COvER] ability. Each time an ADEPTUS ARBITES , INQUISITOR , INQUISITORIAL AGENTS or ORDO HERETICUS model from your army makes an attack that targets a CHAOS unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
+  },
+  {
+    "name": "Ordo Malleus Daemon Hunters",
+    "ruleName": "Destroy the Daemonic",
+    "ruleText": "Each time an INQUISITOR , INQUISITORIAL AGENTS or ORDO MALLEUS model from your army makes an attack, re-roll a Hit roll of 1 and, if the target of that attack is a DAEMON unit, re-roll a Wound roll of 1 as well."
+  },
+  {
+    "name": "Imperialis Fleet",
+    "ruleName": "At all Costs",
+    "ruleText": "At the start of your Command phase, you can select one of the following to apply: Eliminate At All Costs Select one enemy unit on the battlefield. Until the start of your next Command phase , each time an AGENTS OF THE IMPERIUM model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll . Acquire At All Costs Select one objective marker on the battlefield. Until the start of your next Command phase , while an AGENTS OF THE IMPERIUM unit from your army is within range of that objective marker, improve the Leadership and Objective Control characteristics of models in that unit by 1 and models in that unit have a 5+ invulnerable save ."
+  },
+  {
+    "name": "Veiled Blade Elimination Force",
+    "ruleName": "Extremis Sanction",
+    "ruleText": "OFFICIO ASSASSINORUM units from your army can use the Overkill, Soulless Horror and Shieldbreaker abilities twice per battle, instead of once per battle (but cannot use such an ability more than once in the same battle round ). When mustering your army, each OFFICIO ASSASSINORUM unit from your army has the relevant Extremis ability shown on the right, and you must increase the points cost of each of those units by the amount shown. If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+  }
+]

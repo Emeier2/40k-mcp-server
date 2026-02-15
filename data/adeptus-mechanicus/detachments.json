@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Rad-Zone Corps",
+    "ruleName": "Rad-bombardment",
+    "ruleText": "BATTLE ROUND 1 BOMBARDMENT At the start of the first battle round , for each enemy unit within your opponents deployment zone, your opponent must decide whether that unit will take cover or stand firm. You then roll one D6 for each of those enemy units and apply the relevant result below: Unit Standing Firm: On a 3+, that unit suffers D3 mortal wounds . Unit Taking Cover: Until the end of the battle round, that unit is Battle-shocked and, on a 5+, that unit suffers D3 mortal wounds. BATTLE ROUND 2 ONWARDS FALLOUT At the start of your Command phase during the second, third, fourth and fifth battle rounds, roll one D6 for each enemy unit within your opponent’s deployment zone. On a 3+, that unit suffers 1 mortal wound and must take a Battle-shock test."
+  },
+  {
+    "name": "Skitarii Hunter Cohort",
+    "ruleName": "Stealth Optimisation",
+    "ruleText": "SKITARII INFANTRY , SKITARII MOUNTED and IRONSTRIDER BALLISTARII units from your army have the Stealth ability, and each time a ranged attack targets a SICARIAN unit from your army, unless the attacking model is within 12\", the target has the Benefit of Cover against that attack."
+  },
+  {
+    "name": "Data-Psalm Conclave",
+    "ruleName": "Benedictions Of The Omnissiah",
+    "ruleText": "At the start of the first battle round , select one of the following Benedictions of the Omnissiah to be active for CULT MECHANICUS units from your army until the end of the battle: Panegyric Procession Each time a CULT MECHANICUS model from your army makes a ranged attack that targets a unit within half range, improve the Armour Penetration characteristic of that attack by 1. Citation in Savagery Each time a CULT MECHANICUS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
+  },
+  {
+    "name": "Explorator Maniple",
+    "ruleName": "Acquisition At Any Cost",
+    "ruleText": "At the start of your Command phase , select one objective marker . Until the start of your next Command phase, that objective marker is your Acquisition objective marker. Each time an ADEPTUS MECHANICUS model from your army makes an attack, if that model’s unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
+  },
+  {
+    "name": "Cohort Cybernetica",
+    "ruleName": "Cyber-Psalm Programming",
+    "ruleText": "Add 2\" to the Move characteristic of models in LEGIO CYBERNETICA units from your army. In addition, unless that unit is Battle-shocked , add 1 to the Objective Control characteristic of models in that unit."
+  },
+  {
+    "name": "Haloscreed Battle Clade",
+    "ruleName": "Noospheric Transference",
+    "ruleText": "In your Command phase , select one or more ADEPTUS MECHANICUS units from your army (including units that are embarked within TRANSPORTS ). The maximum number of units you can select depends on the battle size, as follows: INCURSION: 1 UNIT STRIKE FORCE 2 UNITS ONSLAUGHT 3 UNITS Until the start of your next Command phase, those units gain the HALO OVERRIDE keyword. Then, select one of the Override abilities below. Until the start of your next Command phase, units from your army with the HALO OVERRIDE keyword have the selected Override ability: Electromotive Energisation Add 2\" to the Move characteristic of models in this unit. Microactuator Bracing Add 1 to the Toughness characteristic of models in this unit. Predation Protocols This unit is eligible to declare a charge in a turn in which it Advanced . Muted Servomotors Models in this unit have the Stealth ability."
+  }
+]

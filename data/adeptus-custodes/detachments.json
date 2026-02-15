@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Talons Of The Emperor",
+    "ruleName": "Revered Companions",
+    "ruleText": "ANATHEMA PSYKANA units from your army gain the following the ability: Null Aegis (Aura): While an ADEPTUS CUSTODES unit is within 6\" of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds . All other ADEPTUS CUSTODES units from your army gain the following ability: Deadly Unity (Aura): While an ANATHEMA PSYKANA unit is within 6\" of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll ."
+  },
+  {
+    "name": "Shield Host",
+    "ruleName": "Martial Mastery",
+    "ruleText": "At the start of the battle round , you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply. Each time an ADEPTUS CUSTODES model from your army with the Martial Ka’tah ability makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit . Improve the Armour Penetration characteristic of melee weapons equipped by ADEPTUS CUSTODES models from your army with the Martial Ka’tah ability by 1."
+  },
+  {
+    "name": "Null Maiden Vigil",
+    "ruleName": "Creeping Dread (Aura)",
+    "ruleText": "In the Battle-shock step of your opponent’s Command phase , if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12\" of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test . If that unit is Below Half-strength , it must subtract 1 from its Battle-shock test this phase instead. Designer’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength."
+  },
+  {
+    "name": "Auric Champions",
+    "ruleName": "Assemblage of Might",
+    "ruleText": "At the start of your Command phase , select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an ADEPTUS CUSTODES CHARACTER unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll ."
+  },
+  {
+    "name": "Solar Spearhead",
+    "ruleName": "Auric Armour",
+    "ruleText": "While an ADEPTUS CUSTODES VEHICLE unit from your army is at Starting Strength , unless that unit is an AIRCRAFT or it is Battle-shocked , add 2 to the Objective Control characteristic of models in that unit. While an ADEPTUS CUSTODES VEHICLE unit from your army is below Starting Strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1. While an ADEPTUS CUSTODES VEHICLE unit from your army is Below Half-strength , each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. MORITOI ANCIENTS Add 2\" to the Move characteristic of models in ADEPTUS CUSTODES WALKER units from your army and add 1 to Advance and Charge rolls made for such units. KEYWORDS In the Muster Armies step, you can select up to 2 ADEPTUS CUSTODES WALKER models from your army. The selected units gain the CHARACTER keyword. Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD ."
+  },
+  {
+    "name": "Lions of the Emperor",
+    "ruleName": "Against All Odds",
+    "ruleText": "Each time a model in an ADEPTUS CUSTODES unit from your army (excluding VEHICLES ) makes an attack, if there are no other friendly units within 6\" of that unit, add 1 to the Hit roll and add 1 to the Wound roll ."
+  }
+]

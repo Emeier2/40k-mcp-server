@@ -22,6 +22,7 @@ export interface ChunkMetadata {
   type: string;
   unitName: string;
   detachment: string;
+  faction: string;
   source: string;
 }
 
@@ -35,7 +36,7 @@ export async function buildIndex(chunks: Chunk[]): Promise<void> {
   await idx.createIndex({
     version: 1,
     metadata_config: {
-      indexed: ["type"],
+      indexed: ["type", "faction"],
     },
   });
 
@@ -55,6 +56,7 @@ export async function buildIndex(chunks: Chunk[]): Promise<void> {
         type: chunk.metadata.type,
         unitName: chunk.metadata.unitName ?? "",
         detachment: chunk.metadata.detachment ?? "",
+        faction: chunk.metadata.faction ?? "",
         source: chunk.metadata.source,
       } satisfies ChunkMetadata,
     });

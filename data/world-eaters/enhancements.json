@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Berzerker Glaive",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer."
+  },
+  {
+    "name": "Helm of Brazen Ire",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+  },
+  {
+    "name": "Favoured of Khorne",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "Each time you make a Blessings of Khorne roll , if the bearer is on the battlefield, you can re-roll up to two of the D6 rolled."
+  },
+  {
+    "name": "Battle-lust",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "You can re-roll Charge rolls made for the bearer’s unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer’s unit."
+  },
+  {
+    "name": "Chosen of the Blood God",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "WORLD EATERS MONSTER model only.",
+    "effect": "Add 3\" to the range of the bearers Aura abilities ."
+  },
+  {
+    "name": "Butcher Lord",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "WORLD EATERS INFANTRY model only.",
+    "effect": "During the Declare Battle Formations step, the bearer can be attached to a JAKHALS or GOREMONGERS unit. If attached to a GOREMONGERS unit, the bearer has the Infiltrators ability."
+  },
+  {
+    "name": "Brazen Form",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "WORLD EATERS MONSTER model only.",
+    "effect": "Add 1 to the bearer’s Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "Strategic Slaughter",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "After both players have deployed their armies, select up to three JAKHALS and/or GOREMONGERS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves , regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "Icon of War",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "While a friendly BLOOD LEGIONS unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly BLOOD LEGIONS unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+  },
+  {
+    "name": "Blood-forged Armour",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "BLOOD LEGIONS or WORLD EATERS model only.",
+    "effect": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point ."
+  },
+  {
+    "name": "Disciple of Khorne",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "LORD ON JUGGERNAUT model only.",
+    "effect": "During the Declare Battle Formations step, the bearer can be attached to a BLOODCRUSHERS or FLESH HOUNDS unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the BLOOD LEGIONS Faction keyword instead of the WORLD EATERS Faction keyword."
+  },
+  {
+    "name": "Blade of Endless Bloodshed",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "Add 1 to the Attacks, Strength and Damage characteristics of the bearers melee weapons. Each time the bearer’s unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point , you automatically gain 1 Blood Tithe point instead."
+  },
+  {
+    "name": "Malicious Vigour",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "SLAUGHTERBOUND model only.",
+    "effect": "Each time the bearer’s unit makes a Brazen Fury move , it is treated as having rolled a 6 for the distance the unit can be moved."
+  },
+  {
+    "name": "Killing Clarity",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "WORLD EATERS DAEMON model only.",
+    "effect": "Each time the bearer’s unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+  },
+  {
+    "name": "Frenzied Focus",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "WORLD EATERS DAEMON model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+  },
+  {
+    "name": "Violent Demise",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "WORLD EATERS DAEMON model only.",
+    "effect": "The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability."
+  },
+  {
+    "name": "Murderous Onslaught",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "If the bearer’s unit disembarked from a TRANSPORT this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+  },
+  {
+    "name": "Aggressive Deployment",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT , that DEDICATED TRANSPORT has the Scouts 9\" ability."
+  },
+  {
+    "name": "Unleash Hell",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "At the start of your Shooting phase , you can select one VEHICLE model within 6\" of the bearer or, if the bearer is embarked within a TRANSPORT , you can select that TRANSPORT model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll ."
+  },
+  {
+    "name": "Infernal Infusion",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "Once per battle, at the start of the Fight phase , the bearer can use this Enhancement. If it does, until the end of the phase, the bearer’s unit has the Fights First ability."
+  },
+  {
+    "name": "Archslaughterer",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a VESSEL OF WRATH , improve the Damage characteristic of those weapons by 1 as well."
+  },
+  {
+    "name": "Vox-diabolus",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH : on a 4+, you gain 1CP."
+  },
+  {
+    "name": "Avenger’s Crown",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "WORLD EATERS model only.",
+    "effect": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+  },
+  {
+    "name": "Gateways to Glory",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "WORLD EATERS DAEMON PRINCE or WORLD EATERS MOUNTED model only.",
+    "effect": "Each time the bearer makes a Normal , Advance or Charge move , it can move horizontally through models and terrain features . When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+  },
+  {
+    "name": "Disciple of Khorne",
+    "detachment": "Vessels of Wrath",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  }
+]

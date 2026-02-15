@@ -1,10 +1,8 @@
-"""Scrape all Aeldari unit datasheets from wahapedia."""
+"""Scrape unit datasheets from wahapedia for any faction."""
 
 import re
 import json
 from utils import fetch_page, clean_text, save_json
-
-DATASHEETS_URL = "/wh40k10ed/factions/aeldari/datasheets.html"
 
 
 def parse_weapon_keywords(name_span):
@@ -275,7 +273,7 @@ def determine_unit_category(keywords):
     return 'Other'
 
 
-def parse_datasheet(ds_div):
+def parse_datasheet(ds_div, faction_name='aeldari'):
     """Parse a single datasheet div into structured data."""
     # Unit name
     header = ds_div.find(class_='dsH2Header')
@@ -376,7 +374,7 @@ def parse_datasheet(ds_div):
 
     return {
         'name': unit_name,
-        'faction': 'aeldari',
+        'faction': faction_name,
         'keywords': keywords,
         'factionKeywords': faction_keywords,
         'stats': stats,
@@ -396,16 +394,17 @@ def parse_datasheet(ds_div):
     }
 
 
-def main():
-    print("Scraping Aeldari datasheets...")
-    soup = fetch_page(DATASHEETS_URL)
+def main(faction='aeldari'):
+    url = f"/wh40k10ed/factions/{faction}/datasheets.html"
+    print(f"Scraping {faction} datasheets...")
+    soup = fetch_page(url)
 
     datasheets = soup.find_all(class_='datasheet')
     print(f"Found {len(datasheets)} datasheets")
 
     units = []
     for ds in datasheets:
-        unit = parse_datasheet(ds)
+        unit = parse_datasheet(ds, faction_name=faction)
         if unit:
             units.append(unit)
             print(f"  Parsed: {unit['name']} ({len(unit['rangedWeapons'])}R/{len(unit['meleeWeapons'])}M weapons, {len(unit['points'])} point options)")
@@ -413,8 +412,11 @@ def main():
             print(f"  Skipped a datasheet (no name found)")
 
     print(f"\nTotal units parsed: {len(units)}")
-    save_json(units, 'units.json')
+    save_json(units, 'units.json', subdir=faction)
+    return units
 
 
 if __name__ == '__main__':
-    main()
+    import sys
+    faction = sys.argv[1] if len(sys.argv) > 1 else 'aeldari'
+    main(faction)

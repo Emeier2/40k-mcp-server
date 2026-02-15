@@ -1,22 +1,38 @@
 # 40k MCP Server
 
-An [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) server that gives LLMs access to Warhammer 40,000 Aeldari/Eldar rules data for gameplay decisions and list building.
+An [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) server that gives LLMs access to **all Warhammer 40,000 10th Edition** faction rules data for gameplay decisions and list building.
 
 Built with TypeScript, local vector embeddings, and zero external API dependencies.
 
 ## Features
 
-**5 MCP tools** for comprehensive Aeldari rules access:
+**5 MCP tools** for comprehensive 40k rules access across all factions:
 
 | Tool | Description |
 |------|-------------|
-| `get_unit` | Full datasheet lookup with stats, weapons, abilities, points, and keywords. Supports fuzzy name matching. |
-| `search_rules` | Semantic search (RAG) over all rules using vector embeddings. Ask natural language questions like "best anti-tank weapons" or "units that can deep strike". |
-| `list_stratagems` | Browse and filter stratagems by detachment, type, or keyword. |
-| `compare_units` | Side-by-side comparison of two units across stats, weapons, abilities, and points efficiency. |
+| `get_unit` | Full datasheet lookup with stats, weapons, abilities, points, and keywords. Supports fuzzy name matching and optional faction filtering. |
+| `search_rules` | Semantic search (RAG) over all rules using vector embeddings. Ask natural language questions like "best anti-tank weapons" or "units that can deep strike". Filter by faction or rule type. |
+| `list_stratagems` | Browse and filter stratagems by faction, detachment, type, or keyword. |
+| `compare_units` | Side-by-side comparison of two units across stats, weapons, abilities, and points efficiency. Works across factions. |
 | `validate_list` | Validate an army list against points limits and construction rules (EPIC HERO duplicates, valid unit sizes). |
 
-**Data coverage:** 97 unit datasheets, 98 stratagems, 49 enhancements, 12 detachments, 3 faction rules.
+**Data coverage:** 1,665 units, 1,469 stratagems, 776 enhancements, 189 detachments, 6 faction rules, and 7 core rule sections across 24 factions.
+
+### Supported Factions
+
+| Imperium | Chaos | Xenos |
+|----------|-------|-------|
+| Adepta Sororitas | Chaos Daemons | Aeldari |
+| Adeptus Custodes | Chaos Knights | Drukhari |
+| Adeptus Mechanicus | Chaos Space Marines | Genestealer Cults |
+| Adeptus Titanicus | Death Guard | Leagues of Votann |
+| Astra Militarum | Emperor's Children | Necrons |
+| Grey Knights | Thousand Sons | Orks |
+| Imperial Agents | World Eaters | T'au Empire |
+| Imperial Knights | | Tyranids |
+| Space Marines | | |
+
+Space Marines includes all chapter-specific content (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves).
 
 ## Architecture
 
@@ -36,26 +52,31 @@ Structured    Vector DB
 ```
 
 - **Structured tools** (`get_unit`, `list_stratagems`, `compare_units`, `validate_list`) do exact/filtered lookups against JSON data loaded at startup
-- **Semantic search** (`search_rules`) embeds queries with a local transformer model and searches a pre-built vector index of 549 chunks
+- **Semantic search** (`search_rules`) embeds queries with a local transformer model and searches a pre-built vector index
 - **Embeddings** are generated locally using `all-MiniLM-L6-v2` via `@huggingface/transformers` — no API keys needed
 - **Vector store** uses [Vectra](https://github.com/Stevenic/vectra), a lightweight JS-native vector DB with JSON file storage
 
+### Multi-Faction Data Loading
+
+At startup, the server scans `data/` for faction subdirectories and loads all JSON files in parallel. Each faction's data is merged into a single `GameData` object with faction metadata preserved on every item.
+
 ### RAG Chunking Strategy
 
-Game data is split into semantically meaningful chunks for accurate retrieval:
+Game data is split into semantically meaningful chunks for accurate retrieval. Each chunk includes faction metadata for filtering:
 
-| Chunk Type | Count | Content |
-|------------|-------|---------|
-| `unit_overview` | 97 | Name, stats, keywords, points |
-| `unit_weapons` | 95 | All weapon profiles with keywords |
-| `unit_abilities` | 97 | Core, faction, and unique abilities |
-| `unit_composition` | 97 | Model count, wargear options, leader info |
-| `stratagem` | 98 | Full WHEN/TARGET/EFFECT text per stratagem |
-| `enhancement` | 49 | Effect text, restrictions, points |
-| `detachment_rule` | 12 | Detachment ability text |
-| `faction_rule` | 3 | Faction-wide rules (Strands of Fate, etc.) |
+| Chunk Type | Content |
+|------------|---------|
+| `unit_overview` | Name, stats, keywords, points, faction |
+| `unit_weapons` | All weapon profiles with keywords |
+| `unit_abilities` | Core, faction, and unique abilities |
+| `unit_composition` | Model count, wargear options, leader info |
+| `stratagem` | Full WHEN/TARGET/EFFECT text per stratagem |
+| `enhancement` | Effect text, restrictions, points |
+| `detachment_rule` | Detachment ability text |
+| `faction_rule` | Faction-wide rules |
+| `core_rule` | Core game rules (phases, concepts) |
 
-Each chunk is prefixed with context (e.g., `[Unit: Fire Dragons] Weapons:`) so the embedding captures both the content and its source.
+Each chunk is prefixed with context (e.g., `[Unit: Fire Dragons] (aeldari) Weapons:`) so the embedding captures both the content and its source.
 
 ## Quick Start
 
@@ -67,7 +88,7 @@ Each chunk is prefixed with context (e.g., `[Unit: Fire Dragons] Weapons:`) so t
 ### Install & Build
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/40k-mcp-server.git
+git clone https://github.com/Emeier2/40k-mcp-server.git
 cd 40k-mcp-server
 npm install
 npm run build
@@ -115,16 +136,19 @@ Add to your Claude Code MCP settings:
 
 ## Example Interactions
 
-**"What are Fire Dragons good at?"**
-> Claude calls `get_unit("Fire Dragons")` and gets the full datasheet with stats, melta weapons (S9 AP-4 Dd6 with Melta 3/6), and the Assured Destruction ability for re-rolling hits/wounds/damage against MONSTER and VEHICLE targets.
+**"What are Intercessors good at?"**
+> Claude calls `get_unit("Intercessors", faction="space-marines")` and gets the full datasheet with stats, bolt rifle profiles, and abilities.
 
-**"What stratagems can I use in the shooting phase with Warhost?"**
-> Claude calls `list_stratagems(detachment="Warhost", keyword="shooting")` and gets filtered results including Blitzing Firepower (Sustained Hits 1 within 12").
+**"What stratagems can Death Guard use in the shooting phase?"**
+> Claude calls `list_stratagems(faction="death-guard", keyword="shooting")` and gets filtered results.
 
 **"Compare Wraithguard to Fire Dragons for anti-tank"**
-> Claude calls `compare_units("Wraithguard", "Fire Dragons")` for a side-by-side comparison, then `search_rules("anti-tank weapons")` for additional context on which performs better.
+> Claude calls `compare_units("Wraithguard", "Fire Dragons")` for a side-by-side comparison, then `search_rules("anti-tank weapons")` for additional context.
 
-**"Is this 1000-point list legal?"**
+**"What are the core rules for the charge phase?"**
+> Claude calls `search_rules("charge phase", type="core_rule")` to find the relevant core rules.
+
+**"Is this 2000-point list legal?"**
 > Claude calls `validate_list` with the unit list, checks points totals, flags any EPIC HERO duplicates or invalid unit sizes.
 
 ## Project Structure
@@ -140,7 +164,7 @@ Add to your Claude Code MCP settings:
 │   │   ├── compare-units.ts  # Unit comparison
 │   │   └── validate-list.ts  # Army list validation
 │   ├── data/
-│   │   ├── loader.ts         # JSON data loader
+│   │   ├── loader.ts         # Multi-faction JSON loader
 │   │   └── types.ts          # TypeScript interfaces
 │   ├── rag/
 │   │   ├── embeddings.ts     # Local embedding generation
@@ -149,18 +173,34 @@ Add to your Claude Code MCP settings:
 │   └── utils/
 │       └── formatting.ts     # LLM-optimized output formatting
 ├── data/
-│   ├── units.json            # 97 Aeldari unit datasheets
-│   ├── stratagems.json       # 98 stratagems across 18 detachments
-│   ├── enhancements.json     # 49 enhancements
-│   ├── detachments.json      # 12 detachment rules
-│   └── faction-rules.json    # 3 faction-wide rules
+│   ├── {faction}/            # Per-faction data directories
+│   │   ├── units.json        # Unit datasheets
+│   │   ├── stratagems.json   # Stratagems
+│   │   ├── enhancements.json # Enhancements
+│   │   ├── detachments.json  # Detachment rules
+│   │   └── faction-rules.json# Faction-wide rules
+│   ├── core-rules.json       # Core game rules
+│   └── index/                # Vector search index
 ├── scraper/                  # Python scraping pipeline (offline)
-│   ├── scrape_datasheets.py
-│   ├── scrape_faction_data.py
-│   └── utils.py
+│   ├── scrape_all.py         # Master orchestration (all factions)
+│   ├── scrape_datasheets.py  # Unit datasheet scraper
+│   ├── scrape_faction_data.py# Stratagems/enhancements/detachments
+│   ├── scrape_core_rules.py  # Core rules scraper
+│   └── utils.py              # Shared scraping utilities
 └── scripts/
     └── build-index.ts        # Vector index builder
 ```
+
+## Scraping Data
+
+To re-scrape all faction data (requires Python 3.10+ with dependencies):
+
+```bash
+pip install -r scraper/requirements.txt
+python scraper/scrape_all.py
+```
+
+The scraper supports resuming — it skips factions whose output directories already have all 5 files. To force a re-scrape of a specific faction, delete its directory under `data/`.
 
 ## Tech Stack
 

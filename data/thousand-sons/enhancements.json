@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Lord of Forbidden Lore",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "Each time the bearer manifests a Ritual , while resolving that Ritual, add 6\" to its range."
+  },
+  {
+    "name": "Incandaeum",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "EXALTED SORCERER model only.",
+    "effect": "Once per battle, when selecting a Ritual for the bearer to attempt, you can select Doombolt, even if a model from your army have already attempted to manifest that Ritual this phase."
+  },
+  {
+    "name": "Umbralefic Crystal",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "Once per battle, in your Command phase , if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves . In the Reinforcements step of your next Movement phase , set that unit back up anywhere on the battlefield that is more than 9\" horizontally away from all enemy units."
+  },
+  {
+    "name": "Eldritch Vortex of E’taph",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "Add 1 to the Strength and Damage characteristics of Psychic weapons equipped by the bearer."
+  },
+  {
+    "name": "Nethershriek Mind-eater",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "THOUSAND SONS or LORD OF CHANGE model only.",
+    "effect": "At the start of your Shooting phase , select one enemy unit within 12\" of and visible to the bearer. That unit must take a Battle-shock test ; if that test is failed, that unit suffers 3 mortal wounds ."
+  },
+  {
+    "name": "Diabolic Savant",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS INFANTRY model only.",
+    "effect": "While the bearer is within 6\" of one or more friendly SCINTILLATING LEGIONS units, each time the bearer Channels the Warp , add 1 to the Psychic test result."
+  },
+  {
+    "name": "Duplicitous Malediction",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "THOUSAND SONS or LORD OF CHANGE model only.",
+    "effect": "After both players have deployed their armies, select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "Tome of True Names",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS INFANTRY model only.",
+    "effect": "Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 2+ invulnerable save ."
+  },
+  {
+    "name": "Warpmeld Dagger",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "TZAANGOR SHAMAN model only.",
+    "effect": "Each time the bearer attempts a Ritual , just before determining the Psychic test result, the bearer can use this Enhancement. If it does, the bearer suffers D3 mortal wounds ; if it is not destroyed as a result, add 1 to that Psychic test result for each of those mortal wounds suffered."
+  },
+  {
+    "name": "Diamond of Distortion",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "TZAANGOR SHAMAN model only.",
+    "effect": "While the bearer is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."
+  },
+  {
+    "name": "Bray Lord",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SORCERER or INFERNAL MASTER model only.",
+    "effect": "The bearer has the Scouts 6\" ability. During the Declare Battle Formations step, the bearer can be attached to a TZAANGORS unit."
+  },
+  {
+    "name": "Flowing Flesh",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "TZAANGOR SHAMAN model only.",
+    "effect": "The bearer has the Feel No Pain 4+ ability and a Wounds characteristic of 5."
+  },
+  {
+    "name": "Risen Rubricae",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "At the start of the Declare Battle Formations step, select either two RUBRICAE BATTLELINE units from your army or one other RUBRICAE unit from your army; models in the selected units have the Infiltrators ability."
+  },
+  {
+    "name": "Arcane Thralls (Aura)",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "While a friendly RUBRICAE unit is within 9\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+  },
+  {
+    "name": "Lord of the Rubricae",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "While the bearer is leading a unit, each time a RUBRICAE model in that unit makes an attack, add 1 to the Hit roll ."
+  },
+  {
+    "name": "The Stave Abominus",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS INFANTRY model only.",
+    "effect": "The bearer’s melee weapons have the [sustained hits D3] and [devastating wounds] abilities."
+  },
+  {
+    "name": "Warp Syphon",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "While the bearer is within 6\" of one or more friendly THOUSAND SONS VEHICLE units, each time the bearer Channels the Warp , after you roll that additional D6 but before checking for doubles or triples, the bearer can use this Enhancement. If it does, select one of those VEHICLE units; that VEHICLE unit suffers 1 mortal wound and you can re-roll that additional D6."
+  },
+  {
+    "name": "The Perplexing Cloak",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS INFANTRY model only.",
+    "effect": "While the bearer is within 3\" of one or more friendly THOUSAND SONS VEHICLE units, the bearer has the Lone Operative ability."
+  },
+  {
+    "name": "Biomechanical Mutation",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "In your Command phase , you can select one friendly THOUSAND SONS VEHICLE model within 6\" of this model. That model regains up to D3 lost wounds."
+  },
+  {
+    "name": "Warp-cursed Runemaster",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "While the bearer is within 6\" of one or more friendly THOUSAND SONS VEHICLE units, each time the bearer manifests a Ritual , while resolving that Ritual, add 6\" to its range."
+  },
+  {
+    "name": "Arcane Might",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "Add 1 to the Strength characteristic of Psychic weapons equipped by models in the bearer’s unit. While the bearer’s unit is wholly within your army’s Flow of Magic , add 2 to the Strength characteristic of Psychic weapons equipped by models in that unit instead."
+  },
+  {
+    "name": "Empowered Manifestation",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "While the bearer’s unit is wholly within your army’s Flow of Magic , you can add 6\" to the range of Psychic abilities the bearer has that specify a range (including Rituals ) and each time a model in the bearer’s unit takes a Hazardous test for a Psychic weapon , you can re-roll the result."
+  },
+  {
+    "name": "Empyric Onslaught",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "While the bearer’s unit is wholly within your army’s Flow of Magic , add 3 to the Attacks characteristic of ranged Psychic weapons equipped by the bearer."
+  },
+  {
+    "name": "Noctilith Mantle",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "THOUSAND SONS model only.",
+    "effect": "While the bearer’s unit is on the battlefield, it is wholly within your army’s Flow of Magic . Models in that unit cannot be selected to use any Rituals ."
+  },
+  {
+    "name": "Risen Rubricae",
+    "detachment": "",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  }
+]

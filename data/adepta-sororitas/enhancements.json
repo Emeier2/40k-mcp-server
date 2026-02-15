@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Saintly Example",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "When the bearer is destroyed , you gain an additional D3 Miracle dice ."
+  },
+  {
+    "name": "Through Suffering, Strength",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons. If the bearer has lost one or more wounds, add 2 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons instead."
+  },
+  {
+    "name": "Chaplet of Sacrifice",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "At the end of your Command phase , if the bearer is on the battlefield, you can re-roll 1 Miracle dice from your Miracle dice pool and return it to your Miracle dice pool showing the new result you rolled. When doing so, if the bearer's unit is below its Starting Strength , you can re-roll up to 3 Miracle dice in this way instead."
+  },
+  {
+    "name": "Mantle of Ophelia",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "CANONESS or PALATINE model only.",
+    "effect": "Each time an attack is allocated to the bearer, change the Damage characteristic of that attack to 1."
+  },
+  {
+    "name": "Psalm of Righteous Judgement",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "While the bearer is on the battlefield, each time an enemy unit is destroyed by a PENITENT unit from you army, you can discard 1 Miracle dice then gain 1 Miracle dice showing a value of 6."
+  },
+  {
+    "name": "Verse of Holy Piety",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "PENITENT model only.",
+    "effect": "Once per battle, at the start of the battle round , select one Vow of Atonement . Until the start of the next battle round, that Vow of Atonement is active for the bearer’s unit in addition to any that is active for your army, even if you have already selected that Vow of Atonement this battle."
+  },
+  {
+    "name": "Refrain of Enduring Faith",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "PENITENT model only.",
+    "effect": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save ."
+  },
+  {
+    "name": "Catechism of Divine Penitence",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "CANONESS , PALATINE or MINISTORUM PRIEST model only.",
+    "effect": "The bearer gains the PENITENT keyword and, during the Declare Battle Formations step, can be attached to a REPENTIA SOUAD unit."
+  },
+  {
+    "name": "Righteous Rage",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "Each time the bearer is selected to fight, you can first discard up to 3 Miracle dice . For each Miracle dice just discarded, until the end of the phase, add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons."
+  },
+  {
+    "name": "Manual of Saint Griselda",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "At the start of your Command phase , you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you just discarded (to a maximum of 6)."
+  },
+  {
+    "name": "Fire and Fury",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "While the bearer is leading a unit, add 1 to the Attacks characteristic of Torrent weapons equipped by models in that unit, and all other ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+  },
+  {
+    "name": "Iron Surplice of Saint Istalela",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "CANONESS or PALATINE model only.",
+    "effect": "The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability."
+  },
+  {
+    "name": "Litanies of Faith",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "CANONESS or PALATINE model only.",
+    "effect": "At the start of your Command phase , if the bearer is on the battlefield, take a Leadership test for the bearer. If that test is passed, you gain 1 Miracle dice ."
+  },
+  {
+    "name": "Blade of Saint Ellynor",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "Improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 1, and those weapons have the [PRECISION] ability. In addition, each time the bearer fights, if one or more enemy models are destroyed by those attacks, you gain 1 Miracle dice ."
+  },
+  {
+    "name": "Divine Aspect",
+    "detachment": "",
+    "pointsCost": 5,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "In your Movement phase, you can select one enemy unit within 12\" of the bearer; that unit must take a Battle-shock test . If that test is failed, you gain 1 Miracle dice ."
+  },
+  {
+    "name": "Triptych of the Macharian Crusade",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "Each time the bearer uses an Act of Faith to substitute a saving throw , that saving throw is successful, irrespective of the value of the Miracle dice used."
+  },
+  {
+    "name": "Triptych of Judgement",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "Each time a model in the bearer’s unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll ."
+  },
+  {
+    "name": "Mark of Devotion",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "Add 1 to the Attacks characteristic of the bearer’s melee weapons. While the bearer’s unit is Righteous , add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer’s melee weapons instead."
+  },
+  {
+    "name": "Eyes of the Oracle",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "The bearer’s weapons have the [PRECISION] ability. Each time the bearer’s unit destroys an enemy CHARACTER model, you gain 1CP."
+  },
+  {
+    "name": "Sanctified Amulet",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ADEPTA SORORITAS model only.",
+    "effect": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer."
+  },
+  {
+    "name": "Saintly Example",
+    "detachment": "",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  },
+  {
+    "name": "Verse of Holy Piety",
+    "detachment": "Penitent Host",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  }
+]
