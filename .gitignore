@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.env
+data/index/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.cache/
+models/
+*.onnx

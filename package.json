@@ -1,0 +1,30 @@
+{
+  "name": "40k-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "warhammer",
+    "40k",
+    "aeldari",
+    "eldar"
+  ],
+  "author": "Ethan",
+  "license": "MIT",
+  "description": "MCP server providing Warhammer 40k Aeldari rules data for LLM-powered gameplay decisions and list building",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
