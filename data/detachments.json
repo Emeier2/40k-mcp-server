@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Warhost",
+    "ruleName": "Martial Grace",
+    "ruleText": "At the start of the battle round , you receive 1 additional Battle Focus token . Each time a unit from your army performs the Swift as the Wind Agile Manoeuvre, until the end of the phase, add an additional 1\" to the Move characteristic of models in that unit. Each time a unit from your army performs an Agile Manoeuvre that involves rolling a D6, add 1 to the result."
+  },
+  {
+    "name": "Windrider Host",
+    "ruleName": "Ride the Wind",
+    "ruleText": "In the Declare Battle Formations step you can set up ASURYANI MOUNTED and VYPER units from your army in Reserves . During the battle, such units can be set up on the battlefield as if they were arriving from Strategic Reserves . For the purposes of setting up ASURYANI MOUNTED or VYPER units from your army on the battlefield, treat the current battle round number as being one higher than it actually is. In addition, at the end of your opponent’s turn, you can select a number of ASURYANI MOUNTED or VYPER units from your army (excluding units within Engagement Range of one or more enemy units), then remove those units from the battlefield and place them into Strategic Reserves. The maximum number of units you can select depends on the battle size, as shown below. BATTLE SIZE NUMBER OF UNITS Incursion 1 Strike Force 2 Onslaught 3 KEYWORDS WINDRIDERS units from your army gain the BATTLELINE keyword."
+  },
+  {
+    "name": "Spirit Conclave",
+    "ruleName": "Shepherds of the Dead",
+    "ruleText": "Each time an ASURYANI PSYKER model from your army is destroyed by an enemy unit, that enemy unit gains a Vengeful Dead token. Each time a WRAITH CONSTRUCT model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll . ASURYANI PSYKER models from your army have the following ability: Spirit Guides (Aura): While a WRAITHBLADES , WRAITHGUARD or WRAITHLORD unit from your army is within 12\" of this model, that unit has the Battle Focus ability. KEYWORDS WRAITHBLADES and WRAITHGUARD units from your army gain the BATTLELINE keyword."
+  },
+  {
+    "name": "Guardian Battlehost",
+    "ruleName": "Defend at All Costs",
+    "ruleText": "Each time a DIRE AVENGER , GUARDIAN , SUPPORT WEAPON or WAR WALKER model from your army makes an attack, if that model’s unit and/or the target unit are within range of one or more objective markers , add 1 to the Hit roll ."
+  },
+  {
+    "name": "Ghosts of the Webway",
+    "ruleName": "Acrobatic Onslaught",
+    "ruleText": "Each time a HARLEQUINS model from your army makes a Charge move , it can move through enemy models. TRAVELLING PLAYERS TROUPE units from your army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2. You can include up to three of each of the following models in your army: DEATH JESTER , SHADOWSEER , TROUPE MASTER ."
+  },
+  {
+    "name": "Devoted of Ynnead",
+    "ruleName": "Strength from Death",
+    "ruleText": "You can use the following rules: Lethal Intent At the end of your opponent’s Shooting phase , if one or more YNNARI units from your army were destroyed this phase, select one YNNARI INFANTRY or YNNARI MOUNTED unit from your army that was within 6\" of your destroyed unit. That unit can make a Normal move of up to D6+1\". Lethal Surge Once per turn, when a YNNARI unit from your army performs the Fade Back Agile Manoeuvre, it can make a Lethal Surge move instead of a Normal move . If it does, roll one D6 and add 1 to the result: that unit can be moved a number of inches up to the total. When doing so, those models can be moved within Engagement Range of the enemy unit that just triggered that Agile Manoeuvre. Lethal Reprisal At the start of the Fight phase , select one YNNARI unit from your army (excluding TITANIC units) that is below its Starting Strength . Until the end of the phase, that unit has the Fights First ability. SERVANTS OF THE WHISPERING GOD You can include YNNARI units in your army, even though they do not have the ASURYANI Faction keyword . ASURYANI units (excluding EPIC HEROES ) from your army gain the YNNARI keyword. You must include YVRAINE and/or THE YNCARNE in your army, and one of those models must be your WARLORD ."
+  },
+  {
+    "name": "Seer Council",
+    "ruleName": "Strands of Fate",
+    "ruleText": "At the start of the first battle round , you generate Fate dice by rolling a number of D6 based on the battle size, as shown below. Keep your Fate dice to one side - this is your Fate dice pool. BATTLE SIZE NUMBER OF D6 Incursion 3 Strike Force 6 Onslaught 9 Each time you use one of the Stratagems below, if your Fate dice pool contains one or more Fate dice showing the corresponding value in the table below, you can discard one of those corresponding Fate dice. If you do, reduce the CP cost of that usage of that Stratagem by 1CP. STRATAGEM FATE DICE VALUE Presentiment of Dread 1 Forewarned 2 Unshrouded Truth 3 Fate Inescapable 4 Isha’s Fury 5 Psychic Shield 6"
+  },
+  {
+    "name": "Aspect Host",
+    "ruleName": "Path of the Warrior",
+    "ruleText": "Each time an ASPECT WARRIORS or AVATAR OF KHAINE unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+  },
+  {
+    "name": "Armoured Warhost",
+    "ruleName": "Skilled Crews",
+    "ruleText": "Ranged weapons equipped by AELDARI VEHICLE models from your army have the [ASSAULT] ability and you can re-roll Advance rolls made for AELDARI VEHICLE FLY units from your army."
+  },
+  {
+    "name": "Serpent’s Brood",
+    "ruleName": "Boons of the Brood",
+    "ruleText": "Weapons equipped by HARLEQUINS MOUNTED and HARLEQUINS VEHICLE models from your army have the [SUSTAINED HITS 1] ability. Each time a HARLEQUINS unit from your army disembarks from a TRANSPORT , until the end of the turn, that unit’s weapons have the [SUSTAINED HITS 1] ability. TRAVELLING PLAYERS TROUPE units from your army gain the BATTLELINE keyword, and TROUPE models in those units have an Objective Control characteristic of 2. You can include up to three of each of the following models in your army: DEATH JESTER , SHADOWSEER , TROUPE MASTER ."
+  },
+  {
+    "name": "Eldritch Raiders",
+    "ruleName": "Yriel’s Own",
+    "ruleText": "AELDARI units in your army are eligible to declare a charge in a turn in which they Advanced . In addition, each time an ANHRATHE , RANGERS or SHROUD RUNNERS unit from your army Advances, you can re-roll the Advance roll ."
+  },
+  {
+    "name": "Corsair Coterie",
+    "ruleName": "Relentless Raiders",
+    "ruleText": "While an objective marker is under your control, each time an enemy unit ends a Normal , Advance , Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds . ANHRATHE units from your army have the following ability: Void Thieves: At the end of a phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+  }
+]

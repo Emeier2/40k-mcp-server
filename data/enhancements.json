@@ -1,0 +1,345 @@
+[
+  {
+    "name": "Phoenix Gem",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "ASURYANI model only.",
+    "effect": "The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+  },
+  {
+    "name": "Timeless Strategist",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ASURYANI model only.",
+    "effect": "At the start of the battle round , if the bearer is on the battlefield (or any TRANSPORT it is embarked within is on the battlefield), you receive 1 additional Battle Focus token ."
+  },
+  {
+    "name": "Gift of Foresight",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ASURYANI model only.",
+    "effect": "Once per battle round , you can target the bearer’s unit with the Command Re-roll Stratagem for 0CP."
+  },
+  {
+    "name": "Psychic Destroyer",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ASURYANI PSYKER model only.",
+    "effect": "Add 1 to the Damage characteristic of ranged Psychic weapons equipped by the bearer."
+  },
+  {
+    "name": "Firstdrawn Blade",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ASURYANI MOUNTED model only.",
+    "effect": "Models in the bearer’s unit have the Scouts 9\" ability."
+  },
+  {
+    "name": "Mirage Field",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ASURYANI MOUNTED model only.",
+    "effect": "Each time an attack targets the bearer’s unit, subtract 1 from the Hit roll ."
+  },
+  {
+    "name": "Seersight Strike",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ASURYANI MOUNTED PSYKER model only.",
+    "effect": "Psychic weapons equipped by the bearer have the [anti-monster 2+] and [anti-vehicle 2+] abilities."
+  },
+  {
+    "name": "Echoes of Ulthanesh",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ASURYANI MOUNTED model only.",
+    "effect": "In your Command phase , roll one D6, adding 1 to the result if the bearer is not within your deployment zone, and adding an additional 1 to the result if the bearer is within your opponent’s deployment zone: on a 5+, you gain 1CP."
+  },
+  {
+    "name": "Light of Clarity",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "SPIRITSEER model only.",
+    "effect": "In your Command phase , select one friendly WRAITH CONSTRUCT unit within 12\" of the bearer. Until the start of your next Command phase, add 1 to the Objective Control characteristic of INFANTRY models in that unit and add 3 to the Objective Control characteristic of MONSTER models in that unit."
+  },
+  {
+    "name": "Stave of Kurnous",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SPIRITSEER model only.",
+    "effect": "In your Command phase , select one friendly WRAITH CONSTRUCT unit within 12\" of the bearer (excluding TITANIC units). Until the start of your next Command phase, each time a model in that unit makes an attack, on a Critical Wound , that attack has the [precision] ability."
+  },
+  {
+    "name": "Rune of Mists",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "SPIRITSEER model only.",
+    "effect": "In your Command phase , select one friendly WRAITH CONSTRUCT unit within 12\" of the bearer. Until the start of your next Command phase, each time a ranged attack targets that unit, unless the attacking model is within 18\", models in that unit have the Benefit of Cover against that attack."
+  },
+  {
+    "name": "Higher Duty",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "SPIRITSEER model only.",
+    "effect": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of the bearer, the bearer’s unit can make a Normal move of up to 6\"."
+  },
+  {
+    "name": "Craftworld’s Champion",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ASURYANI model only.",
+    "effect": "The bearer has an Objective Control characteristic of 5."
+  },
+  {
+    "name": "Ethereal Pathway",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ASURYANI model only.",
+    "effect": "In the Deploy Armies step, select up to two GUARDIANS units from your army. Models in the selected units have the Infiltrators ability."
+  },
+  {
+    "name": "Protector of the Paths",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ASURYANI model only.",
+    "effect": "While the bearer is leading a DIRE AVENGERS or GUARDIANS unit, once per battle round , you can target the bearer’s unit with the Fire Overwatch Stratagem for 0CP, and while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if the bearer’s unit is within range of an objective marker you control."
+  },
+  {
+    "name": "Breath of Vaul",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ASURYANI model only.",
+    "effect": "While the bearer is leading a STORM GUARDIANS unit, each time you roll to determine the number of attacks made with a flamer equipped by a model in that unit, you can re-roll the result, and each time you make a Damage roll for a model equipped with a fusion gun in that unit, you can re-roll the result."
+  },
+  {
+    "name": "Cegorach’s Coil",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "TROUPE MASTER model only.",
+    "effect": "Each time the bearer’s unit ends a Charge move , select one enemy unit within Engagement Range of the bearer’s unit, then roll one D6 for each model in the bearer’s unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+  },
+  {
+    "name": "Mask of Secrets",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "HARLEQUINS model only.",
+    "effect": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of the bearer’s unit Falls Back , all models in that enemy unit must take a Desperate Escape test . When doing so, if that enemy unit is Battle-shocked , subtract 1 from each of those tests."
+  },
+  {
+    "name": "Murder’s Jest",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "DEATH JESTER model only.",
+    "effect": "Each time the bearer makes an attack that targets a unit that is Below Half-strength , each successful Hit roll scores a Critical Hit."
+  },
+  {
+    "name": "Mistweave",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SHADOWSEER model only.",
+    "effect": "While the bearer is leading a unit, models in that unit have the Infiltrators ability."
+  },
+  {
+    "name": "Gaze of Ynnead",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "FARSEER model only.",
+    "effect": "The bearer’s Eldritch Storm weapon has the [devastating wounds] ability."
+  },
+  {
+    "name": "Storm of Whispers",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "WARLOCK model only.",
+    "effect": "In your Shooting phase , after the bearer has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test ."
+  },
+  {
+    "name": "Borrowed Vigour",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "ARCHON model only.",
+    "effect": "Add 2 to the Attacks characteristic of the bearer’s melee weapons."
+  },
+  {
+    "name": "Morbid Might",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "SUCCUBUS model only.",
+    "effect": "Each time the bearer makes a melee attack, you can re-roll the Wound roll ."
+  },
+  {
+    "name": "Lucid Eye",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "ASURYANI PSYKER model only.",
+    "effect": "In your Command phase , you can add 1 to or subtract 1 from the value of one Fate dice in your Fate dice pool."
+  },
+  {
+    "name": "Runes of Warding",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "ASURYANI PSYKER model only.",
+    "effect": "Models in the bearer’s unit have the Feel No Pain 4+ ability against mortal wounds , Psychic Attacks and Critical Wounds caused by attacks with the [devastating wounds] ability."
+  },
+  {
+    "name": "Stone of Eldritch Fury",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "ASURYANI PSYKER model only.",
+    "effect": "Add 12\" to the Range characteristic of ranged Psychic weapons equipped by the bearer."
+  },
+  {
+    "name": "Torc of Morai-Heg",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "ASURYANI PSYKER model only.",
+    "effect": "Once per turn, when your opponent targets a unit from their army within 12\" of the bearer with a Stratagem , the bearer can use this Enhancement. If it does, increase the CP cost of that usage of that Stratagem by 1CP."
+  },
+  {
+    "name": "Aspect of Murder",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "AUTARCH or AUTARCH WAYLEAPER model only.",
+    "effect": "Add 1 to the Damage characteristic of melee weapons equipped by the bearer, and those weapons have the [precision] ability."
+  },
+  {
+    "name": "Mantle of Wisdom",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "AUTARCH or AUTARCH WAYLEAPER model only.",
+    "effect": "While the bearer is leading an ASPECT WARRIORS unit, each time that unit is selected to shoot or fight, until the end of the phase, models in that unit gain both of the abilities from the Path of the Warrior Detachment rule."
+  },
+  {
+    "name": "Shimmerstone",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "AUTARCH or AUTARCH WAYLEAPER model only.",
+    "effect": "While the bearer is leading an ASPECT WARRIORS unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll ."
+  },
+  {
+    "name": "Strategic Savant",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "AUTARCH or AUTARCH WAYLEAPER model only.",
+    "effect": "While the bearer is leading an ASPECT WARRIORS unit, add 1 to the Objective Control characteristic of models in that unit."
+  },
+  {
+    "name": "Guiding Presence",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "AELDARI PSYKER model only.",
+    "effect": "At the start of your Shooting phase , select one friendly AELDARI VEHICLE model within 9\" of the bearer. Until the end of the phase, each time that model makes an attack, add 1 to the Hit roll ."
+  },
+  {
+    "name": "Harmonisation Matrix",
+    "detachment": "",
+    "pointsCost": 30,
+    "restrictions": "AELDARI model only.",
+    "effect": "In your Command phase , if the bearer (or any TRANSPORT it is embarked within) is within range of an objective marker you control, roll one D6: on a 3+, you gain 1CP."
+  },
+  {
+    "name": "Spirit Stone of Raelyth",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "AELDARI PSYKER model only.",
+    "effect": "While the bearer is within 3\" of one or more friendly AELDARI VEHICLE units, the bearer has the Lone Operative ability. In your Command phase , you can select one friendly AELDARI VEHICLE model within 3\" of the bearer. That model regains up to D3 lost wounds."
+  },
+  {
+    "name": "Guileful Strategist",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "AELDARI model only.",
+    "effect": "If your army includes the bearer, after both players have deployed their armies, select up to three AELDARI VEHICLE units from your army and redeploy them. When doing so, any of those units can be placed into Strategic Reserves , regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "Key of Ghosts",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "HARLEQUINS model only (excluding SOLITAIRE models). Models in the bearer’s unit have the Scouts 6\" ability."
+  },
+  {
+    "name": "Weavers’ Wail",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "TROUPE MASTER model only.",
+    "effect": "Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer’s melee weapons."
+  },
+  {
+    "name": "Fanged Leer",
+    "detachment": "",
+    "pointsCost": 10,
+    "restrictions": "DEATH JESTER model only.",
+    "effect": "When using the bearer’s Cruel Amusement ability, you can select two of the abilities for its shrieker cannon to gain, instead of one."
+  },
+  {
+    "name": "Shedskin Raiment",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "SHADOWSEER model only.",
+    "effect": "After both players have deployed their armies, select up to three HARLEQUINS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves , regardless of how many units are already in Strategic Reserves."
+  },
+  {
+    "name": "Pirate Prince",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "",
+    "effect": "PRINCE YRIEL unit only. Each time you spend a Battle Focus token to enable this unit to perform an Agile Manoeuvre , roll one D6: on a 3+, you gain 1 Battle Focus token."
+  },
+  {
+    "name": "Alacritous Assault",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "ANHRATHE unit only. Melee weapons equipped by models in this unit have the [LANCE] ability."
+  },
+  {
+    "name": "Exotic Munitions",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "",
+    "effect": "ANHRATHE unit only. Ranged weapons equipped by models in this unit have the [ANTI-MONSTER 5+] and [ANTI-VEHICLE 5+] abilities."
+  },
+  {
+    "name": "Adrenal Infusions",
+    "detachment": "",
+    "pointsCost": 20,
+    "restrictions": "",
+    "effect": "ANHRATHE INFANTRY unit only. This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other units from performing the same Agile Manoeuvre in the same phase."
+  },
+  {
+    "name": "Infamy (Aura)",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "ANHRATHE unit only. While an enemy unit is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1)."
+  },
+  {
+    "name": "Webway Pathstone",
+    "detachment": "",
+    "pointsCost": 25,
+    "restrictions": "",
+    "effect": "ANHRATHE unit only. Models in this unit have the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, it can use this ability. If it does, remove this unit from the battlefield and place it into Strategic Reserves ."
+  },
+  {
+    "name": "Archraider",
+    "detachment": "",
+    "pointsCost": 35,
+    "restrictions": "",
+    "effect": "ANHRATHE CHARACTER unit only. At the start of the battle, select one CHARACTER model in this unit. That model has the following ability: Lord of Deceit (Aura): Each time your opponent targets a unit from their army with a Stratagem , if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
+  },
+  {
+    "name": "Voidstone",
+    "detachment": "",
+    "pointsCost": 15,
+    "restrictions": "",
+    "effect": "ANHRATHE INFANTRY unit only. Models in this unit have a 5+ invulnerable save ."
+  },
+  {
+    "name": "Torc of Morai-Heg",
+    "detachment": "",
+    "pointsCost": 0,
+    "restrictions": "",
+    "effect": ""
+  }
+]
