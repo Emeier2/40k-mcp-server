@@ -6,6 +6,7 @@ import { registerGetUnit } from "./tools/get-unit.js";
 import { registerListStratagems } from "./tools/list-stratagems.js";
 import { registerCompareUnits } from "./tools/compare-units.js";
 import { registerValidateList } from "./tools/validate-list.js";
+import { registerSearchRules } from "./tools/search-rules.js";
 
 const server = new McpServer({
   name: "40k-mcp-server",
@@ -19,6 +20,7 @@ async function main() {
   registerListStratagems(server, data);
   registerCompareUnits(server, data);
   registerValidateList(server, data);
+  registerSearchRules(server, data);
 
   const transport = new StdioServerTransport();
   await server.connect(transport);

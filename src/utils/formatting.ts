@@ -58,6 +58,13 @@ export function formatUnit(unit: Unit): string {
     lines.push("");
   }
 
+  // Composition
+  if (unit.composition.description) {
+    lines.push("## Composition");
+    lines.push(unit.composition.description);
+    lines.push("");
+  }
+
   // Keywords
   lines.push(`**Keywords:** ${unit.keywords.join(", ")}`);
 
@@ -66,9 +73,26 @@ export function formatUnit(unit: Unit): string {
     lines.push(`**Can lead:** ${unit.leaderAttachableTo.join(", ")}`);
   }
 
-  // Composition
-  if (unit.composition.description) {
-    lines.push(`**Composition:** ${unit.composition.description}`);
+  // Contextual analysis
+  lines.push("");
+  lines.push("## Quick Reference");
+  const minPts = unit.points.length > 0 ? Math.min(...unit.points.map(p => p.points)) : 0;
+  const minModels = unit.points.length > 0 ? unit.points.find(p => p.points === minPts)?.models ?? 1 : 1;
+  const wounds = typeof unit.stats.W === "string" ? parseInt(unit.stats.W) : unit.stats.W;
+  if (minPts > 0 && !isNaN(wounds)) {
+    const totalWounds = wounds * minModels;
+    lines.push(`- **Points per wound:** ${(minPts / totalWounds).toFixed(1)} pts/W (${minModels} models, ${totalWounds}W total)`);
+  }
+  const roles: string[] = [];
+  if (unit.keywords.some(k => k.toUpperCase() === "BATTLELINE")) roles.push("Battleline");
+  if (unit.keywords.some(k => k.toUpperCase() === "CHARACTER")) roles.push("Character");
+  if (unit.keywords.some(k => k.toUpperCase() === "EPIC HERO")) roles.push("Epic Hero (unique)");
+  if (unit.abilities.core.some(a => a.toLowerCase().includes("deep strike"))) roles.push("Deep Strike");
+  if (unit.abilities.core.some(a => a.toLowerCase().includes("leader"))) roles.push("Leader");
+  if (unit.abilities.core.some(a => a.toLowerCase().includes("scouts"))) roles.push("Scouts");
+  if (unit.abilities.core.some(a => a.toLowerCase().includes("lone operative"))) roles.push("Lone Operative");
+  if (roles.length > 0) {
+    lines.push(`- **Roles:** ${roles.join(", ")}`);
   }
 
   return lines.join("\n");

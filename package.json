@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "build-index": "tsx scripts/build-index.ts"
   },
   "keywords": [
     "mcp",
@@ -19,7 +20,9 @@
   "license": "MIT",
   "description": "MCP server providing Warhammer 40k Aeldari rules data for LLM-powered gameplay decisions and list building",
   "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
     "@modelcontextprotocol/sdk": "^1.26.0",
+    "vectra": "^0.12.3",
     "zod": "^4.3.6"
   },
   "devDependencies": {
